@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AdvGamesProgramming",
+			"Path": "C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Week 5\\Week5StartingPoint\\Week5StartingPoint\\Source\\AdvGamesProgramming.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AdvGamesProgrammingEditor",
+			"Path": "C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Week 5\\Week5StartingPoint\\Week5StartingPoint\\Source\\AdvGamesProgrammingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
