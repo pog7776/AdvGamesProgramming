@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ADVGAMESPROGRAMMING_PickupRotator_generated_h
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_SPARSE_DATA
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS_NO_PURE_DECLS \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_SPARSE_DATA
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPickupRotator(); \
 	friend struct Z_Construct_UClass_UPickupRotator_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UPickupRotator)
 
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUPickupRotator(); \
 	friend struct Z_Construct_UClass_UPickupRotator_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UPickupRotator)
 
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_STANDARD_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPickupRotator(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPickupRotator) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_ENHANCED_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPickupRotator(UPickupRotator&&); \
@@ -58,31 +58,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPickupRotator); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPickupRotator)
 
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_PRIVATE_PROPERTY_OFFSET \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RotSpeed() { return STRUCT_OFFSET(UPickupRotator, RotSpeed); }
 
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_10_PROLOG
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_GENERATED_BODY_LEGACY \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_10_PROLOG
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_PRIVATE_PROPERTY_OFFSET \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_SPARSE_DATA \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_STANDARD_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_GENERATED_BODY \
+#define GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_PRIVATE_PROPERTY_OFFSET \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_SPARSE_DATA \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS_NO_PURE_DECLS \
-	Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h_13_ENHANCED_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_INCLASS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_PickupRotator_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -90,7 +90,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<class UPickupRotator>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Week5StartingPoint_Source_AdvGamesProgramming_PickupRotator_h
+#define CURRENT_FILE_ID GameFiles_Source_AdvGamesProgramming_PickupRotator_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
