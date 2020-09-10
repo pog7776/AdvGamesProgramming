@@ -151,23 +151,28 @@ void AEnemyCharacter::AgentEvade()
 
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 {
+	//UE_LOG(LogTemp, Error, TEXT("%s"), *ActorSensed->GetClass()->GetFName().ToString())
+	//UE_LOG(LogTemp, Error, TEXT("%s"), *Stimulus.Type.Name.ToString())
 	if (Stimulus.WasSuccessfullySensed() && ActorSensed->GetClass()->GetFName() == TEXT("PlayerCharacterBlueprint_C"))
 	{
 
-		//UE_LOG(LogTemp, Error, TEXT("%s"), *ActorSensed->GetClass()->GetFName().ToString())
-		//UE_LOG(LogTemp, Error, TEXT("%s"), *Stimulus.Type.Name.ToString())
+		if (Stimulus.Type.Name == "Default__AISense_Sight")
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
+			bCanSeeActor = true;
+		}
 
 		if (Stimulus.Type.Name == "Default__AISense_Hearing")
 		{
-			//EnemyBlackboard->
+			UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
+
 		}
 
 		DetectedActor = ActorSensed;
-		bCanSeeActor = true;
-		UE_LOG(LogTemp, Warning, TEXT("Player Detected"))
 	}
 	else
 	{
+		// Reset stuff here
 		bCanSeeActor = false;
 		UE_LOG(LogTemp, Warning, TEXT("Player Lost"))
 	}
@@ -199,3 +204,8 @@ void AEnemyCharacter::MoveAlongPath()
 		}
 	}
 }
+
+//bool AEnemyCharacter::TestFunction()
+//{
+//	return true;
+//}

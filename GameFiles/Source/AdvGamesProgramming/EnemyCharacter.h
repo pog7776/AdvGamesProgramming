@@ -70,4 +70,7 @@ public:
 
 	UBlackboardComponent* EnemyBlackboard;
 
+	//UFUNCTION(BlueprintImplementableEvent)
+	//bool TestFunction();
+
 };

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{55D5F8E7-F221-432A-AAC2-52CB6B3B083A}</UniqueIdentifier>
+      <UniqueIdentifier>{1EA20451-B2F7-478B-8D05-24242990C87C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DE498CE9-9F5E-4242-9CD5-43AF3D274A27}</UniqueIdentifier>
+      <UniqueIdentifier>{283078DB-139C-4ED0-A262-9F7F0E789650}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{3204928A-D2D8-4B75-96A3-637397007A29}</UniqueIdentifier>
+      <UniqueIdentifier>{B98D4CA3-77BA-48F6-9218-6A6DE1E93F32}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -60,6 +60,12 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\HealthComponent.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIController.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIController.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\NavigationNode.cpp">
