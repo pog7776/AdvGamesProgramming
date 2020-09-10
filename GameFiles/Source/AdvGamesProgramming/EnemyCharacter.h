@@ -8,6 +8,7 @@
 #include "AIManager.h"
 #include <Perception/AIPerceptionComponent.h>
 #include "HealthComponent.h"
+#include "BehaviorTree/BehaviorTreeComponent.h"
 #include "EnemyCharacter.generated.h"
 
 UENUM()
@@ -63,5 +64,10 @@ public:
 	void Fire(FVector FireDirection);
 
 	void MoveAlongPath();
+
+	UPROPERTY(EditAnywhere, Category = "AI")
+	UBehaviorTreeComponent* BehaviorTreeComponent;
+
+	UBlackboardComponent* EnemyBlackboard;
 
 };

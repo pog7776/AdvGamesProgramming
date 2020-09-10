@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AdvGamesProgramming-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\AdvGamesProgramming.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\AdvGamesProgrammingGameModeBase.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\AIManager.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\EnemyCharacter.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\HealthComponent.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\NavigationNode.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\PickupRotator.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\PlayerCharacter.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\AdvGamesProgramming.init.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\AdvGamesProgrammingGameModeBase.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\AIManager.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\EnemyCharacter.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\HealthComponent.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\NavigationNode.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\PickupRotator.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\PlayerCharacter.gen.cpp.obj"
+"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\Default.rc2.res"
+/OUT:"C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_AdvGamesProgramming

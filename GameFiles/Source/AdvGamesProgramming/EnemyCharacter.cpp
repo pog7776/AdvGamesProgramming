@@ -22,7 +22,6 @@ void AEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-
 	PerceptionComponent = FindComponentByClass<UAIPerceptionComponent>();
 	if (!PerceptionComponent) { UE_LOG(LogTemp, Error, TEXT("NO PERCEPTION COMPONENT FOUND"))}
 	PerceptionComponent->OnTargetPerceptionUpdated.AddDynamic(this, &AEnemyCharacter::SensePlayer);
@@ -31,6 +30,8 @@ void AEnemyCharacter::BeginPlay()
 	bCanSeeActor = false;
 
 	HealthComponent = FindComponentByClass<UHealthComponent>();
+
+	//EnemyBlackboard = GetBlackboardComponent();
 	
 }
 
@@ -39,76 +40,65 @@ void AEnemyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	/*switch (CurrentAgentState)
+	if (false)
 	{
-	case AgentState::PATROL:
-		AgentPatrol();
-		break;
-	case AgentState::ENGAGE:
-		AgentEngage();
-		break;
-	case AgentState::EVADE:
-		AgentEvade();
-		break;
-	default:
-		break;
-	}*/
 
-	if (CurrentAgentState == AgentState::PATROL)
-	{
-		if (HealthComponent->HealthPercentageRemaining() >= 0.4f && bCanSeeActor)
+		if (CurrentAgentState == AgentState::PATROL)
 		{
-			// Engage player
-			CurrentAgentState = AgentState::ENGAGE;
+			if (HealthComponent->HealthPercentageRemaining() >= 0.4f && bCanSeeActor)
+			{
+				// Engage player
+				CurrentAgentState = AgentState::ENGAGE;
+			}
+			else if (HealthComponent->HealthPercentageRemaining() <= 0.4f && bCanSeeActor)
+			{
+				// Change to EVADE and clear path
+				CurrentAgentState = AgentState::EVADE;
+				Path.Empty();
+			}
+			else
+			{
+				// Patrol
+				AgentPatrol();
+			}
 		}
-		else if (HealthComponent->HealthPercentageRemaining() <= 0.4f && bCanSeeActor)
+		else if (CurrentAgentState == AgentState::ENGAGE)
 		{
-			// Change to EVADE and clear path
-			CurrentAgentState = AgentState::EVADE;
-			Path.Empty();
+			if (!bCanSeeActor)
+			{
+				// Patrol
+				CurrentAgentState = AgentState::PATROL;
+			}
+			else if (HealthComponent->HealthPercentageRemaining() <= 0.4f && bCanSeeActor)
+			{
+				// Change to EVADE and clear path
+				CurrentAgentState = AgentState::EVADE;
+				Path.Empty();
+			}
+			else
+			{
+				// Engage player
+				AgentEngage();
+			}
 		}
-		else
+		else if (CurrentAgentState == AgentState::EVADE)
 		{
-			// Patrol
-			AgentPatrol();
-		}
-	}
-	else if (CurrentAgentState == AgentState::ENGAGE)
-	{
-		if (!bCanSeeActor)
-		{
-			// Patrol
-			CurrentAgentState = AgentState::PATROL;
-		}
-		else if (HealthComponent->HealthPercentageRemaining() <= 0.4f && bCanSeeActor)
-		{
-			// Change to EVADE and clear path
-			CurrentAgentState = AgentState::EVADE;
-			Path.Empty();
-		}
-		else
-		{
-			// Engage player
-			AgentEngage();
-		}
-	}
-	else if (CurrentAgentState == AgentState::EVADE)
-	{
-		if (!bCanSeeActor)
-		{
-			// Patrol if lost the player
-			CurrentAgentState = AgentState::PATROL;
-		}
-		else if (HealthComponent->HealthPercentageRemaining() >= 0.4f && bCanSeeActor)
-		{
-			// Engage the player if healthy
-			CurrentAgentState = AgentState::ENGAGE;
-			Path.Empty();
-		}
-		else
-		{
-			// Evade the player
-			AgentEvade();
+			if (!bCanSeeActor)
+			{
+				// Patrol if lost the player
+				CurrentAgentState = AgentState::PATROL;
+			}
+			else if (HealthComponent->HealthPercentageRemaining() >= 0.4f && bCanSeeActor)
+			{
+				// Engage the player if healthy
+				CurrentAgentState = AgentState::ENGAGE;
+				Path.Empty();
+			}
+			else
+			{
+				// Evade the player
+				AgentEvade();
+			}
 		}
 	}
 }
@@ -161,8 +151,17 @@ void AEnemyCharacter::AgentEvade()
 
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 {
-	if (Stimulus.WasSuccessfullySensed())
+	if (Stimulus.WasSuccessfullySensed() && ActorSensed->GetClass()->GetFName() == TEXT("PlayerCharacterBlueprint_C"))
 	{
+
+		//UE_LOG(LogTemp, Error, TEXT("%s"), *ActorSensed->GetClass()->GetFName().ToString())
+		//UE_LOG(LogTemp, Error, TEXT("%s"), *Stimulus.Type.Name.ToString())
+
+		if (Stimulus.Type.Name == "Default__AISense_Hearing")
+		{
+			//EnemyBlackboard->
+		}
+
 		DetectedActor = ActorSensed;
 		bCanSeeActor = true;
 		UE_LOG(LogTemp, Warning, TEXT("Player Detected"))

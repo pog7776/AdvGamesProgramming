@@ -16,8 +16,8 @@ struct FVector;
 #endif
 #define ADVGAMESPROGRAMMING_EnemyCharacter_generated_h
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_SPARSE_DATA
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_RPC_WRAPPERS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_SPARSE_DATA
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSensePlayer) \
 	{ \
@@ -30,7 +30,7 @@ struct FVector;
 	}
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSensePlayer) \
 	{ \
@@ -43,15 +43,15 @@ struct FVector;
 	}
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_EVENT_PARMS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_EVENT_PARMS \
 	struct EnemyCharacter_eventFire_Parms \
 	{ \
 		FVector FireDirection; \
 	};
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_CALLBACK_WRAPPERS
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_INCLASS_NO_PURE_DECLS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_CALLBACK_WRAPPERS
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
 	friend struct Z_Construct_UClass_AEnemyCharacter_Statics; \
@@ -60,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyCharacter)
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_INCLASS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
 	friend struct Z_Construct_UClass_AEnemyCharacter_Statics; \
@@ -69,7 +69,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyCharacter)
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_STANDARD_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyCharacter) \
@@ -82,7 +82,7 @@ private: \
 public:
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_ENHANCED_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemyCharacter(AEnemyCharacter&&); \
@@ -93,33 +93,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyCharacter)
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_PRIVATE_PROPERTY_OFFSET
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_20_PROLOG \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_EVENT_PARMS
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_PRIVATE_PROPERTY_OFFSET
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_21_PROLOG \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_EVENT_PARMS
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_GENERATED_BODY_LEGACY \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_PRIVATE_PROPERTY_OFFSET \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_SPARSE_DATA \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_RPC_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_CALLBACK_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_INCLASS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_STANDARD_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_RPC_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_CALLBACK_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_INCLASS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_GENERATED_BODY \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_PRIVATE_PROPERTY_OFFSET \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_SPARSE_DATA \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_CALLBACK_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_INCLASS_NO_PURE_DECLS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_ENHANCED_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_CALLBACK_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_INCLASS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
