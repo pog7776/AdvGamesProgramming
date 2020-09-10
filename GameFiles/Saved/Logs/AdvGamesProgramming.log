@@ -1788,3 +1788,111 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.10-01.00.19:802][281]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/AdvGamesProgramming.MyAIController
 [2020.09.10-01.00.19:896][281]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Source/AdvGamesProgramming/MyAIController.h'
 [2020.09.10-01.00.19:957][281]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Source/AdvGamesProgramming/MyAIController.cpp'
+[2020.09.10-01.38.15:150][ 59]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PlayerCharacterBlueprint.PlayerCharacterBlueprint
+[2020.09.10-01.38.44:107][703]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/EnemyCharacterBlueprint.EnemyCharacterBlueprint
+[2020.09.10-01.45.22:625][818]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/AdvGamesProgramming.HealthComponent
+[2020.09.10-01.45.22:805][818]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Source/AdvGamesProgramming/HealthComponent.h'
+[2020.09.10-01.45.22:919][818]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Source/AdvGamesProgramming/HealthComponent.cpp'
+[2020.09.10-01.45.53:030][577]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GunBlueprint.GunBlueprint
+[2020.09.10-01.51.38:707][ 67]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.10-01.51.39:792][127]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.10-01.51.39:792][127]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BT/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2020.09.10-01.51.40:090][127]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/BT/BTTask_BlueprintBase_New.
+[2020.09.10-01.51.50:781][721]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.09.10-01.51.50:789][721]LogMetaData: Removing '/Game/BT/GetCharacter.SKEL_GetCharacter_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.10-01.51.50:789][721]LogMetaData: Removing '/Game/BT/GetCharacter.GetCharacter_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.10-01.51.50:842][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset" SILENT=true
+[2020.09.10-01.51.50:847][721]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/GetCharacterAE8250B241DB585F28F930AEA59C0825.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset'
+[2020.09.10-01.51.51:105][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.09.10-01.51.51:161][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.09.10-01.51.51:197][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.09.10-01.51.51:266][721]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BT/GetCharacter.
+[2020.09.10-01.51.51:274][721]AssetCheck: New page: Asset Save: GetCharacter
+[2020.09.10-01.51.51:274][721]LogContentValidation: Display: Validating Blueprint /Game/BT/GetCharacter.GetCharacter
+[2020.09.10-01.51.58:778][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.10-01.51.58:795][161]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT68632A624FFA2DF6F4D1DFBA5707C735.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.10-01.51.58:811][161]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.10-01.51.58:811][161]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.10-01.52.51:973][ 24]BlueprintLog: New page: Compile GetCharacter
+[2020.09.10-01.52.52:321][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.09.10-01.53.26:520][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.09.10-01.53.26:520][496]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.053
+[2020.09.10-01.53.26:521][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/EnemyBT] ([1] browsable assets)...
+[2020.09.10-01.53.26:521][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/EnemyBT]
+[2020.09.10-01.53.26:549][496]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT_Auto143DC9BF146EF2AD60AA3BB94A86E94DF.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/EnemyBT_Auto1.uasset'
+[2020.09.10-01.53.26:552][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/GetCharacter] ([1] browsable assets)...
+[2020.09.10-01.53.26:552][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/GetCharacter]
+[2020.09.10-01.53.26:563][496]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/GetCharacter_Auto19DDB408544D2057953EF0CA9744F3063.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/GetCharacter_Auto1.uasset'
+[2020.09.10-01.53.26:566][496]LogFileHelpers: Auto-saving content packages took 0.045
+[2020.09.10-01.56.20:593][313]LogEditorTransaction: Undo Create Pin Link
+[2020.09.10-01.59.46:419][431]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.10-02.00.06:820][577]LogSlate: Window 'Delete Variable' being destroyed
+[2020.09.10-02.01.25:186][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.10-02.01.25:207][160]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBTB757EB7B4EF004F25904D09B878C7A06.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.10-02.01.25:210][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBB" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBB.uasset" SILENT=true
+[2020.09.10-02.01.25:218][160]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBB7AEDA5744D062450F59A10B549A69994.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBB.uasset'
+[2020.09.10-02.01.25:244][160]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.10-02.01.25:244][160]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.10-02.01.25:244][160]LogContentValidation: Display: Validating BlackboardData /Game/BT/EnemyBB.EnemyBB
+[2020.09.10-02.01.45:752][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBB" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBB.uasset" SILENT=true
+[2020.09.10-02.01.45:758][381]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBBDE6BFC4F48039AABAB3EDC8B577E8939.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBB.uasset'
+[2020.09.10-02.01.45:776][381]AssetCheck: New page: Asset Save: EnemyBB
+[2020.09.10-02.01.45:776][381]LogContentValidation: Display: Validating BlackboardData /Game/BT/EnemyBB.EnemyBB
+[2020.09.10-02.01.56:538][ 27]BlueprintLog: New page: Compile GetCharacter
+[2020.09.10-02.01.56:540][ 27]LogBlueprint: Error: [Compiler GetCharacter] The current value of the ' Key ' pin is invalid: 'Key' in action 'Set Blackboard Value as Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.09.10-02.01.56:880][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.09.10-02.03.47:909][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.09.10-02.03.47:910][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.044
+[2020.09.10-02.03.47:911][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/GetCharacter] ([1] browsable assets)...
+[2020.09.10-02.03.47:911][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/GetCharacter]
+[2020.09.10-02.03.47:923][999]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/GetCharacter_Auto2B28A94C445A240F409D593B72234882F.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/GetCharacter_Auto2.uasset'
+[2020.09.10-02.03.47:925][999]LogFileHelpers: Auto-saving content packages took 0.015
+[2020.09.10-02.04.13:187][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset" SILENT=true
+[2020.09.10-02.04.13:200][811]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/GetCharacterCE1EE0C1411221732B70A4817AF01A93.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset'
+[2020.09.10-02.04.13:226][811]AssetCheck: New page: Asset Save: GetCharacter
+[2020.09.10-02.04.13:226][811]LogContentValidation: Display: Validating Blueprint /Game/BT/GetCharacter.GetCharacter
+[2020.09.10-02.04.24:258][471]BlueprintLog: New page: Compile GetCharacter
+[2020.09.10-02.04.24:571][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.09.10-02.04.27:026][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.10-02.04.27:046][611]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT46275AC445CE1397BFA082ACF9236F67.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.10-02.04.27:068][611]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.10-02.04.27:068][611]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.10-02.04.31:039][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.10-02.04.31:060][847]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBTB84A1E33472153C06B1854979E981D01.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.10-02.04.31:079][847]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.10-02.04.31:079][847]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.10-02.05.10:587][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.10-02.05.10:610][209]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT3F9E2D334CB6A76141F3479E18D08750.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.10-02.05.10:629][209]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.10-02.05.10:630][209]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.10-02.05.20:263][779]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.10-02.05.20:264][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.10-02.06.26:399][853]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BT/GetCharacter.GetCharacter
+[2020.09.10-02.07.18:244][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset" SILENT=true
+[2020.09.10-02.07.18:258][899]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/GetCharacter014131EA43F5DA25BD46E39EA40D4887.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset'
+[2020.09.10-02.07.18:279][899]AssetCheck: New page: Asset Save: GetCharacter
+[2020.09.10-02.07.18:279][899]LogContentValidation: Display: Validating Blueprint /Game/BT/GetCharacter.GetCharacter
+[2020.09.10-02.07.20:142][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.10-02.07.20:162][  4]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT801062144CAFD4314E05A487A6D31928.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.10-02.07.20:180][  4]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.10-02.07.20:181][  4]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.10-02.09.35:131][868]BlueprintLog: New page: Compile GetCharacter
+[2020.09.10-02.09.35:369][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.09.10-02.09.57:047][121]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.10-02.10.00:498][316]BlueprintLog: New page: Compile EnemyCharacterBlueprint
+[2020.09.10-02.10.00:819][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.09.10-02.10.01:441][342]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyCharacterBlueprintBB68244C43C39933D2A976B29AEF8172.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Blueprints/EnemyCharacterBlueprint.uasset'
+[2020.09.10-02.10.01:459][342]AssetCheck: New page: Asset Save: EnemyCharacterBlueprint
+[2020.09.10-02.10.01:459][342]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/EnemyCharacterBlueprint.EnemyCharacterBlueprint
+[2020.09.10-02.10.03:159][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.09.10-02.10.03:258][434]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/TestingMapFB23A7EC4250D0715329F49C0F9DCC23.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap.umap'
+[2020.09.10-02.10.03:365][434]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/TestingMap_BuiltDataD2641F6A4C765603856086ACB8A2A093.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap_BuiltData.uasset'
+[2020.09.10-02.10.03:390][434]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.10-02.10.03:391][434]LogContentValidation: Display: Validating World /Game/Levels/TestingMap.TestingMap
+[2020.09.10-02.10.03:391][434]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestingMap_BuiltData.TestingMap_BuiltData
+[2020.09.10-02.10.06:644][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset" SILENT=true
+[2020.09.10-02.10.06:657][618]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/GetCharacterD8B30F7A44B7D0A2910DF5A9D550C6FC.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/GetCharacter.uasset'
+[2020.09.10-02.10.06:672][618]AssetCheck: New page: Asset Save: GetCharacter
+[2020.09.10-02.10.06:672][618]LogContentValidation: Display: Validating Blueprint /Game/BT/GetCharacter.GetCharacter
+[2020.09.10-02.10.09:099][762]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.10-02.10.09:099][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
