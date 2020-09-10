@@ -8,6 +8,7 @@
 #include "AIManager.h"
 #include <Perception/AIPerceptionComponent.h>
 #include "HealthComponent.h"
+#include "TeamComponent.h"
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "EnemyCharacter.generated.h"
 
@@ -47,6 +48,7 @@ public:
 
 	UAIPerceptionComponent* PerceptionComponent;
 	UHealthComponent* HealthComponent;
+	UTeamComponent* TeamComponent;
 
 	UPROPERTY(VisibleAnywhere)
 	AActor* DetectedActor;

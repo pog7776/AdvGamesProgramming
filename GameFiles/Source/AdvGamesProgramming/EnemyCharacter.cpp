@@ -5,6 +5,7 @@
 #include "EngineUtils.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "HealthComponent.h"
+#include "TeamComponent.h"
 
 
 // Sets default values
@@ -30,6 +31,7 @@ void AEnemyCharacter::BeginPlay()
 	bCanSeeActor = false;
 
 	HealthComponent = FindComponentByClass<UHealthComponent>();
+	TeamComponent = FindComponentByClass<UTeamComponent>();
 
 	//EnemyBlackboard = GetBlackboardComponent();
 	
@@ -153,9 +155,9 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 {
 	//UE_LOG(LogTemp, Error, TEXT("%s"), *ActorSensed->GetClass()->GetFName().ToString())
 	//UE_LOG(LogTemp, Error, TEXT("%s"), *Stimulus.Type.Name.ToString())
-	if (Stimulus.WasSuccessfullySensed() && ActorSensed->GetClass()->GetFName() == TEXT("PlayerCharacterBlueprint_C"))
+	// && ActorSensed->GetClass()->GetFName() == TEXT("PlayerCharacterBlueprint_C")
+	if (Stimulus.WasSuccessfullySensed() && ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
 	{
-
 		if (Stimulus.Type.Name == "Default__AISense_Sight")
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
@@ -169,6 +171,20 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 		}
 
 		DetectedActor = ActorSensed;
+
+		// Print team info
+		FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
+		for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
+		{
+			teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
+
+			if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+			{
+				teams += ", ";
+			}
+		}
+
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
 	}
 	else
 	{
