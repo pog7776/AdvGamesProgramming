@@ -2226,3 +2226,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.10-06.08.20:623][ 94]AssetCheck: New page: Asset Save: multiple assets
 [2020.09.10-06.08.20:623][ 94]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/EnemyCharacterBlueprint.EnemyCharacterBlueprint
 [2020.09.10-06.08.20:623][ 94]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AIController.AIController
+[2020.09.10-06.20.37:206][626]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BT/GetCharacter.
