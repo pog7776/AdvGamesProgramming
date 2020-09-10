@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{12516ABC-4409-4CD7-B9CA-CED32FF111E4}</UniqueIdentifier>
+      <UniqueIdentifier>{31A68AE6-7ACD-4A62-A538-2823034AB234}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{02E16388-AC86-46E6-AFB0-6CC6D056960A}</UniqueIdentifier>
+      <UniqueIdentifier>{E2EA13F1-DB25-4A26-AD66-F8852D254627}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{20311A5A-605A-4B91-BE06-5F059F715182}</UniqueIdentifier>
+      <UniqueIdentifier>{4C790E9E-8AD2-4222-AA5B-6DF18E1893C5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -80,5 +80,15 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIController.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIController.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
