@@ -51,7 +51,6 @@ void EmptyLinkFunctionForGeneratedCodeMyAIController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyAIController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "MyAIController.h" },
 		{ "ModuleRelativePath", "MyAIController.h" },
@@ -106,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyAIController, 3883414025);
+	IMPLEMENT_CLASS(AMyAIController, 4074790697);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AMyAIController>()
 	{
 		return AMyAIController::StaticClass();

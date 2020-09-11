@@ -7,14 +7,11 @@
 #include "AIManager.h"
 #include "MyAIController.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class ADVGAMESPROGRAMMING_API AMyAIController : public AAIController
 {
 	GENERATED_BODY()
-	
+
 public:
 	AMyAIController(FObjectInitializer const& object_initializer = FObjectInitializer::Get());
 protected:
@@ -22,18 +19,19 @@ protected:
 	void OnPossess(APawn* const pawn) override;
 	class UBlackboardComponent* get_blackboard() const;
 
-
+	/*
 	UFUNCTION(BlueprintCallable)
 		void AgentPatrol();
 	UFUNCTION(BlueprintCallable)
 		void AgentEngage();
 	UFUNCTION(BlueprintCallable)
 		void AgentEvade();
+	*/
 
 private:
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
-	class UBehaviorTreeComponent* btree_comp;
+		class UBehaviorTreeComponent* btree_comp;
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
-	class UBehaviorTree* btree;
+		class UBehaviorTree* btree;
 	class UBlackboardComponent* blackboard;
 };
