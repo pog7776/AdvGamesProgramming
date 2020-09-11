@@ -893,3 +893,21 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.11-09.35.41:495][392]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_CalKillApproxE67805FD489B573CA4CD46A76E05EDC6.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_CalKillApprox.uasset'
 [2020.09.11-09.35.41:544][392]AssetCheck: New page: Asset Save: BTT_CalKillApprox
 [2020.09.11-09.35.41:544][392]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_CalKillApprox.BTT_CalKillApprox
+[2020.09.11-09.36.16:776][891]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BT/BTT_MoveAlongPath.BTT_MoveAlongPath
+[2020.09.11-09.36.39:922][826]BlueprintLog: New page: Compile BTT_MoveAlongPath
+[2020.09.11-09.36.40:369][826]LogUObjectHash: Compacting FUObjectHashTables data took   6.71ms
+[2020.09.11-09.36.43:907][903]LogEditorTransaction: Undo Create Pin Link
+[2020.09.11-09.36.44:365][914]LogEditorTransaction: Undo Remove Variable
+[2020.09.11-09.36.44:768][934]LogEditorTransaction: Undo Delete current selection
+[2020.09.11-09.36.45:541][978]LogEditorTransaction: Undo Create Pin Link
+[2020.09.11-09.36.45:989][  4]LogEditorTransaction: Undo Move Node
+[2020.09.11-09.36.46:387][ 27]LogEditorTransaction: Undo Add Node
+[2020.09.11-09.36.46:870][ 55]LogEditorTransaction: Undo Delete current selection
+[2020.09.11-09.37.24:844][245]BlueprintLog: New page: Compile BTT_MoveAlongPath
+[2020.09.11-09.37.25:211][245]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.09.11-09.37.33:664][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTT_MoveAlongPath" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_MoveAlongPath.uasset" SILENT=true
+[2020.09.11-09.37.33:694][646]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_MoveAlongPathB33ACC9745AA200F93DA9FA297224263.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_MoveAlongPath.uasset'
+[2020.09.11-09.37.33:769][646]AssetCheck: New page: Asset Save: BTT_MoveAlongPath
+[2020.09.11-09.37.33:769][646]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_MoveAlongPath.BTT_MoveAlongPath
+[2020.09.11-09.37.36:996][799]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.09.11-09.37.38:404][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
