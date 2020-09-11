@@ -712,3 +712,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.11-11.35.29:707][999]AssetCheck: New page: Asset Save: multiple assets
 [2020.09.11-11.35.29:707][999]LogContentValidation: Display: Validating World /Game/Levels/TestingMap.TestingMap
 [2020.09.11-11.35.29:708][999]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestingMap_BuiltData.TestingMap_BuiltData
+[2020.09.11-11.39.09:863][785]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BT/Set_SensePlayer.
