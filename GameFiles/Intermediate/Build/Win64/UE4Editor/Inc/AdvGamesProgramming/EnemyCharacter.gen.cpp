@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CalcKillApprox();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_EmptyPath();
@@ -105,6 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 			{ "AllowMoveAlongPath", &AEnemyCharacter::execAllowMoveAlongPath },
 			{ "CalcKillApprox", &AEnemyCharacter::execCalcKillApprox },
 			{ "CreatePathEngage", &AEnemyCharacter::execCreatePathEngage },
+			{ "CreatePathEngageSpecific", &AEnemyCharacter::execCreatePathEngageSpecific },
 			{ "CreatePathEvade", &AEnemyCharacter::execCreatePathEvade },
 			{ "CreatePathPatrol", &AEnemyCharacter::execCreatePathPatrol },
 			{ "EmptyPath", &AEnemyCharacter::execEmptyPath },
@@ -190,6 +192,28 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "CreatePathEngageSpecific", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -475,6 +499,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ &Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath, "AllowMoveAlongPath" }, // 4117553157
 		{ &Z_Construct_UFunction_AEnemyCharacter_CalcKillApprox, "CalcKillApprox" }, // 3150929251
 		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage, "CreatePathEngage" }, // 2485778652
+		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathEngageSpecific, "CreatePathEngageSpecific" }, // 3608006928
 		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade, "CreatePathEvade" }, // 1729189943
 		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol, "CreatePathPatrol" }, // 841029096
 		{ &Z_Construct_UFunction_AEnemyCharacter_EmptyPath, "EmptyPath" }, // 1227039689
@@ -590,7 +615,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 485379376);
+	IMPLEMENT_CLASS(AEnemyCharacter, 2231933274);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();
