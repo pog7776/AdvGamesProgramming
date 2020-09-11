@@ -18,19 +18,20 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AEnemyCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_AgentEngage();
-	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_AgentEvade();
-	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_AgentPatrol();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_EmptyPath();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_Fire();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_SensePlayer();
 	AIMODULE_API UScriptStruct* Z_Construct_UScriptStruct_FAIStimulus();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_Trigger();
-	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AMyAIController_NoRegister();
-	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTreeComponent_NoRegister();
+	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_ANavigationNode_NoRegister();
 // End Cross Module References
 	static UEnum* AgentState_StaticEnum()
 	{
@@ -97,16 +98,18 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	{
 		UClass* Class = AEnemyCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "AgentEngage", &AEnemyCharacter::execAgentEngage },
-			{ "AgentEvade", &AEnemyCharacter::execAgentEvade },
-			{ "AgentPatrol", &AEnemyCharacter::execAgentPatrol },
+			{ "AllowMoveAlongPath", &AEnemyCharacter::execAllowMoveAlongPath },
+			{ "CreatePathEngage", &AEnemyCharacter::execCreatePathEngage },
+			{ "CreatePathEvade", &AEnemyCharacter::execCreatePathEvade },
+			{ "CreatePathPatrol", &AEnemyCharacter::execCreatePathPatrol },
 			{ "EmptyPath", &AEnemyCharacter::execEmptyPath },
+			{ "GetBCanSeeActor", &AEnemyCharacter::execGetBCanSeeActor },
 			{ "SensePlayer", &AEnemyCharacter::execSensePlayer },
 			{ "Trigger", &AEnemyCharacter::execTrigger },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_AEnemyCharacter_AgentEngage_Statics
+	struct Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -114,21 +117,21 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_AgentEngage_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_AgentEngage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "AgentEngage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_AgentEngage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_AgentEngage_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AEnemyCharacter_AgentEngage()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "AllowMoveAlongPath", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_AgentEngage_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AEnemyCharacter_AgentEvade_Statics
+	struct Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -136,21 +139,21 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_AgentEvade_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_AgentEvade_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "AgentEvade", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_AgentEvade_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_AgentEvade_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AEnemyCharacter_AgentEvade()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "CreatePathEngage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_AgentEvade_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AEnemyCharacter_AgentPatrol_Statics
+	struct Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -158,17 +161,39 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_AgentPatrol_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_AgentPatrol_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "AgentPatrol", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_AgentPatrol_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_AgentPatrol_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AEnemyCharacter_AgentPatrol()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "CreatePathEvade", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_AgentPatrol_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "CreatePathPatrol", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -219,6 +244,43 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_Fire_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics
+	{
+		struct EnemyCharacter_eventGetBCanSeeActor_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((EnemyCharacter_eventGetBCanSeeActor_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(EnemyCharacter_eventGetBCanSeeActor_Parms), &Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "GetBCanSeeActor", nullptr, nullptr, sizeof(EnemyCharacter_eventGetBCanSeeActor_Parms), Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -292,14 +354,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIController_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AIController;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemyBlackboard_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EnemyBlackboard;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BehaviorTreeComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviorTreeComponent;
@@ -317,6 +371,11 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_CurrentAgentState;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CurrentAgentState_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Path_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Path;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Path_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -326,11 +385,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvGamesProgramming,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AEnemyCharacter_AgentEngage, "AgentEngage" }, // 2847476428
-		{ &Z_Construct_UFunction_AEnemyCharacter_AgentEvade, "AgentEvade" }, // 1360493653
-		{ &Z_Construct_UFunction_AEnemyCharacter_AgentPatrol, "AgentPatrol" }, // 923838724
+		{ &Z_Construct_UFunction_AEnemyCharacter_AllowMoveAlongPath, "AllowMoveAlongPath" }, // 1006017065
+		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathEngage, "CreatePathEngage" }, // 2485778652
+		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathEvade, "CreatePathEvade" }, // 1729189943
+		{ &Z_Construct_UFunction_AEnemyCharacter_CreatePathPatrol, "CreatePathPatrol" }, // 1544832472
 		{ &Z_Construct_UFunction_AEnemyCharacter_EmptyPath, "EmptyPath" }, // 1227039689
 		{ &Z_Construct_UFunction_AEnemyCharacter_Fire, "Fire" }, // 2034662589
+		{ &Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor, "GetBCanSeeActor" }, // 307403349
 		{ &Z_Construct_UFunction_AEnemyCharacter_SensePlayer, "SensePlayer" }, // 3679076591
 		{ &Z_Construct_UFunction_AEnemyCharacter_Trigger, "Trigger" }, // 1346815487
 	};
@@ -341,23 +402,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController_MetaData[] = {
-		{ "Category", "EnemyCharacter" },
-		{ "Comment", "//UFUNCTION(BlueprintImplementableEvent)\n//bool TestFunction();\n" },
-		{ "ModuleRelativePath", "EnemyCharacter.h" },
-		{ "ToolTip", "UFUNCTION(BlueprintImplementableEvent)\nbool TestFunction();" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController = { "AIController", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, AIController), Z_Construct_UClass_AMyAIController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard_MetaData[] = {
-		{ "Category", "EnemyCharacter" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "EnemyCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard = { "EnemyBlackboard", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, EnemyBlackboard), Z_Construct_UClass_UBlackboardComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BehaviorTreeComponent_MetaData[] = {
 		{ "Category", "AI" },
@@ -392,14 +436,22 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState = { "CurrentAgentState", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, CurrentAgentState), Z_Construct_UEnum_AdvGamesProgramming_AgentState, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path_MetaData[] = {
+		{ "Category", "EnemyCharacter" },
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, Path), METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path_Inner = { "Path", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ANavigationNode_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BehaviorTreeComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bCanSeeActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DetectedActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Path_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEnemyCharacter>::IsAbstract,
@@ -428,7 +480,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 705228464);
+	IMPLEMENT_CLASS(AEnemyCharacter, 1781075554);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

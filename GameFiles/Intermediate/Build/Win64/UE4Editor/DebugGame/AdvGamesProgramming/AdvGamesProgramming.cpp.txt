@@ -1,0 +1,2 @@
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\AdvGamesProgramming.h

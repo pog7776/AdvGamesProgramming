@@ -19,6 +19,14 @@ struct FVector;
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_SPARSE_DATA
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSensePlayer) \
 	{ \
 		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
@@ -45,33 +53,49 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEvade) \
+	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEvade(); \
+		P_THIS->AllowMoveAlongPath(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEngage) \
+	DECLARE_FUNCTION(execCreatePathEvade) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEngage(); \
+		P_THIS->CreatePathEvade(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentPatrol) \
+	DECLARE_FUNCTION(execCreatePathEngage) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentPatrol(); \
+		P_THIS->CreatePathEngage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCreatePathPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreatePathPatrol(); \
 		P_NATIVE_END; \
 	}
 
 
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSensePlayer) \
 	{ \
 		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
@@ -98,27 +122,35 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEvade) \
+	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEvade(); \
+		P_THIS->AllowMoveAlongPath(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEngage) \
+	DECLARE_FUNCTION(execCreatePathEvade) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEngage(); \
+		P_THIS->CreatePathEvade(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentPatrol) \
+	DECLARE_FUNCTION(execCreatePathEngage) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentPatrol(); \
+		P_THIS->CreatePathEngage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCreatePathPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreatePathPatrol(); \
 		P_NATIVE_END; \
 	}
 

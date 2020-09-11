@@ -33,11 +33,16 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+private:
+	bool bAllowedMoveAlongPath;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TArray<ANavigationNode*> Path;
+
 	ANavigationNode* CurrentNode;
 	AAIManager* Manager;
 
@@ -53,15 +58,19 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	AActor* DetectedActor;
+
 	UPROPERTY(VisibleAnywhere)
 	bool bCanSeeActor;
 
 	UFUNCTION(BlueprintCallable)
-	void AgentPatrol();
+	void CreatePathPatrol();
 	UFUNCTION(BlueprintCallable)
-	void AgentEngage();
+	void CreatePathEngage();
 	UFUNCTION(BlueprintCallable)
-	void AgentEvade();
+	void CreatePathEvade();
+	UFUNCTION(BlueprintCallable)
+	void AllowMoveAlongPath();
+	void MoveAlongPath();
 
 	UFUNCTION(BlueprintCallable)
 	void EmptyPath();
@@ -75,7 +84,8 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void Fire(FVector FireDirection);
 
-	void MoveAlongPath();
+	UFUNCTION(BlueprintCallable)
+	bool GetBCanSeeActor() const;
 
 	UPROPERTY(EditAnywhere, Category = "AI")
 	UBehaviorTreeComponent* BehaviorTreeComponent;
