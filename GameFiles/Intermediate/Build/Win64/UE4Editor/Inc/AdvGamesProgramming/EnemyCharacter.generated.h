@@ -19,6 +19,14 @@ struct FVector;
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_SPARSE_DATA
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSensePlayer) \
 	{ \
 		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
@@ -71,6 +79,14 @@ struct FVector;
 
 
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSensePlayer) \
 	{ \

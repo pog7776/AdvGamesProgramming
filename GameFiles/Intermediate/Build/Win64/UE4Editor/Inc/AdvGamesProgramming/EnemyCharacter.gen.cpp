@@ -24,6 +24,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_EmptyPath();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_Fire();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_SensePlayer();
 	AIMODULE_API UScriptStruct* Z_Construct_UScriptStruct_FAIStimulus();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
@@ -99,6 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 			{ "AgentEvade", &AEnemyCharacter::execAgentEvade },
 			{ "AgentPatrol", &AEnemyCharacter::execAgentPatrol },
 			{ "EmptyPath", &AEnemyCharacter::execEmptyPath },
+			{ "GetBCanSeeActor", &AEnemyCharacter::execGetBCanSeeActor },
 			{ "SensePlayer", &AEnemyCharacter::execSensePlayer },
 			{ "Trigger", &AEnemyCharacter::execTrigger },
 		};
@@ -220,6 +222,43 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics
+	{
+		struct EnemyCharacter_eventGetBCanSeeActor_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((EnemyCharacter_eventGetBCanSeeActor_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(EnemyCharacter_eventGetBCanSeeActor_Parms), &Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "GetBCanSeeActor", nullptr, nullptr, sizeof(EnemyCharacter_eventGetBCanSeeActor_Parms), Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AEnemyCharacter_SensePlayer_Statics
 	{
 		struct EnemyCharacter_eventSensePlayer_Parms
@@ -321,6 +360,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ &Z_Construct_UFunction_AEnemyCharacter_AgentPatrol, "AgentPatrol" }, // 923838724
 		{ &Z_Construct_UFunction_AEnemyCharacter_EmptyPath, "EmptyPath" }, // 1227039689
 		{ &Z_Construct_UFunction_AEnemyCharacter_Fire, "Fire" }, // 2034662589
+		{ &Z_Construct_UFunction_AEnemyCharacter_GetBCanSeeActor, "GetBCanSeeActor" }, // 307403349
 		{ &Z_Construct_UFunction_AEnemyCharacter_SensePlayer, "SensePlayer" }, // 3679076591
 		{ &Z_Construct_UFunction_AEnemyCharacter_Trigger, "Trigger" }, // 1346815487
 	};
@@ -399,7 +439,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 3450461506);
+	IMPLEMENT_CLASS(AEnemyCharacter, 3317087681);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

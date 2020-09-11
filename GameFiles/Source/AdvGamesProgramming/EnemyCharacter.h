@@ -52,13 +52,16 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	AActor* DetectedActor;
+
 	UPROPERTY(VisibleAnywhere)
 	bool bCanSeeActor;
 
 	UFUNCTION(BlueprintCallable)
 	void AgentPatrol();
+
 	UFUNCTION(BlueprintCallable)
 	void AgentEngage();
+
 	UFUNCTION(BlueprintCallable)
 	void AgentEvade();
 
@@ -73,6 +76,9 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void Fire(FVector FireDirection);
+
+	UFUNCTION(BlueprintCallable)
+	bool GetBCanSeeActor() const;
 
 	void MoveAlongPath();
 

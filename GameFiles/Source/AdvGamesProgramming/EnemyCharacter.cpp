@@ -255,6 +255,11 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	}
 }
 
+bool AEnemyCharacter::GetBCanSeeActor() const
+{
+	return bCanSeeActor;
+}
+
 void AEnemyCharacter::MoveAlongPath()
 {
 	if (Path.Num() > 0 && Manager != NULL)
