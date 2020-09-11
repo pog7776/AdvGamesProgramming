@@ -129,6 +129,8 @@ float AEnemyCharacter::CalcKillApprox()
 		float playerHealth = DetectedActor->FindComponentByClass<UHealthComponent>()->HealthPercentageRemaining();
 		if (playerHealth > 0) {
 			UE_LOG(LogTemp, Warning, TEXT("Player is alive"))
+			UE_LOG(LogTemp, Warning, TEXT("%f"), HealthComponent->HealthPercentageRemaining())
+			UE_LOG(LogTemp, Warning, TEXT("%f"), playerHealth)
 			return HealthComponent->HealthPercentageRemaining() / playerHealth;
 		}
 	}
@@ -148,20 +150,17 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 		if (ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
 		{
 			bSensed = true;
+			EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
 			if (Stimulus.Type.Name == "Default__AISense_Sight")
 			{
 				UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
-
-				EnemyBlackboard->SetValueAsBool(FName("bSensed"), true);
-				EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), true);
 				bCanSeeActor = true;
+				EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
 			}
 
 			if (Stimulus.Type.Name == "Default__AISense_Hearing")
 			{
 				UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
-
-					EnemyBlackboard->SetValueAsBool(FName("bSensed"), true);
 			}
 
 			DetectedActor = ActorSensed;
@@ -185,8 +184,9 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	{
 		// Reset stuff here
 		bSensed = false;
+		EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
 		bCanSeeActor = false;
-
+		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
 		EnemyBlackboard->SetValueAsBool(FName("bSensed"), false);
 		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), false);
 		UE_LOG(LogTemp, Warning, TEXT("Player Lost"))
