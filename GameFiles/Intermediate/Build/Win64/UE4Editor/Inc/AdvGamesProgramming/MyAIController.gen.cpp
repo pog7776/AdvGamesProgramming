@@ -65,11 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIController() {}
 		{ "ModuleRelativePath", "MyAIController.h" },
 	};
 #endif
-<<<<<<< HEAD
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyAIController_Statics::NewProp_btree = { "btree", nullptr, (EPropertyFlags)0x0040000000000801, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyAIController, btree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_MetaData)) };
-=======
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyAIController_Statics::NewProp_btree = { "btree", nullptr, (EPropertyFlags)0x0040000000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyAIController, btree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_MetaData)) };
->>>>>>> master
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -78,11 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIController() {}
 		{ "ModuleRelativePath", "MyAIController.h" },
 	};
 #endif
-<<<<<<< HEAD
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp = { "btree_comp", nullptr, (EPropertyFlags)0x0040000000080809, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyAIController, btree_comp), Z_Construct_UClass_UBehaviorTreeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp_MetaData)) };
-=======
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp = { "btree_comp", nullptr, (EPropertyFlags)0x004000000008080d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyAIController, btree_comp), Z_Construct_UClass_UBehaviorTreeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp_MetaData)) };
->>>>>>> master
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyAIController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyAIController_Statics::NewProp_btree,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyAIController_Statics::NewProp_btree_comp,
@@ -114,11 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIController() {}
 		}
 		return OuterClass;
 	}
-<<<<<<< HEAD
-	IMPLEMENT_CLASS(AMyAIController, 322134437);
-=======
 	IMPLEMENT_CLASS(AMyAIController, 3883414025);
->>>>>>> master
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AMyAIController>()
 	{
 		return AMyAIController::StaticClass();
