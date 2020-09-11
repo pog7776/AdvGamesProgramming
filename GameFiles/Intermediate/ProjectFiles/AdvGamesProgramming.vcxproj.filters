@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{31A68AE6-7ACD-4A62-A538-2823034AB234}</UniqueIdentifier>
+      <UniqueIdentifier>{109A5390-4D71-499F-AB73-53D6F947E4DB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E2EA13F1-DB25-4A26-AD66-F8852D254627}</UniqueIdentifier>
+      <UniqueIdentifier>{1E86BB09-D7D7-4332-9F17-AFC1499832EB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{4C790E9E-8AD2-4222-AA5B-6DF18E1893C5}</UniqueIdentifier>
+      <UniqueIdentifier>{D91D5B1A-B72E-4A87-862E-A25B04257007}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -62,6 +62,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\HealthComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIController.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIController.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\NavigationNode.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -80,15 +86,11 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIController.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIController.cpp">
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\TeamComponent.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

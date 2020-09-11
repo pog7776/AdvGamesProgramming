@@ -18,8 +18,6 @@ AMyAIController::AMyAIController(FObjectInitializer const& object_initializer)
 void AMyAIController::BeginPlay()
 {
 	Super::BeginPlay();
-	RunBehaviorTree(btree);
-	btree_comp->StartTree(*btree);
 }
 
 void AMyAIController::OnPossess(APawn * const pawn)
@@ -28,6 +26,8 @@ void AMyAIController::OnPossess(APawn * const pawn)
 	if (blackboard) {
 		blackboard->InitializeBlackboard(*btree->BlackboardAsset);
 	}
+	RunBehaviorTree(btree);
+	btree_comp->StartTree(*btree);
 }
 
 UBlackboardComponent * AMyAIController::get_blackboard() const

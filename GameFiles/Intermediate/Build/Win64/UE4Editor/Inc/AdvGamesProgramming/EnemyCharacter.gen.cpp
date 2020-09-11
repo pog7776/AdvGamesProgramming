@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_SensePlayer();
 	AIMODULE_API UScriptStruct* Z_Construct_UScriptStruct_FAIStimulus();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_Trigger();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTreeComponent_NoRegister();
 // End Cross Module References
 	static UEnum* AgentState_StaticEnum()
@@ -99,6 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 			{ "AgentPatrol", &AEnemyCharacter::execAgentPatrol },
 			{ "EmptyPath", &AEnemyCharacter::execEmptyPath },
 			{ "SensePlayer", &AEnemyCharacter::execSensePlayer },
+			{ "Trigger", &AEnemyCharacter::execTrigger },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -254,6 +256,28 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEnemyCharacter_Trigger_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_Trigger_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_Trigger_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "Trigger", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_Trigger_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_Trigger_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_Trigger()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_Trigger_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister()
 	{
 		return AEnemyCharacter::StaticClass();
@@ -298,6 +322,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ &Z_Construct_UFunction_AEnemyCharacter_EmptyPath, "EmptyPath" }, // 1227039689
 		{ &Z_Construct_UFunction_AEnemyCharacter_Fire, "Fire" }, // 2034662589
 		{ &Z_Construct_UFunction_AEnemyCharacter_SensePlayer, "SensePlayer" }, // 3679076591
+		{ &Z_Construct_UFunction_AEnemyCharacter_Trigger, "Trigger" }, // 1346815487
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams[] = {
@@ -374,7 +399,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 1058266359);
+	IMPLEMENT_CLASS(AEnemyCharacter, 3450461506);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

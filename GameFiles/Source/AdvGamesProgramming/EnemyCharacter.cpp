@@ -181,7 +181,6 @@ void AEnemyCharacter::AgentEngage()
 	if (bCanSeeActor)
 	{
 		//FVector DirectionToTarget = DetectedActor->GetActorLocation() - GetActorLocation();
-		Fire(DetectedActor->GetActorLocation() - GetActorLocation());
 
 		if (Path.Num() == 0 && Manager != NULL)
 		{
@@ -195,7 +194,6 @@ void AEnemyCharacter::AgentEvade()
 {
 	if (bCanSeeActor)
 	{
-		Fire(DetectedActor->GetActorLocation() - GetActorLocation());
 
 		if (Path.Num() == 0 && Manager != NULL)
 		{
@@ -208,6 +206,10 @@ void AEnemyCharacter::AgentEvade()
 void AEnemyCharacter::EmptyPath()
 {
 	Path.Empty();
+}
+
+void AEnemyCharacter::Trigger() {
+	Fire(DetectedActor->GetActorLocation() - GetActorLocation());
 }
 
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
@@ -279,6 +281,8 @@ void AEnemyCharacter::MoveAlongPath()
 		}
 	}
 }
+
+
 
 //bool AEnemyCharacter::TestFunction()
 //{
