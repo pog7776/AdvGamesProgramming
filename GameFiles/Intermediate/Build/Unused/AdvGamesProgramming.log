@@ -1,7 +1,15 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
   Building AdvGamesProgrammingEditor...
-  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 8 processes...
-    [1/1] AdvGamesProgrammingEditor.target
-  Total time in Parallel executor: 0.30 seconds
-  Total execution time: 1.51 seconds
+  Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+  Building 7 actions with 8 processes...
+    [1/7] AdvGamesProgramming.init.gen.cpp
+    [2/7] EnemyCharacter.gen.cpp
+    [3/7] AIManager.cpp
+    [4/7] EnemyCharacter.cpp
+    [5/7] UE4Editor-AdvGamesProgramming-Win64-DebugGame.lib
+       C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.lib 라이브러리 및 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.exp 개체를 생성하고 있습니다.
+    [6/7] UE4Editor-AdvGamesProgramming-Win64-DebugGame.dll
+       C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.suppressed.lib 라이브러리 및 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.suppressed.exp 개체를 생성하고 있습니다.
+    [7/7] AdvGamesProgrammingEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 4.08 seconds
+  Total execution time: 4.89 seconds

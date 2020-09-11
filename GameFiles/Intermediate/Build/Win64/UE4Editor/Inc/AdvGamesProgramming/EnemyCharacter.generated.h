@@ -16,24 +16,14 @@ struct FVector;
 #endif
 #define ADVGAMESPROGRAMMING_EnemyCharacter_generated_h
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_SPARSE_DATA
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_RPC_WRAPPERS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_SPARSE_DATA
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	DECLARE_FUNCTION(execCalcKillApprox) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSensePlayer) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
-		P_GET_STRUCT(FAIStimulus,Z_Param_Stimulus); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		*(float*)Z_Param__Result=P_THIS->CalcKillApprox(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -45,19 +35,19 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execEmptyPath) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EmptyPath(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->AllowMoveAlongPath(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEmptyPath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EmptyPath(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -83,17 +73,6 @@ struct FVector;
 		P_NATIVE_BEGIN; \
 		P_THIS->CreatePathPatrol(); \
 		P_NATIVE_END; \
-	}
-
-
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execGetBCanSeeActor) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
-		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execSensePlayer) \
@@ -106,6 +85,33 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBSensed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBSensed(); \
+		P_NATIVE_END; \
+	}
+
+
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCalcKillApprox) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->CalcKillApprox(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execTrigger) \
 	{ \
 		P_FINISH; \
@@ -114,19 +120,19 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execEmptyPath) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EmptyPath(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->AllowMoveAlongPath(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEmptyPath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EmptyPath(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -152,18 +158,44 @@ struct FVector;
 		P_NATIVE_BEGIN; \
 		P_THIS->CreatePathPatrol(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSensePlayer) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
+		P_GET_STRUCT(FAIStimulus,Z_Param_Stimulus); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBSensed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBSensed(); \
+		P_NATIVE_END; \
 	}
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_EVENT_PARMS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_EVENT_PARMS \
 	struct EnemyCharacter_eventFire_Parms \
 	{ \
 		FVector FireDirection; \
 	};
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_CALLBACK_WRAPPERS
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_INCLASS_NO_PURE_DECLS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_CALLBACK_WRAPPERS
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
 	friend struct Z_Construct_UClass_AEnemyCharacter_Statics; \
@@ -172,7 +204,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyCharacter)
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_INCLASS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
 	friend struct Z_Construct_UClass_AEnemyCharacter_Statics; \
@@ -181,7 +213,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyCharacter)
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_STANDARD_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyCharacter) \
@@ -194,7 +226,7 @@ private: \
 public:
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_ENHANCED_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemyCharacter(AEnemyCharacter&&); \
@@ -205,33 +237,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyCharacter)
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_PRIVATE_PROPERTY_OFFSET
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_23_PROLOG \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_EVENT_PARMS
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_PRIVATE_PROPERTY_OFFSET
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_22_PROLOG \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_EVENT_PARMS
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_GENERATED_BODY_LEGACY \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_PRIVATE_PROPERTY_OFFSET \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_SPARSE_DATA \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_RPC_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_CALLBACK_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_INCLASS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_STANDARD_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_CALLBACK_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_INCLASS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_GENERATED_BODY \
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_PRIVATE_PROPERTY_OFFSET \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_SPARSE_DATA \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_CALLBACK_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_INCLASS_NO_PURE_DECLS \
-	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_26_ENHANCED_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_CALLBACK_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_INCLASS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
