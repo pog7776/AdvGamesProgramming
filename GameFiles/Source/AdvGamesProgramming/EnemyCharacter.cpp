@@ -42,7 +42,60 @@ void AEnemyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (false)
+	/*switch (CurrentAgentState)
+	{
+	case AgentState::PATROL:
+		AgentPatrol();
+		break;
+	case AgentState::ENGAGE:
+		AgentEngage();
+		break;
+	case AgentState::EVADE:
+		AgentEvade();
+		break;
+	default:
+		break;
+	}*/
+	/*
+	if (CurrentAgentState == AgentState::PATROL)
+	{
+		if (HealthComponent->HealthPercentageRemaining() >= 0.4f && bCanSeeActor)
+		{
+			// Engage player
+			CurrentAgentState = AgentState::ENGAGE;
+		}
+		else if (HealthComponent->HealthPercentageRemaining() <= 0.4f && bCanSeeActor)
+		{
+			// Change to EVADE and clear path
+			CurrentAgentState = AgentState::EVADE;
+			Path.Empty();
+		}
+		else
+		{
+			// Patrol
+			AgentPatrol();
+		}
+	}
+	else if (CurrentAgentState == AgentState::ENGAGE)
+	{
+		if (!bCanSeeActor)
+		{
+			// Patrol
+			CurrentAgentState = AgentState::PATROL;
+		}
+		else if (HealthComponent->HealthPercentageRemaining() <= 0.4f && bCanSeeActor)
+		{
+			// Change to EVADE and clear path
+			CurrentAgentState = AgentState::EVADE;
+			Path.Empty();
+		}
+		else
+		{
+			// Engage player
+			AgentEngage();
+		}
+	}
+	else if (CurrentAgentState == AgentState::EVADE)
 	{
 
 		if (CurrentAgentState == AgentState::PATROL)
@@ -103,6 +156,7 @@ void AEnemyCharacter::Tick(float DeltaTime)
 			}
 		}
 	}
+	*/
 }
 
 // Called to bind functionality to input

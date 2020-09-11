@@ -37,6 +37,22 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execAgentEvade) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AgentEvade(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAgentEngage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AgentEngage(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAgentPatrol) \
 	{ \
 		P_FINISH; \
@@ -63,6 +79,22 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->EmptyPath(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAgentEvade) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AgentEvade(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAgentEngage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AgentEngage(); \
 		P_NATIVE_END; \
 	} \
  \
