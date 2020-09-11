@@ -6,6 +6,7 @@
 #include "NavigationNode.h"
 #include "GameFramework/Character.h"
 #include "AIManager.h"
+#include "MyAIController.h"
 #include <Perception/AIPerceptionComponent.h>
 #include "HealthComponent.h"
 #include "TeamComponent.h"
@@ -76,9 +77,13 @@ public:
 	UPROPERTY(EditAnywhere, Category = "AI")
 	UBehaviorTreeComponent* BehaviorTreeComponent;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UBlackboardComponent* EnemyBlackboard;
 
 	//UFUNCTION(BlueprintImplementableEvent)
 	//bool TestFunction();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	AMyAIController* AIController;
 
 };

@@ -14,10 +14,10 @@ class ADVGAMESPROGRAMMING_API AMyAIController : public AAIController
 
 public:
 	AMyAIController(FObjectInitializer const& object_initializer = FObjectInitializer::Get());
+	class UBlackboardComponent* get_blackboard() const;
 protected:
 	void BeginPlay() override;
 	void OnPossess(APawn* const pawn) override;
-	class UBlackboardComponent* get_blackboard() const;
 
 	/*
 	UFUNCTION(BlueprintCallable)

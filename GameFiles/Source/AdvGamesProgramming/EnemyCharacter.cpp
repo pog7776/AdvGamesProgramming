@@ -6,6 +6,7 @@
 #include "Perception/AIPerceptionComponent.h"
 #include "HealthComponent.h"
 #include "TeamComponent.h"
+#include <BehaviorTree/BlackboardComponent.h>
 
 
 // Sets default values
@@ -34,7 +35,23 @@ void AEnemyCharacter::BeginPlay()
 	TeamComponent = FindComponentByClass<UTeamComponent>();
 
 	//EnemyBlackboard = GetBlackboardComponent();
-	
+	//AAIController* AIController = GetController<AIController>();
+
+	//UE_LOG(LogTemp, Error, TEXT("%s"), *AIController->GetFName().ToString())
+
+	//EnemyBlackboard->SetValueAsBool(MyBlackboardKey.bSensed, false);
+
+	EnemyBlackboard = AIController->get_blackboard();
+	FName test = "bSensed";
+	try
+	{
+		EnemyBlackboard->SetValueAsBool(test, true);
+	}
+	catch (const std::nullptr_t&)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Didn't work, dumb dumb"))
+	}
+
 }
 
 // Called every frame

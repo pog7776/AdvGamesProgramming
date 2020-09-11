@@ -1,17 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming).
-  Parsing headers for AdvGamesProgrammingEditor
-    Running UnrealHeaderTool "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\Development\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for AdvGamesProgrammingEditor in 10.3838062 seconds
   Building AdvGamesProgrammingEditor...
   Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] AdvGamesProgramming.init.gen.cpp
-    [2/6] MyAIController.gen.cpp
-    [3/6] MyAIController.cpp
-    [4/6] UE4Editor-AdvGamesProgramming-0002.lib
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.exp
-    [5/6] UE4Editor-AdvGamesProgramming-0002.dll
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.suppressed.exp
-    [6/6] AdvGamesProgrammingEditor.target
-  Total time in Parallel executor: 5.25 seconds
-  Total execution time: 17.15 seconds
+  Building 1 action with 8 processes...
+    [1/1] AdvGamesProgrammingEditor.target
+  Total time in Parallel executor: 0.32 seconds
+  Total execution time: 1.56 seconds
