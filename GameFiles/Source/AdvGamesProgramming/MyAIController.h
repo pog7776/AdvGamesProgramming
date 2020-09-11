@@ -19,15 +19,6 @@ protected:
 	void BeginPlay() override;
 	void OnPossess(APawn* const pawn) override;
 
-	/*
-	UFUNCTION(BlueprintCallable)
-		void AgentPatrol();
-	UFUNCTION(BlueprintCallable)
-		void AgentEngage();
-	UFUNCTION(BlueprintCallable)
-		void AgentEvade();
-	*/
-
 private:
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
 		class UBehaviorTreeComponent* btree_comp;

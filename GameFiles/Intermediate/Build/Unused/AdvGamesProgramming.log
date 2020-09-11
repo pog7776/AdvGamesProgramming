@@ -1,7 +1,0 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming).
-  Building AdvGamesProgrammingEditor...
-  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 8 processes...
-    [1/1] AdvGamesProgrammingEditor.target
-  Total time in Parallel executor: 0.32 seconds
-  Total execution time: 1.56 seconds

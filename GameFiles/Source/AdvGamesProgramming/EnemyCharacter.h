@@ -67,6 +67,9 @@ public:
 	void EmptyPath();
 
 	UFUNCTION(BlueprintCallable)
+	void Trigger();
+
+	UFUNCTION(BlueprintCallable)
 	void SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus);
 
 	UFUNCTION(BlueprintImplementableEvent)

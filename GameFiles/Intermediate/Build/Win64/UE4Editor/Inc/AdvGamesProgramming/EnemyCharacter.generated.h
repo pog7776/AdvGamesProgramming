@@ -29,6 +29,14 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execTrigger) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Trigger(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execEmptyPath) \
 	{ \
 		P_FINISH; \
@@ -71,6 +79,14 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTrigger) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Trigger(); \
 		P_NATIVE_END; \
 	} \
  \

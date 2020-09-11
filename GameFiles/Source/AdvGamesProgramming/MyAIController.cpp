@@ -18,7 +18,6 @@ AMyAIController::AMyAIController(FObjectInitializer const& object_initializer)
 void AMyAIController::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void AMyAIController::OnPossess(APawn * const pawn)
