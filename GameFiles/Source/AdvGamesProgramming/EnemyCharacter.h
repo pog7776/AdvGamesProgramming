@@ -39,28 +39,30 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	TArray<ANavigationNode*> Path;
-
-	ANavigationNode* CurrentNode;
-	AAIManager* Manager;
-
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	AAIManager* Manager;
 
-	UPROPERTY(VisibleAnywhere)
-	AgentState CurrentAgentState;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	TArray<ANavigationNode*> Path;
+	ANavigationNode* CurrentNode;
 
+
+	//For Sensing
 	UAIPerceptionComponent* PerceptionComponent;
-	UHealthComponent* HealthComponent;
 	UTeamComponent* TeamComponent;
-
 	UPROPERTY(VisibleAnywhere)
-	AActor* DetectedActor;
-
+	bool bSensed;
+	UFUNCTION(BlueprintCallable)
+	bool GetBSensed() const;
 	UPROPERTY(VisibleAnywhere)
 	bool bCanSeeActor;
+	UFUNCTION(BlueprintCallable)
+	bool GetBCanSeeActor() const;
+	UFUNCTION(BlueprintCallable)
+	void SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus);
 
+	//For Path Creation
 	UFUNCTION(BlueprintCallable)
 	void CreatePathPatrol();
 	UFUNCTION(BlueprintCallable)
@@ -68,23 +70,23 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CreatePathEvade();
 	UFUNCTION(BlueprintCallable)
+	void EmptyPath();
+
+	//For Movement
+	UFUNCTION(BlueprintCallable)
 	void AllowMoveAlongPath();
 	void MoveAlongPath();
 
-	UFUNCTION(BlueprintCallable)
-	void EmptyPath();
-
+	//For Combat
+	UHealthComponent* HealthComponent;
+	UPROPERTY(VisibleAnywhere)
+	AActor* DetectedActor;
 	UFUNCTION(BlueprintCallable)
 	void Trigger();
-
-	UFUNCTION(BlueprintCallable)
-	void SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus);
-
 	UFUNCTION(BlueprintImplementableEvent)
 	void Fire(FVector FireDirection);
-
 	UFUNCTION(BlueprintCallable)
-	bool GetBCanSeeActor() const;
+	float CalcKillApprox();
 
 	UPROPERTY(EditAnywhere, Category = "AI")
 	UBehaviorTreeComponent* BehaviorTreeComponent;

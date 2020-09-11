@@ -19,21 +19,11 @@ struct FVector;
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_SPARSE_DATA
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	DECLARE_FUNCTION(execCalcKillApprox) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSensePlayer) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
-		P_GET_STRUCT(FAIStimulus,Z_Param_Stimulus); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		*(float*)Z_Param__Result=P_THIS->CalcKillApprox(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -45,19 +35,19 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execEmptyPath) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EmptyPath(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->AllowMoveAlongPath(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEmptyPath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EmptyPath(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -82,27 +72,43 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CreatePathPatrol(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSensePlayer) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
+		P_GET_STRUCT(FAIStimulus,Z_Param_Stimulus); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBSensed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBSensed(); \
 		P_NATIVE_END; \
 	}
 
 
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	DECLARE_FUNCTION(execCalcKillApprox) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSensePlayer) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
-		P_GET_STRUCT(FAIStimulus,Z_Param_Stimulus); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		*(float*)Z_Param__Result=P_THIS->CalcKillApprox(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -114,19 +120,19 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execEmptyPath) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EmptyPath(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->AllowMoveAlongPath(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEmptyPath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EmptyPath(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -151,6 +157,32 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CreatePathPatrol(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSensePlayer) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_ActorSensed); \
+		P_GET_STRUCT(FAIStimulus,Z_Param_Stimulus); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SensePlayer(Z_Param_ActorSensed,Z_Param_Stimulus); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBCanSeeActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBCanSeeActor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBSensed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetBSensed(); \
 		P_NATIVE_END; \
 	}
 
