@@ -77,6 +77,10 @@ void AEnemyCharacter::CreatePathEvade()
 			Path = Manager->GeneratePath(CurrentNode, Manager->FindFurthestNode(DetectedActor->GetActorLocation()));
 }
 
+void AEnemyCharacter::AllowMoveAlongPath() {
+
+}
+
 void AEnemyCharacter::MoveAlongPath()
 {
 	if (Path.Num() > 0 && Manager != NULL)
