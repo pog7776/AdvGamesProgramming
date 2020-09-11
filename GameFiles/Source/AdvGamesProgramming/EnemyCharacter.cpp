@@ -63,6 +63,13 @@ void AEnemyCharacter::CreatePathEngage()
 {
 	if (bCanSeeActor)
 		if (Path.Num() == 0 && Manager != NULL)
+			Path = Manager->GeneratePath(CurrentNode, Manager->FindNearNode(DetectedActor->GetActorLocation()));
+}
+
+void AEnemyCharacter::CreatePathEngageSpecific()
+{
+	if (bCanSeeActor)
+		if (Path.Num() == 0 && Manager != NULL)
 			Path = Manager->GeneratePath(CurrentNode, Manager->FindNearestNode(DetectedActor->GetActorLocation()));
 }
 

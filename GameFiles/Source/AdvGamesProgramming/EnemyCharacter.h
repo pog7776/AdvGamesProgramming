@@ -69,6 +69,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CreatePathEngage();
 	UFUNCTION(BlueprintCallable)
+	void CreatePathEngageSpecific();
+	UFUNCTION(BlueprintCallable)
 	void CreatePathEvade();
 	UFUNCTION(BlueprintCallable)
 	void EmptyPath();

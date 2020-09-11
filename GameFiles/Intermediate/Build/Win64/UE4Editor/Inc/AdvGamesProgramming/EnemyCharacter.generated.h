@@ -59,6 +59,14 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execCreatePathEngageSpecific) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreatePathEngageSpecific(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execCreatePathEngage) \
 	{ \
 		P_FINISH; \
@@ -141,6 +149,14 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CreatePathEvade(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCreatePathEngageSpecific) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreatePathEngageSpecific(); \
 		P_NATIVE_END; \
 	} \
  \
