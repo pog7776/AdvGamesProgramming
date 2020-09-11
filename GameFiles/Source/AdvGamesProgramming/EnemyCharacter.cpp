@@ -159,6 +159,11 @@ void AEnemyCharacter::AgentEvade()
 	}
 }
 
+void AEnemyCharacter::EmptyPath()
+{
+	Path.Empty();
+}
+
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 {
 	if (Stimulus.WasSuccessfullySensed())

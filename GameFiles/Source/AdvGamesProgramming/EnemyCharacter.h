@@ -49,14 +49,18 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	AActor* DetectedActor;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	bool bCanSeeActor;
 
+	UFUNCTION(BlueprintCallable)
 	void AgentPatrol();
 	void AgentEngage();
 	void AgentEvade();
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
+	void EmptyPath();
+
+	UFUNCTION(BlueprintCallable)
 	void SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus);
 
 	UFUNCTION(BlueprintImplementableEvent)

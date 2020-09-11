@@ -48,8 +48,6 @@ public:
 
 
 #define GameFiles_Source_AdvGamesProgramming_MyAIController_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyAIController(AMyAIController&&); \
@@ -60,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyAIController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyAIController)
 
 
-#define GameFiles_Source_AdvGamesProgramming_MyAIController_h_15_PRIVATE_PROPERTY_OFFSET
+#define GameFiles_Source_AdvGamesProgramming_MyAIController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__btree_comp() { return STRUCT_OFFSET(AMyAIController, btree_comp); } \
+	FORCEINLINE static uint32 __PPO__btree() { return STRUCT_OFFSET(AMyAIController, btree); }
+
+
 #define GameFiles_Source_AdvGamesProgramming_MyAIController_h_12_PROLOG
 #define GameFiles_Source_AdvGamesProgramming_MyAIController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
