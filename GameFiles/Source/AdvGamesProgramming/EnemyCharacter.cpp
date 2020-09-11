@@ -53,7 +53,7 @@ void AEnemyCharacter::Tick(float DeltaTime)
 	default:
 		break;
 	}*/
-
+	/*
 	if (CurrentAgentState == AgentState::PATROL)
 	{
 		if (HealthComponent->HealthPercentageRemaining() >= 0.4f && bCanSeeActor)
@@ -111,6 +111,7 @@ void AEnemyCharacter::Tick(float DeltaTime)
 			AgentEvade();
 		}
 	}
+	*/
 }
 
 // Called to bind functionality to input

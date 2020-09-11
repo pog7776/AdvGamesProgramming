@@ -1698,3 +1698,1058 @@ Make sure 'BTTask_BlueprintBase_New_C' has been compiled for  Get EnemyCharacter
 [2020.09.11-00.04.54:317][ 32]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT429031264F270CD0B728CDB5D538A4FF.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
 [2020.09.11-00.04.54:356][ 32]AssetCheck: New page: Asset Save: EnemyBT
 [2020.09.11-00.04.54:356][ 32]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-00.10.33:557][125]LogEditorTransaction: Undo Delete current selection
+[2020.09.11-00.11.32:456][524]BlueprintLog: New page: Compile InverseResult
+[2020.09.11-00.11.33:575][524]LogUObjectHash: Compacting FUObjectHashTables data took  14.54ms
+[2020.09.11-00.13.47:577][506]LogUObjectHash: Compacting FUObjectHashTables data took  21.52ms
+[2020.09.11-00.13.47:579][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.179
+[2020.09.11-00.13.47:586][506]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/EnemyBT] ([1] browsable assets)...
+[2020.09.11-00.13.47:586][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/EnemyBT]
+[2020.09.11-00.13.47:687][506]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT_Auto8DA223120461851A6370390BEB38AA8FF.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/EnemyBT_Auto8.uasset'
+[2020.09.11-00.13.47:692][506]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTT_DetermineState] ([1] browsable assets)...
+[2020.09.11-00.13.47:692][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTT_DetermineState]
+[2020.09.11-00.13.47:788][506]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DetermineState_Auto8516DBA4E47B3679358EB47A76B053E27.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTT_DetermineState_Auto8.uasset'
+[2020.09.11-00.13.47:793][506]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/InverseResult] ([1] browsable assets)...
+[2020.09.11-00.13.47:793][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/InverseResult]
+[2020.09.11-00.13.47:854][506]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/InverseResult_Auto8B5CBBA60468CD9D87BB05AB251E31F16.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/InverseResult_Auto8.uasset'
+[2020.09.11-00.13.47:858][506]LogFileHelpers: Auto-saving content packages took 0.275
+[2020.09.11-00.18.41:724][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.11-00.18.41:761][259]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT1C7D94004F71225A82B632BEBD2EB442.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.11-00.18.41:799][259]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.11-00.18.41:799][259]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-00.22.43:524][486]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-00.22.43:524][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-00.22.45:921][574]LogUObjectHash: Compacting FUObjectHashTables data took  10.13ms
+[2020.09.11-00.22.46:877][574]LogSlate: Took 0.001926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.11-00.22.51:144][574]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.11-00.22.52:696][574]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BT/InverseResult.InverseResult
+[2020.09.11-00.23.01:381][574]LogUObjectHash: Compacting FUObjectHashTables data took  10.11ms
+[2020.09.11-00.23.01:485][574]LogUObjectHash: Compacting FUObjectHashTables data took   7.81ms
+[2020.09.11-00.23.01:580][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.09.11-00.23.03:636][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.11-00.23.03:710][659]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBTA397004F42009674221C608F07153D48.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.11-00.23.03:764][659]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.11-00.23.03:764][659]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-00.23.06:069][774]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-00.23.08:697][922]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-00.23.08:697][922]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BT/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2020.09.11-00.23.09:303][922]LogPackageName: SearchForPackageOnDisk took   0.001s, but failed to resolve /Game/BT/BTTask_BlueprintBase_New.
+[2020.09.11-00.23.24:241][421]LogUObjectHash: Compacting FUObjectHashTables data took  10.77ms
+[2020.09.11-00.23.24:260][421]LogMetaData: Removing '/Game/BT/BTT_FailIfExecuted.SKEL_BTT_FailIfExecuted_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.11-00.23.24:260][421]LogMetaData: Removing '/Game/BT/BTT_FailIfExecuted.BTT_FailIfExecuted_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.11-00.23.24:376][421]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_FailIfExecuted417280FB42CC20C60F93B6947F9D3363.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_FailIfExecuted.uasset'
+[2020.09.11-00.23.25:063][421]LogUObjectHash: Compacting FUObjectHashTables data took   8.61ms
+[2020.09.11-00.23.25:195][421]LogUObjectHash: Compacting FUObjectHashTables data took   9.37ms
+[2020.09.11-00.23.25:303][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.09.11-00.23.25:433][421]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BT/BTT_FailIfExecuted.
+[2020.09.11-00.23.25:452][421]AssetCheck: New page: Asset Save: BTT_FailIfExecuted
+[2020.09.11-00.23.25:453][421]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_FailIfExecuted.BTT_FailIfExecuted
+[2020.09.11-00.23.53:484][958]BlueprintLog: New page: Compile BTT_FailIfExecuted
+[2020.09.11-00.23.53:601][958]LogUObjectHash: Compacting FUObjectHashTables data took  12.42ms
+[2020.09.11-00.24.51:266][530]Candidate modules for hot reload:
+[2020.09.11-00.24.51:266][530]  AdvGamesProgramming
+[2020.09.11-00.24.51:267][530]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AdvGamesProgramming,240 Win64 Development -TargetType=Editor -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" "C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject"  -IgnoreJunk]
+[2020.09.11-00.24.51:274][530]Warning: Starting HotReload took  0.1s.
+[2020.09.11-00.25.17:711][ 19]CompilerResultsLog: New page: Compilation - 2020. 9. 11. 오후 8:25:17
+[2020.09.11-00.25.17:711][ 19]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+[2020.09.11-00.25.17:711][ 19]CompilerResultsLog: Creating makefile for AdvGamesProgrammingEditor (game project files are newer)
+[2020.09.11-00.25.17:711][ 19]CompilerResultsLog: Parsing headers for AdvGamesProgrammingEditor
+[2020.09.11-00.25.17:711][ 19]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\Development\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog: Reflection code generated for AdvGamesProgrammingEditor in 13.6754707 seconds
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog: Building AdvGamesProgrammingEditor...
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog: Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog: Building 7 actions with 8 processes...
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [1/7] AdvGamesProgramming.init.gen.cpp
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [2/7] EnemyCharacter.gen.cpp
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [3/7] EnemyCharacter.cpp
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [4/7] AIManager.cpp
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [5/7] UE4Editor-AdvGamesProgramming-0240.lib
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0240.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0240.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [6/7] UE4Editor-AdvGamesProgramming-0240.dll
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0240.suppressed.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0240.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog:   [7/7] AdvGamesProgrammingEditor.target
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog: Total time in Parallel executor: 6.27 seconds
+[2020.09.11-00.25.17:712][ 19]CompilerResultsLog: Total execution time: 25.90 seconds
+[2020.09.11-00.25.17:712][ 19]LogMainFrame: MainFrame: Module compiling took 26.468 seconds
+[2020.09.11-00.25.17:808][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   8.91ms
+[2020.09.11-00.25.17:827][ 19]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 3025 classes and 722 folders.
+[2020.09.11-00.25.17:838][ 19]Display: HotReload took 26.7s.
+[2020.09.11-00.25.45:079][769]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_FailIfExecuted2BB7B1A2425FE7C6B0C21F9E86CE211F.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_FailIfExecuted.uasset'
+[2020.09.11-00.25.45:126][769]AssetCheck: New page: Asset Save: BTT_FailIfExecuted
+[2020.09.11-00.25.45:127][769]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_FailIfExecuted.BTT_FailIfExecuted
+[2020.09.11-00.25.45:909][807]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_FailIfExecuted79A986C34277B71804FC019B1C680240.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_FailIfExecuted.uasset'
+[2020.09.11-00.25.45:951][807]AssetCheck: New page: Asset Save: BTT_FailIfExecuted
+[2020.09.11-00.25.45:951][807]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_FailIfExecuted.BTT_FailIfExecuted
+[2020.09.11-00.25.47:413][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.11-00.25.47:462][877]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT5BC9CD4B49DD7C670B0F9D8E0610E194.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.11-00.25.47:500][877]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.11-00.25.47:500][877]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-00.25.58:378][440]LogUObjectHash: Compacting FUObjectHashTables data took  13.70ms
+[2020.09.11-00.25.58:957][440]LogSlate: Window 'Save Content' being destroyed
+[2020.09.11-00.25.59:073][440]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DetermineState3691AA9E4EF8C502ECEFBB8C09EA83ED.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DetermineState.uasset'
+[2020.09.11-00.25.59:111][440]AssetCheck: New page: Asset Save: BTT_DetermineState
+[2020.09.11-00.25.59:111][440]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_DetermineState.BTT_DetermineState
+[2020.09.11-00.26.05:491][667]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-00.26.06:818][738]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-00.26.06:818][738]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BT/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2020.09.11-00.26.07:506][738]LogPackageName: SearchForPackageOnDisk took   0.001s, but failed to resolve /Game/BT/BTTask_BlueprintBase_New.
+[2020.09.11-00.26.19:670][165]LogUObjectHash: Compacting FUObjectHashTables data took  16.75ms
+[2020.09.11-00.26.19:694][165]LogMetaData: Removing '/Game/BT/BTT_DoEvade.SKEL_BTT_DoEvade_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.11-00.26.19:694][165]LogMetaData: Removing '/Game/BT/BTT_DoEvade.BTT_DoEvade_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.11-00.26.19:808][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTT_DoEvade" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEvade.uasset" SILENT=true
+[2020.09.11-00.26.19:818][165]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEvade57A6878341887E1EA557A18D775F4FD0.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEvade.uasset'
+[2020.09.11-00.26.20:572][165]LogUObjectHash: Compacting FUObjectHashTables data took  11.61ms
+[2020.09.11-00.26.20:700][165]LogUObjectHash: Compacting FUObjectHashTables data took  11.92ms
+[2020.09.11-00.26.20:799][165]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.09.11-00.26.20:918][165]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BT/BTT_DoEvade.
+[2020.09.11-00.26.20:936][165]AssetCheck: New page: Asset Save: BTT_DoEvade
+[2020.09.11-00.26.20:936][165]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_DoEvade.BTT_DoEvade
+[2020.09.11-00.26.26:817][388]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-00.26.28:410][471]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-00.26.28:410][471]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BT/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2020.09.11-00.26.29:097][471]LogPackageName: SearchForPackageOnDisk took   0.001s, but failed to resolve /Game/BT/BTTask_BlueprintBase_New.
+[2020.09.11-00.26.35:392][681]LogUObjectHash: Compacting FUObjectHashTables data took  13.31ms
+[2020.09.11-00.26.35:407][681]LogMetaData: Removing '/Game/BT/BTT_DoEngage.SKEL_BTT_DoEngage_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.11-00.26.35:408][681]LogMetaData: Removing '/Game/BT/BTT_DoEngage.BTT_DoEngage_C' ref from Metadata '/Game/BT/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.09.11-00.26.35:503][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTT_DoEngage" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEngage.uasset" SILENT=true
+[2020.09.11-00.26.35:512][681]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEngage46853AF5442209A06BEF4D959F36675D.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEngage.uasset'
+[2020.09.11-00.26.36:244][681]LogUObjectHash: Compacting FUObjectHashTables data took  11.61ms
+[2020.09.11-00.26.36:382][681]LogUObjectHash: Compacting FUObjectHashTables data took   8.53ms
+[2020.09.11-00.26.36:499][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.09.11-00.26.36:645][681]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BT/BTT_DoEngage.
+[2020.09.11-00.26.36:667][681]AssetCheck: New page: Asset Save: BTT_DoEngage
+[2020.09.11-00.26.36:667][681]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_DoEngage.BTT_DoEngage
+[2020.09.11-00.26.58:454][830]BlueprintLog: New page: Compile BTT_DoEvade
+[2020.09.11-00.26.58:455][830]LogBlueprint: Warning: [Compiler BTT_DoEvade] Could not find a variable named "EnemyCharacter" in 'BTT_DoEvade_C'.
+Make sure 'BTT_DoEvade_C' has been compiled for  Get EnemyCharacter
+[2020.09.11-00.26.58:456][830]LogBlueprint: Error: [Compiler BTT_DoEvade] The property associated with  Enemy Character  could not be found in '/Game/BT/BTT_DoEvade.BTT_DoEvade_C'
+[2020.09.11-00.26.58:554][830]LogUObjectHash: Compacting FUObjectHashTables data took  11.03ms
+[2020.09.11-00.27.12:652][615]BlueprintLog: New page: Compile BTT_DoEvade
+[2020.09.11-00.27.12:802][615]LogUObjectHash: Compacting FUObjectHashTables data took  18.46ms
+[2020.09.11-00.27.22:038][ 60]Candidate modules for hot reload:
+[2020.09.11-00.27.22:039][ 60]  AdvGamesProgramming
+[2020.09.11-00.27.22:039][ 60]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AdvGamesProgramming,6843 Win64 Development -TargetType=Editor -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" "C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject"  -IgnoreJunk]
+[2020.09.11-00.27.22:047][ 60]Warning: Starting HotReload took  0.0s.
+[2020.09.11-00.27.27:817][241]CompilerResultsLog: New page: Compilation - 2020. 9. 11. 오후 8:27:27
+[2020.09.11-00.27.27:818][241]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+[2020.09.11-00.27.27:818][241]CompilerResultsLog: Building AdvGamesProgrammingEditor...
+[2020.09.11-00.27.27:818][241]CompilerResultsLog: Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2020.09.11-00.27.27:818][241]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.09.11-00.27.27:818][241]CompilerResultsLog:   [1/3] UE4Editor-AdvGamesProgramming-6843.lib
+[2020.09.11-00.27.27:818][241]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6843.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6843.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-00.27.27:818][241]CompilerResultsLog:   [2/3] UE4Editor-AdvGamesProgramming-6843.dll
+[2020.09.11-00.27.27:818][241]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6843.suppressed.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6843.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-00.27.27:818][241]CompilerResultsLog:   [3/3] AdvGamesProgrammingEditor.target
+[2020.09.11-00.27.27:818][241]CompilerResultsLog: Total time in Parallel executor: 2.55 seconds
+[2020.09.11-00.27.27:818][241]CompilerResultsLog: Total execution time: 5.53 seconds
+[2020.09.11-00.27.27:818][241]LogMainFrame: MainFrame: Module compiling took 5.803 seconds
+[2020.09.11-00.27.27:961][241]LogUObjectHash: Compacting FUObjectHashTables data took  15.03ms
+[2020.09.11-00.27.28:042][241]LogClass: Could not find existing class EnemyCharacter in package /Script/AdvGamesProgramming for HotReload, assuming new class
+[2020.09.11-00.27.28:042][241]LogClass: Function AgentEngage is new.
+[2020.09.11-00.27.28:042][241]LogClass: Function AgentEvade is new.
+[2020.09.11-00.27.28:042][241]LogClass: Function AgentPatrol is new.
+[2020.09.11-00.27.28:043][241]LogClass: Function EmptyPath is new.
+[2020.09.11-00.27.28:043][241]LogClass: Function SensePlayer is new.
+[2020.09.11-00.27.28:080][241]LogClass: AgentState HotReload.
+[2020.09.11-00.27.28:106][241]LogHotReload: Re-instancing EnemyCharacter after hot-reload.
+[2020.09.11-00.27.30:116][241]LogContentBrowser: Native class hierarchy updated for 'AdvGamesProgramming' in 0.0008 seconds. Added 8 classes and 2 folders.
+[2020.09.11-00.27.30:137][241]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.09.11-00.27.30:639][241]LogUObjectHash: Compacting FUObjectHashTables data took  17.46ms
+[2020.09.11-00.27.30:671][241]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 3025 classes and 722 folders.
+[2020.09.11-00.27.30:688][241]Display: HotReload took  8.7s.
+[2020.09.11-00.27.52:524][304]LogUObjectHash: Compacting FUObjectHashTables data took  36.29ms
+[2020.09.11-00.27.52:525][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.251
+[2020.09.11-00.27.52:534][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTT_DoEvade] ([1] browsable assets)...
+[2020.09.11-00.27.52:534][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTT_DoEvade]
+[2020.09.11-00.27.52:615][304]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEvade_Auto96789B5ED470511546A3EF68BDB2E1F78.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTT_DoEvade_Auto9.uasset'
+[2020.09.11-00.27.52:620][304]LogFileHelpers: Auto-saving content packages took 0.087
+[2020.09.11-00.28.13:195][367]LogHttp: Warning: 000001B63FAF2D40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5F6F4E54-413C-B85A-2CCC-558F7DA80D70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=1964d83144f6244a579a7f8e061d3e5f%7Cedf9c4f607fa41caae38df5c911c5763%7C043d8cf7-4a83-4f54-b340-fee4a6f144f5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.09.11-00.28.13:195][367]LogHttp: Warning: 000001B63FAF2D40: request failed, libcurl error: 0 (No error)
+[2020.09.11-00.28.13:195][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1b400947f70 [can pipeline])
+[2020.09.11-00.28.13:195][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 1 (Re-using existing connection! (#244) with host datarouter.ol.epicgames.com)
+[2020.09.11-00.28.13:195][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.54.218.62) port 443 (#244))
+[2020.09.11-00.28.13:195][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.09.11-00.28.13:196][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.09.11-00.28.13:196][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.09.11-00.28.13:196][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.09.11-00.28.13:196][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 7 (Closing connection 244)
+[2020.09.11-00.28.13:196][367]LogHttp: Warning: 000001B63FAF2D40: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.09.11-00.28.13:534][368]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5F6F4E54-413C-B85A-2CCC-558F7DA80D70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=1964d83144f6244a579a7f8e061d3e5f%7Cedf9c4f607fa41caae38df5c911c5763%7C043d8cf7-4a83-4f54-b340-fee4a6f144f5&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.09.11-00.47.44:145][614]BlueprintLog: New page: Compile BTT_DoEvade
+[2020.09.11-00.47.44:258][614]LogUObjectHash: Compacting FUObjectHashTables data took  10.04ms
+[2020.09.11-00.48.17:162][156]LogUObjectHash: Compacting FUObjectHashTables data took   9.29ms
+[2020.09.11-00.48.17:162][156]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.089
+[2020.09.11-00.48.17:163][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTT_DoEvade] ([1] browsable assets)...
+[2020.09.11-00.48.17:163][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTT_DoEvade]
+[2020.09.11-00.48.17:192][156]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEvade_Auto0BC26DFE447C8637E3CECAC9410FC3327.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTT_DoEvade_Auto0.uasset'
+[2020.09.11-00.48.17:194][156]LogFileHelpers: Auto-saving content packages took 0.031
+[2020.09.11-00.49.01:442][ 91]BlueprintLog: New page: Compile BTT_DetermineState
+[2020.09.11-00.49.02:103][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   8.08ms
+[2020.09.11-00.51.16:185][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.11-00.51.16:242][892]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT25C7F11B40549221FEB425BD26BD1A49.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.11-00.51.16:286][892]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.11-00.51.16:286][892]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-00.52.39:123][662]BlueprintLog: New page: Compile BTT_DoEngage
+[2020.09.11-00.52.39:124][662]LogBlueprint: Warning: [Compiler BTT_DoEngage] Could not find a variable named "EnemyCharacter" in 'BTT_DoEngage_C'.
+Make sure 'BTT_DoEngage_C' has been compiled for  Get EnemyCharacter
+[2020.09.11-00.52.39:125][662]LogBlueprint: Error: [Compiler BTT_DoEngage] The property associated with  Enemy Character  could not be found in '/Game/BT/BTT_DoEngage.BTT_DoEngage_C'
+[2020.09.11-00.52.39:987][662]LogUObjectHash: Compacting FUObjectHashTables data took  16.11ms
+[2020.09.11-00.52.43:276][832]BlueprintLog: New page: Compile BTT_DoEngage
+[2020.09.11-00.52.44:239][832]LogUObjectHash: Compacting FUObjectHashTables data took  21.79ms
+[2020.09.11-00.52.44:701][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTT_DoEngage" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEngage.uasset" SILENT=true
+[2020.09.11-00.52.44:760][852]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEngage82ED65A34FE3110FF94F5B82092B08AD.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEngage.uasset'
+[2020.09.11-00.52.44:795][852]AssetCheck: New page: Asset Save: BTT_DoEngage
+[2020.09.11-00.52.44:795][852]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_DoEngage.BTT_DoEngage
+[2020.09.11-00.52.53:238][324]BlueprintLog: New page: Compile BTT_DoEngage
+[2020.09.11-00.52.54:492][324]LogUObjectHash: Compacting FUObjectHashTables data took  22.29ms
+[2020.09.11-00.56.52:477][878]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.52:477][878]LogEditorTransaction: Undo Move Node
+[2020.09.11-00.56.52:721][884]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.52:722][884]LogEditorTransaction: Undo Add Node
+[2020.09.11-00.56.52:971][890]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.52:971][890]LogEditorTransaction: Undo Create Pin Link
+[2020.09.11-00.56.53:367][911]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.53:367][911]LogEditorTransaction: Undo Move Node
+[2020.09.11-00.56.53:742][932]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.53:742][932]LogEditorTransaction: Undo Add Node
+[2020.09.11-00.56.54:126][954]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.54:126][954]LogEditorTransaction: Undo Delete current selection
+[2020.09.11-00.56.54:614][981]Cmd: TRANSACTION UNDO
+[2020.09.11-00.56.54:614][981]LogEditorTransaction: Undo Delete current selection
+[2020.09.11-00.59.54:805][618]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-01.00.07:656][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.11-01.00.07:717][375]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBTE9672D40404EF7C484069ABE551C0288.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.11-01.00.07:721][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBB" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBB.uasset" SILENT=true
+[2020.09.11-01.00.07:751][375]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBB60327BE64325FE29174501B747C81B1A.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBB.uasset'
+[2020.09.11-01.00.07:824][375]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.11-01.00.07:824][375]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-01.00.07:825][375]LogContentValidation: Display: Validating BlackboardData /Game/BT/EnemyBB.EnemyBB
+[2020.09.11-01.01.00:632][430]BlueprintLog: New page: Compile BTT_DoEvade
+[2020.09.11-01.01.01:479][430]LogUObjectHash: Compacting FUObjectHashTables data took  12.53ms
+[2020.09.11-01.02.34:214][771]LogEditorTransaction: Undo Move Node
+[2020.09.11-01.03.07:369][731]LogEditorTransaction: Undo Move Node
+[2020.09.11-01.03.08:026][752]LogEditorTransaction: Undo Create Reroute Node
+[2020.09.11-01.03.08:839][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTS_GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset" SILENT=true
+[2020.09.11-01.03.08:907][795]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTS_GetCharacter69F9FEBF4679ABA358CEE7AEFBC8C120.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset'
+[2020.09.11-01.03.08:949][795]AssetCheck: New page: Asset Save: BTS_GetCharacter
+[2020.09.11-01.03.08:949][795]LogContentValidation: Display: Validating Blueprint /Game/BT/BTS_GetCharacter.BTS_GetCharacter
+[2020.09.11-01.03.09:993][849]BlueprintLog: New page: Compile BTS_GetCharacter
+[2020.09.11-01.03.10:897][849]LogUObjectHash: Compacting FUObjectHashTables data took  12.90ms
+[2020.09.11-01.04.20:097][878]BlueprintLog: New page: Compile BTT_FailIfExecuted
+[2020.09.11-01.04.20:938][878]LogUObjectHash: Compacting FUObjectHashTables data took  12.00ms
+[2020.09.11-01.04.30:690][443]BlueprintLog: New page: Compile BTT_FailIfExecuted
+[2020.09.11-01.04.31:464][443]LogUObjectHash: Compacting FUObjectHashTables data took  11.95ms
+[2020.09.11-01.04.31:994][463]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_FailIfExecuted3FBE96534A6BF6D13BCE2C8A95CFEFBE.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_FailIfExecuted.uasset'
+[2020.09.11-01.04.32:033][463]AssetCheck: New page: Asset Save: BTT_FailIfExecuted
+[2020.09.11-01.04.32:033][463]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_FailIfExecuted.BTT_FailIfExecuted
+[2020.09.11-01.04.35:426][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTT_DoEvade" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEvade.uasset" SILENT=true
+[2020.09.11-01.04.35:470][655]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEvadeB036BCC0493710C17A7231AA07451C18.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEvade.uasset'
+[2020.09.11-01.04.35:508][655]AssetCheck: New page: Asset Save: BTT_DoEvade
+[2020.09.11-01.04.35:508][655]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_DoEvade.BTT_DoEvade
+[2020.09.11-01.05.01:847][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/EnemyBT" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset" SILENT=true
+[2020.09.11-01.05.01:901][227]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT2526C548409698B71A76C7BC9EA40E45.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/EnemyBT.uasset'
+[2020.09.11-01.05.01:934][227]AssetCheck: New page: Asset Save: EnemyBT
+[2020.09.11-01.05.01:934][227]LogContentValidation: Display: Validating BehaviorTree /Game/BT/EnemyBT.EnemyBT
+[2020.09.11-01.05.07:774][510]Candidate modules for hot reload:
+[2020.09.11-01.05.07:774][510]  AdvGamesProgramming
+[2020.09.11-01.05.07:774][510]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AdvGamesProgramming,4903 Win64 Development -TargetType=Editor -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" "C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject"  -IgnoreJunk]
+[2020.09.11-01.05.07:779][510]Warning: Starting HotReload took  0.0s.
+[2020.09.11-01.05.10:776][600]LogUObjectHash: Compacting FUObjectHashTables data took  23.12ms
+[2020.09.11-01.05.12:536][600]LogSlate: Window 'Save Content' being destroyed
+[2020.09.11-01.05.12:610][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTT_DoEngage" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEngage.uasset" SILENT=true
+[2020.09.11-01.05.12:657][600]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_DoEngage1668F6F94673D616F59F56BA48548BC3.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_DoEngage.uasset'
+[2020.09.11-01.05.12:695][600]AssetCheck: New page: Asset Save: BTT_DoEngage
+[2020.09.11-01.05.12:695][600]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_DoEngage.BTT_DoEngage
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: New page: Compilation - 2020. 9. 11. 오후 9:05:14
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: Building AdvGamesProgrammingEditor...
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.09.11-01.05.14:273][653]CompilerResultsLog:   [1/3] UE4Editor-AdvGamesProgramming-4903.lib
+[2020.09.11-01.05.14:273][653]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-4903.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-4903.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-01.05.14:273][653]CompilerResultsLog:   [2/3] UE4Editor-AdvGamesProgramming-4903.dll
+[2020.09.11-01.05.14:273][653]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-4903.suppressed.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-4903.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-01.05.14:273][653]CompilerResultsLog:   [3/3] AdvGamesProgrammingEditor.target
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: Total time in Parallel executor: 3.03 seconds
+[2020.09.11-01.05.14:273][653]CompilerResultsLog: Total execution time: 6.28 seconds
+[2020.09.11-01.05.14:273][653]LogMainFrame: MainFrame: Module compiling took 6.519 seconds
+[2020.09.11-01.05.14:397][653]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.09.11-01.05.14:514][653]LogClass: AgentState HotReload.
+[2020.09.11-01.05.14:534][653]LogContentBrowser: Native class hierarchy updated for 'AdvGamesProgramming' in 0.0008 seconds. Added 8 classes and 2 folders.
+[2020.09.11-01.05.14:552][653]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.09.11-01.05.15:025][653]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2020.09.11-01.05.15:045][653]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 3025 classes and 722 folders.
+[2020.09.11-01.05.15:057][653]Display: HotReload took  7.3s.
+[2020.09.11-01.05.19:129][763]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.05.19:255][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.05.19:256][763]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:05:19)
+[2020.09.11-01.05.19:264][763]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.11-01.05.19:267][763]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.11-01.05.19:268][763]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.05.19:314][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044702s)
+[2020.09.11-01.05.19:316][763]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.05.19:316][763]LogPlayLevel: PIE: World Init took: (0.002601s)
+[2020.09.11-01.05.19:316][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.047961s)
+[2020.09.11-01.05.19:488][763]LogUObjectHash: Compacting FUObjectHashTables data took  14.60ms
+[2020.09.11-01.05.19:493][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.05.19:494][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.05.19:494][763]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.05.19:494][763]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.05.19:830][763]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.05.19:830][763]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.05.19:831][763]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.05.20:174][763]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.05.20:178][763]LogInit: FAudioDevice initialized.
+[2020.09.11-01.05.20:204][763]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.05.20:220][763]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.05.20
+[2020.09.11-01.05.20:237][763]LogWorld: Bringing up level for play took: 0.020702
+[2020.09.11-01.05.20:238][763]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.09.11-01.05.20:323][763]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.09.11-01.05.20:324][763]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.05.20:338][763]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 1.839
+[2020.09.11-01.05.20:346][763]LogTemp: Display: At Node NavigationNode14
+[2020.09.11-01.05.20:843][764]LogTemp: Display: At Node NavigationNode14
+[2020.09.11-01.05.22:642][828]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.22:668][829]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.24:136][888]LogTemp: Display: At Node NavigationNode7
+[2020.09.11-01.05.24:161][889]LogTemp: Display: At Node NavigationNode7
+[2020.09.11-01.05.24:185][890]LogTemp: Display: At Node NavigationNode7
+[2020.09.11-01.05.25:522][942]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.25:547][943]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.27:460][ 18]LogTemp: Display: At Node NavigationNode14
+[2020.09.11-01.05.27:488][ 19]LogTemp: Display: At Node NavigationNode14
+[2020.09.11-01.05.29:171][ 86]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.29:195][ 87]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.29:219][ 88]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.29:244][ 89]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.30:718][150]LogTemp: Display: At Node NavigationNode7
+[2020.09.11-01.05.31:908][195]LogTemp: Warning: Player Detected
+[2020.09.11-01.05.32:033][197]LogTemp: Error: Furthest Node: NavigationNode_6
+[2020.09.11-01.05.32:711][217]LogTemp: Display: At Node NavigationNode11_13
+[2020.09.11-01.05.32:757][218]LogTemp: Display: At Node NavigationNode11_13
+[2020.09.11-01.05.32:788][220]LogTemp: Warning: Player Lost
+[2020.09.11-01.05.34:698][295]LogTemp: Display: At Node NavigationNode7
+[2020.09.11-01.05.36:192][335]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.36:231][336]LogTemp: Display: At Node NavigationNode_6
+[2020.09.11-01.05.38:077][388]LogTemp: Display: At Node NavigationNode14
+[2020.09.11-01.05.38:220][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.09.11-01.05.38:522][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.09.11-01.05.39:537][413]LogTemp: Display: At Node NavigationNode10
+[2020.09.11-01.05.41:360][456]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacterBlueprint_C (EnemyCharacterBlueprint)
+[2020.09.11-01.06.04:244][439]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.06.04:244][439]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.06.04:252][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.06.04:252][439]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.06.04:254][439]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.06.04:256][439]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.06.04:257][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.06.04:281][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.06.04:297][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.06.04:441][439]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.06.04:456][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.06.04:549][439]LogUObjectHash: Compacting FUObjectHashTables data took  19.61ms
+[2020.09.11-01.06.04:636][440]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.09.11-01.06.44:839][609]Candidate modules for hot reload:
+[2020.09.11-01.06.44:839][609]  AdvGamesProgramming
+[2020.09.11-01.06.44:840][609]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AdvGamesProgramming,6710 Win64 Development -TargetType=Editor -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" "C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject"  -IgnoreJunk]
+[2020.09.11-01.06.44:846][609]Warning: Starting HotReload took  0.0s.
+[2020.09.11-01.06.55:629][858]CompilerResultsLog: New page: Compilation - 2020. 9. 11. 오후 9:06:55
+[2020.09.11-01.06.55:629][858]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+[2020.09.11-01.06.55:629][858]CompilerResultsLog: Building AdvGamesProgrammingEditor...
+[2020.09.11-01.06.55:629][858]CompilerResultsLog: Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2020.09.11-01.06.55:629][858]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.09.11-01.06.55:629][858]CompilerResultsLog:   [1/4] EnemyCharacter.cpp
+[2020.09.11-01.06.55:630][858]CompilerResultsLog:   [2/4] UE4Editor-AdvGamesProgramming-6710.lib
+[2020.09.11-01.06.55:630][858]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6710.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6710.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-01.06.55:630][858]CompilerResultsLog:   [3/4] UE4Editor-AdvGamesProgramming-6710.dll
+[2020.09.11-01.06.55:630][858]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6710.suppressed.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-6710.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-01.06.55:630][858]CompilerResultsLog:   [4/4] AdvGamesProgrammingEditor.target
+[2020.09.11-01.06.55:630][858]CompilerResultsLog: Total time in Parallel executor: 7.14 seconds
+[2020.09.11-01.06.55:630][858]CompilerResultsLog: Total execution time: 10.53 seconds
+[2020.09.11-01.06.55:630][858]LogMainFrame: MainFrame: Module compiling took 10.812 seconds
+[2020.09.11-01.06.55:764][858]LogUObjectHash: Compacting FUObjectHashTables data took  11.95ms
+[2020.09.11-01.06.55:901][858]LogClass: AgentState HotReload.
+[2020.09.11-01.06.55:927][858]LogContentBrowser: Native class hierarchy updated for 'AdvGamesProgramming' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2020.09.11-01.06.55:945][858]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.09.11-01.06.56:480][858]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2020.09.11-01.06.56:503][858]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 3025 classes and 722 folders.
+[2020.09.11-01.06.56:519][858]Display: HotReload took 11.7s.
+[2020.09.11-01.06.58:074][887]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.06.58:244][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.06.58:244][887]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:06:58)
+[2020.09.11-01.06.58:244][887]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.06.58:278][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033780s)
+[2020.09.11-01.06.58:280][887]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.06.58:281][887]LogPlayLevel: PIE: World Init took: (0.002636s)
+[2020.09.11-01.06.58:281][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.036705s)
+[2020.09.11-01.06.58:449][887]LogUObjectHash: Compacting FUObjectHashTables data took  14.94ms
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.06.58:450][887]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.06.58:450][887]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.06.58:451][887]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.06.58:451][887]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.06.58:847][887]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.06.59:332][887]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.06.59:335][887]LogInit: FAudioDevice initialized.
+[2020.09.11-01.06.59:344][887]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.06.59:350][887]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.06.59
+[2020.09.11-01.06.59:351][887]LogWorld: Bringing up level for play took: 0.005414
+[2020.09.11-01.06.59:351][887]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.09.11-01.06.59:354][887]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.06.59:359][887]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 0.86
+[2020.09.11-01.07.05:411][ 92]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacterBlueprint_C (EnemyCharacterBlueprint)
+[2020.09.11-01.07.44:537][351]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacterBlueprint_C (EnemyCharacterBlueprint)
+[2020.09.11-01.08.06:535][127]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.08.06:535][127]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.08.06:540][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.08.06:540][127]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.08.06:541][127]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.08.06:541][127]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.08.06:542][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.08.06:554][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.08.06:566][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.08.06:662][127]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.08.06:676][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.08.06:690][127]LogUObjectHash: Compacting FUObjectHashTables data took  12.30ms
+[2020.09.11-01.08.06:723][128]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.09.11-01.11.18:086][747]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-01.12.23:652][ 75]BlueprintLog: New page: Compile BTT_CanSensePlayer
+[2020.09.11-01.12.23:655][ 75]LogBlueprint: Error: [Compiler BTT_CanSensePlayer] Event Dispatcher pin is not connected  Bind Event to On Perception Updated
+[2020.09.11-01.12.24:498][ 75]LogUObjectHash: Compacting FUObjectHashTables data took  10.28ms
+[2020.09.11-01.13.02:625][ 92]LogEditorTransaction: Undo Move Nodes
+[2020.09.11-01.17.42:458][719]LogUObjectHash: Compacting FUObjectHashTables data took   9.76ms
+[2020.09.11-01.17.42:459][719]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.102
+[2020.09.11-01.17.42:460][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTT_CanSensePlayer] ([1] browsable assets)...
+[2020.09.11-01.17.42:460][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTT_CanSensePlayer]
+[2020.09.11-01.17.42:488][719]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_CanSensePlayer_Auto1DAB2B6FE4A2CE57BD02C3A88D1718AFA.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTT_CanSensePlayer_Auto1.uasset'
+[2020.09.11-01.17.42:490][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTT_Test_CalcHealth] ([1] browsable assets)...
+[2020.09.11-01.17.42:490][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTT_Test_CalcHealth]
+[2020.09.11-01.17.42:516][719]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_Test_CalcHealth_Auto1931F4C6A4F89E607AAAE308C42B11DB0.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTT_Test_CalcHealth_Auto1.uasset'
+[2020.09.11-01.17.42:518][719]LogFileHelpers: Auto-saving content packages took 0.058
+[2020.09.11-01.21.20:121][621]BlueprintLog: New page: Compile BTT_CanSensePlayer
+[2020.09.11-01.21.20:963][621]LogUObjectHash: Compacting FUObjectHashTables data took  12.57ms
+[2020.09.11-01.22.19:406][436]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_CanSensePlayer79DC9EA140E7E55A02536DA6B713DC89.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_CanSensePlayer.uasset'
+[2020.09.11-01.22.19:438][436]AssetCheck: New page: Asset Save: BTT_CanSensePlayer
+[2020.09.11-01.22.19:438][436]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer
+[2020.09.11-01.22.38:178][496]LogUObjectHash: Compacting FUObjectHashTables data took  10.72ms
+[2020.09.11-01.22.39:211][496]LogSlate: Window 'Save Content' being destroyed
+[2020.09.11-01.22.39:309][496]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_CanSensePlayer571FB321446DEFA4AD7B5785AA6A150E.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_CanSensePlayer.uasset'
+[2020.09.11-01.22.39:344][496]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_Test_CalcHealthA0BC49694AD43FBC9A69C79903AFAE74.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTT_Test_CalcHealth.uasset'
+[2020.09.11-01.22.39:386][496]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.11-01.22.39:386][496]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer
+[2020.09.11-01.22.39:386][496]LogContentValidation: Display: Validating Blueprint /Game/BT/BTT_Test_CalcHealth.BTT_Test_CalcHealth
+[2020.09.11-01.22.41:064][545]Candidate modules for hot reload:
+[2020.09.11-01.22.41:065][545]  AdvGamesProgramming
+[2020.09.11-01.22.41:065][545]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AdvGamesProgramming,9740 Win64 Development -TargetType=Editor -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" "C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject"  -IgnoreJunk]
+[2020.09.11-01.22.41:070][545]Warning: Starting HotReload took  0.1s.
+[2020.09.11-01.22.47:030][681]CompilerResultsLog: New page: Compilation - 2020. 9. 11. 오후 9:22:47
+[2020.09.11-01.22.47:031][681]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+[2020.09.11-01.22.47:031][681]CompilerResultsLog: Building AdvGamesProgrammingEditor...
+[2020.09.11-01.22.47:031][681]CompilerResultsLog: Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2020.09.11-01.22.47:031][681]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.09.11-01.22.47:031][681]CompilerResultsLog:   [1/3] UE4Editor-AdvGamesProgramming-9740.lib
+[2020.09.11-01.22.47:031][681]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-9740.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-9740.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-01.22.47:031][681]CompilerResultsLog:   [2/3] UE4Editor-AdvGamesProgramming-9740.dll
+[2020.09.11-01.22.47:031][681]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-9740.suppressed.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-9740.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.11-01.22.47:032][681]CompilerResultsLog:   [3/3] AdvGamesProgrammingEditor.target
+[2020.09.11-01.22.47:032][681]CompilerResultsLog: Total time in Parallel executor: 2.99 seconds
+[2020.09.11-01.22.47:032][681]CompilerResultsLog: Total execution time: 5.75 seconds
+[2020.09.11-01.22.47:032][681]LogMainFrame: MainFrame: Module compiling took 5.991 seconds
+[2020.09.11-01.22.47:153][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.09.11-01.22.47:268][681]LogClass: AgentState HotReload.
+[2020.09.11-01.22.47:289][681]LogContentBrowser: Native class hierarchy updated for 'AdvGamesProgramming' in 0.0007 seconds. Added 8 classes and 2 folders.
+[2020.09.11-01.22.47:305][681]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.09.11-01.22.47:794][681]LogUObjectHash: Compacting FUObjectHashTables data took   6.57ms
+[2020.09.11-01.22.47:815][681]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 3025 classes and 722 folders.
+[2020.09.11-01.22.47:827][681]Display: HotReload took  6.8s.
+[2020.09.11-01.22.48:818][691]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.22.48:941][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.22.48:942][691]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:22:48)
+[2020.09.11-01.22.48:942][691]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.22.48:969][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026952s)
+[2020.09.11-01.22.48:970][691]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.22.48:970][691]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2020.09.11-01.22.48:970][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.028443s)
+[2020.09.11-01.22.49:122][691]LogUObjectHash: Compacting FUObjectHashTables data took  13.32ms
+[2020.09.11-01.22.49:122][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.22.49:122][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.22.49:122][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.22.49:123][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.22.49:123][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.22.49:123][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.22.49:123][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.22.49:123][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.22.49:123][691]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.22.49:123][691]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.22.49:493][691]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.22.49:828][691]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.22.49:830][691]LogInit: FAudioDevice initialized.
+[2020.09.11-01.22.49:843][691]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.22.49:846][691]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.22.49
+[2020.09.11-01.22.49:847][691]LogWorld: Bringing up level for play took: 0.003115
+[2020.09.11-01.22.49:847][691]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.09.11-01.22.49:850][691]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.22.49:854][691]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 1.355
+[2020.09.11-01.22.49:856][691]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.22.49:856][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.22.49:856][691]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.22.49:856][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.22.49:857][691]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.22.49:857][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.22.49:857][691]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.22.49:857][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.22.49:857][691]LogTemp: Warning: Player Detected
+[2020.09.11-01.22.54:088][824]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacterBlueprint_C (EnemyCharacterBlueprint)
+[2020.09.11-01.24.51:711][373]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.24.51:711][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.25.00:771][876]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.25.00:772][876]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.25.00:776][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.25.00:776][876]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.25.00:777][876]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.25.00:777][876]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.25.00:778][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.25.00:795][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.25.00:808][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.25.00:896][876]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.25.00:910][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.25.00:931][876]LogUObjectHash: Compacting FUObjectHashTables data took  13.90ms
+[2020.09.11-01.25.01:052][877]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.09.11-01.25.03:824][996]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.25.03:944][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.25.03:945][996]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:25:03)
+[2020.09.11-01.25.03:945][996]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.25.03:982][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036937s)
+[2020.09.11-01.25.03:983][996]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.25.03:983][996]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2020.09.11-01.25.03:983][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.038452s)
+[2020.09.11-01.25.04:088][996]LogUObjectHash: Compacting FUObjectHashTables data took  11.12ms
+[2020.09.11-01.25.04:090][996]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.25.04:091][996]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.25.04:091][996]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.25.04:091][996]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.25.04:443][996]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.25.04:799][996]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.25.04:801][996]LogInit: FAudioDevice initialized.
+[2020.09.11-01.25.04:877][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.25.04:878][996]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.25.04:884][996]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.25.04
+[2020.09.11-01.25.04:885][996]LogWorld: Bringing up level for play took: 0.006409
+[2020.09.11-01.25.04:886][996]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.09.11-01.25.04:889][996]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.25.04:898][996]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 0.399
+[2020.09.11-01.25.04:899][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.25.04:900][996]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.25.04:900][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.25.04:900][996]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.25.04:900][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.25.04:900][996]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.25.04:900][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.25.04:900][996]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.25.17:425][440]LogTemp: Warning: Player Detected
+[2020.09.11-01.25.17:630][449]LogTemp: Warning: Player Lost
+[2020.09.11-01.25.22:094][642]LogTemp: Warning: Player Detected
+[2020.09.11-01.25.23:260][692]LogTemp: Warning: Player Lost
+[2020.09.11-01.25.23:376][697]LogTemp: Warning: Player Detected
+[2020.09.11-01.25.24:809][758]LogScript: Warning: Attempted to access missing property 'CurrentHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	GunBlueprint_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Gun_GEN_VARIABLE_GunBlueprint_C_CAT_0
+	Function /Game/Blueprints/GunBlueprint.GunBlueprint_C:Fire:065A
+[2020.09.11-01.25.24:809][758]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'CurrentHealth'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  GunBlueprint Function:  Fire Graph:  Fire Node:  Print String
+[2020.09.11-01.27.46:201][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.27.46:201][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.27.46:206][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.27.46:206][624]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.27.46:216][624]LogSlate: Window 'AdvGamesProgramming Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.09.11-01.27.46:248][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.27.46:249][624]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.27.46:251][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.27.46:267][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.27.46:283][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.27.46:383][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.27.46:409][624]LogUObjectHash: Compacting FUObjectHashTables data took   9.83ms
+[2020.09.11-01.27.46:542][625]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.09.11-01.28.03:153][534]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.28.03:283][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.28.03:283][534]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:28:03)
+[2020.09.11-01.28.03:283][534]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.28.03:320][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036673s)
+[2020.09.11-01.28.03:321][534]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.28.03:322][534]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2020.09.11-01.28.03:322][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.038245s)
+[2020.09.11-01.28.03:448][534]LogUObjectHash: Compacting FUObjectHashTables data took  12.67ms
+[2020.09.11-01.28.03:450][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.28.03:451][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.28.03:451][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.28.03:451][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.28.03:451][534]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.28.03:451][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.28.03:451][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.28.03:451][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.28.03:452][534]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.28.03:452][534]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.28.03:827][534]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.28.03:827][534]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.28.03:827][534]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.28.03:828][534]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.28.03:828][534]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.28.03:828][534]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.28.03:828][534]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.28.03:828][534]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.28.03:828][534]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.28.04:183][534]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.28.04:185][534]LogInit: FAudioDevice initialized.
+[2020.09.11-01.28.04:254][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.28.04:254][534]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.28.04:260][534]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.28.04
+[2020.09.11-01.28.04:261][534]LogWorld: Bringing up level for play took: 0.006128
+[2020.09.11-01.28.04:262][534]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.09.11-01.28.04:265][534]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.28.04:274][534]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 1.775
+[2020.09.11-01.28.04:275][534]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.28.04:275][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.28.04:276][534]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.28.04:276][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.28.04:276][534]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.28.04:276][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.28.04:276][534]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.28.04:276][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.28.04:276][534]LogTemp: Warning: Player Detected
+[2020.09.11-01.28.04:523][535]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.28.04:523][535]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveTick
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.28.55:195][536]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.28.55:195][536]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveTick
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.29.00:946][536]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.29.00:946][536]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveTick
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.29.02:982][536]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.29.02:982][536]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.29.02:987][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.29.02:987][536]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.29.02:996][536]LogSlate: Window 'AdvGamesProgramming Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.09.11-01.29.03:000][536]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.29.03:001][536]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.29.03:003][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.29.03:013][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.29.03:028][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.29.03:125][536]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.29.03:150][536]LogUObjectHash: Compacting FUObjectHashTables data took   9.58ms
+[2020.09.11-01.29.03:285][537]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.09.11-01.29.27:789][886]BlueprintLog: New page: Compile BTS_GetCharacter
+[2020.09.11-01.29.28:574][886]LogUObjectHash: Compacting FUObjectHashTables data took  12.15ms
+[2020.09.11-01.29.29:104][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTS_GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset" SILENT=true
+[2020.09.11-01.29.29:155][904]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTS_GetCharacter4F356C254338CC455F1478B1E21CA92C.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset'
+[2020.09.11-01.29.29:189][904]AssetCheck: New page: Asset Save: BTS_GetCharacter
+[2020.09.11-01.29.29:189][904]LogContentValidation: Display: Validating Blueprint /Game/BT/BTS_GetCharacter.BTS_GetCharacter
+[2020.09.11-01.29.32:377][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.29.32:492][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.29.32:492][ 86]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:29:32)
+[2020.09.11-01.29.32:492][ 86]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.29.32:521][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028927s)
+[2020.09.11-01.29.32:522][ 86]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.29.32:523][ 86]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2020.09.11-01.29.32:523][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.030857s)
+[2020.09.11-01.29.32:633][ 86]LogUObjectHash: Compacting FUObjectHashTables data took  12.76ms
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.29.32:634][ 86]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.29.32:634][ 86]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.29.32:635][ 86]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.29.32:635][ 86]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.29.32:981][ 86]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.29.33:331][ 86]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.29.33:333][ 86]LogInit: FAudioDevice initialized.
+[2020.09.11-01.29.33:395][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.29.33:396][ 86]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.29.33:401][ 86]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.29.33
+[2020.09.11-01.29.33:401][ 86]LogWorld: Bringing up level for play took: 0.004721
+[2020.09.11-01.29.33:402][ 86]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.09.11-01.29.33:404][ 86]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.29.33:410][ 86]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.29.33:410][ 86]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.29.55:800][ 86]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.29.55:800][ 86]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.30.00:413][ 86]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.30.00:413][ 86]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.30.12:622][ 86]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 42
+[2020.09.11-01.30.12:622][ 86]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.30.14:945][ 86]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 42.446
+[2020.09.11-01.30.14:947][ 86]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.30.14:947][ 86]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.14:947][ 86]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.30.14:947][ 86]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.14:948][ 86]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.30.14:948][ 86]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.14:948][ 86]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_0.BTComponent.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.30.14:948][ 86]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.29:421][678]LogSlate: Window 'AdvGamesProgramming Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.09.11-01.30.29:448][678]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.30.29:449][678]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.30.29:449][678]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.30.29:450][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.30.29:463][678]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.30.29:480][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.30.29:588][678]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.30.29:617][678]LogUObjectHash: Compacting FUObjectHashTables data took   9.73ms
+[2020.09.11-01.30.29:719][679]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.09.11-01.30.45:872][588]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.30.45:980][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.30.45:980][588]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:30:45)
+[2020.09.11-01.30.45:980][588]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.30.46:010][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030206s)
+[2020.09.11-01.30.46:011][588]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.30.46:012][588]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2020.09.11-01.30.46:012][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.031585s)
+[2020.09.11-01.30.46:107][588]LogUObjectHash: Compacting FUObjectHashTables data took   8.95ms
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.30.46:108][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.30.46:108][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.30.46:109][588]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.30.46:109][588]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.30.46:443][588]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.30.46:444][588]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.30.46:799][588]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.30.46:801][588]LogInit: FAudioDevice initialized.
+[2020.09.11-01.30.46:812][588]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.30.46:816][588]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.30.46
+[2020.09.11-01.30.46:816][588]LogWorld: Bringing up level for play took: 0.003264
+[2020.09.11-01.30.46:816][588]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.09.11-01.30.46:819][588]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.30.46:822][588]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 0.323
+[2020.09.11-01.30.46:823][588]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BTT_CanSensePlayer_C /Game/Levels/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.MyAIController_1.BehaviorTree.BTTask_BlueprintBase_New_C_0
+	Function /Game/BT/BTT_CanSensePlayer.BTT_CanSensePlayer_C:ExecuteUbergraph_BTT_CanSensePlayer:0062
+[2020.09.11-01.30.46:823][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.46:823][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.46:823][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.46:823][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.30.46:824][588]LogTemp: Warning: Player Detected
+[2020.09.11-01.31.00:450][270]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.31.00:450][270]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.31.00:453][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.31.00:453][270]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.31.00:454][270]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.31.00:454][270]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.31.00:455][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.31.00:466][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.31.00:478][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.31.00:562][270]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.31.00:574][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.31.00:585][270]LogUObjectHash: Compacting FUObjectHashTables data took   9.01ms
+[2020.09.11-01.31.00:711][271]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.09.11-01.31.32:920][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTS_GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset" SILENT=true
+[2020.09.11-01.31.32:970][ 95]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTS_GetCharacter289C6E904B87B139BE8B05A301D7DBF0.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset'
+[2020.09.11-01.31.33:005][ 95]AssetCheck: New page: Asset Save: BTS_GetCharacter
+[2020.09.11-01.31.33:006][ 95]LogContentValidation: Display: Validating Blueprint /Game/BT/BTS_GetCharacter.BTS_GetCharacter
+[2020.09.11-01.33.32:323][865]LogEditorTransaction: Undo Delete current selection
+[2020.09.11-01.33.49:839][857]BlueprintLog: New page: Compile BTS_GetCharacter
+[2020.09.11-01.33.50:663][857]LogUObjectHash: Compacting FUObjectHashTables data took  11.59ms
+[2020.09.11-01.33.52:611][937]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.33.52:728][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.33.52:728][937]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:33:52)
+[2020.09.11-01.33.52:728][937]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.33.52:758][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030295s)
+[2020.09.11-01.33.52:760][937]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.33.52:760][937]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2020.09.11-01.33.52:760][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.031904s)
+[2020.09.11-01.33.52:874][937]LogUObjectHash: Compacting FUObjectHashTables data took  15.30ms
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.33.52:875][937]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.33.52:875][937]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.33.52:876][937]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.33.52:876][937]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.33.53:198][937]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.33.53:533][937]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.33.53:535][937]LogInit: FAudioDevice initialized.
+[2020.09.11-01.33.53:542][937]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.33.53:545][937]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.33.53
+[2020.09.11-01.33.53:546][937]LogWorld: Bringing up level for play took: 0.002816
+[2020.09.11-01.33.53:546][937]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.09.11-01.33.53:548][937]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.33.53:553][937]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 235
+[2020.09.11-01.33.53:553][937]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.34.44:264][937]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 51.766
+[2020.09.11-01.34.44:265][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.34.44:265][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.34.44:266][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.34.44:266][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.34.44:267][937]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.34.44:287][937]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.11-01.34.44:307][937]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.11-01.34.44:311][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.34.44:311][937]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.34.44:311][937]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.34.44:311][937]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.34.44:313][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.34.44:329][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.34.44:341][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.34.44:433][937]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.34.44:449][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.34.44:462][937]LogUObjectHash: Compacting FUObjectHashTables data took  10.93ms
+[2020.09.11-01.34.44:559][938]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.09.11-01.34.47:734][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.09.11-01.34.47:735][ 56]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.103
+[2020.09.11-01.34.47:736][ 56]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTS_GetCharacter] ([1] browsable assets)...
+[2020.09.11-01.34.47:736][ 56]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTS_GetCharacter]
+[2020.09.11-01.34.47:786][ 56]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTS_GetCharacter_Auto2F0FA85CD4169268E93B95DB1C2A7BA0C.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTS_GetCharacter_Auto2.uasset'
+[2020.09.11-01.34.47:788][ 56]LogFileHelpers: Auto-saving content packages took 0.053
+[2020.09.11-01.34.55:909][513]BlueprintLog: New page: Compile BTS_GetCharacter
+[2020.09.11-01.34.56:922][513]LogUObjectHash: Compacting FUObjectHashTables data took  10.95ms
+[2020.09.11-01.35.00:648][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTS_GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset" SILENT=true
+[2020.09.11-01.35.00:726][720]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTS_GetCharacter61A73E464EA0639608059BB296DB9BD7.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset'
+[2020.09.11-01.35.00:782][720]AssetCheck: New page: Asset Save: BTS_GetCharacter
+[2020.09.11-01.35.00:782][720]LogContentValidation: Display: Validating Blueprint /Game/BT/BTS_GetCharacter.BTS_GetCharacter
+[2020.09.11-01.35.03:251][834]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.11-01.35.03:388][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.11-01.35.03:388][834]PIE: New page: PIE session: TestingMap (2020. 9. 11. 오후 9:35:03)
+[2020.09.11-01.35.03:388][834]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.35.03:423][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034461s)
+[2020.09.11-01.35.03:424][834]LogAIModule: Creating AISystem for world TestingMap
+[2020.09.11-01.35.03:424][834]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2020.09.11-01.35.03:424][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_0_TestingMap.TestingMap (0.035900s)
+[2020.09.11-01.35.03:537][834]LogUObjectHash: Compacting FUObjectHashTables data took  15.85ms
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-01.35.03:538][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-01.35.03:538][834]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-01.35.03:538][834]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Name: 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Is Default: Yes
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: Channel Order:
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-01.35.03:987][834]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-01.35.04:430][834]LogAudioMixer: Display: Using Audio Device 스피커(iFi (by AMR) HD USB Audio)
+[2020.09.11-01.35.04:432][834]LogInit: FAudioDevice initialized.
+[2020.09.11-01.35.04:440][834]LogLoad: Game class is 'AdvGamesProgrammingGameModeBase'
+[2020.09.11-01.35.04:445][834]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 60) at 2020.09.11-11.35.04
+[2020.09.11-01.35.04:445][834]LogWorld: Bringing up level for play took: 0.004173
+[2020.09.11-01.35.04:445][834]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.09.11-01.35.04:448][834]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.09.11-01.35.04:451][834]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 164
+[2020.09.11-01.35.04:451][834]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.35.18:824][834]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 164
+[2020.09.11-01.35.18:825][834]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.35.22:561][834]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 164
+[2020.09.11-01.35.22:561][834]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.35.23:110][834]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 164
+[2020.09.11-01.35.23:110][834]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ReceiveActivation
+	Function /Game/BT/BTS_GetCharacter.BTS_GetCharacter_C:ExecuteUbergraph_BTS_GetCharacter
+
+[2020.09.11-01.35.23:594][834]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_TestingMap 21.095
+[2020.09.11-01.35.23:596][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.35.23:596][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.35.23:596][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.35.23:596][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue". Blueprint:  BTT_CanSensePlayer Function:  Execute Ubergraph BTT Can Sense Player Graph:  EventGraph Node:  Bind Event to On Target Perception Updated
+[2020.09.11-01.37.35:541][997]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.37.35:541][997]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.37.35:544][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.37.35:544][997]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingMap
+[2020.09.11-01.37.35:545][997]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.37.35:545][997]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.37.35:546][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.37.35:556][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.11-01.37.35:570][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.37.35:644][997]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.11-01.37.35:655][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-01.37.35:664][997]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2020.09.11-01.37.35:752][998]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.09.11-01.40.56:370][715]BlueprintLog: New page: Compile BTS_GetCharacter
+[2020.09.11-01.40.57:065][715]LogUObjectHash: Compacting FUObjectHashTables data took  10.87ms
+[2020.09.11-01.41.31:195][205]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PlayerCharacterBlueprint.PlayerCharacterBlueprint
+[2020.09.11-01.41.35:471][414]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-01.41.35:471][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-01.41.39:072][502]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GunBlueprint.GunBlueprint
+[2020.09.11-01.42.39:450][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BT/BTS_GetCharacter" FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset" SILENT=true
+[2020.09.11-01.42.39:486][269]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTS_GetCharacterA09D75EA40E2C80C64B737A0477A84D2.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/BT/BTS_GetCharacter.uasset'
+[2020.09.11-01.42.39:521][269]AssetCheck: New page: Asset Save: BTS_GetCharacter
+[2020.09.11-01.42.39:521][269]LogContentValidation: Display: Validating Blueprint /Game/BT/BTS_GetCharacter.BTS_GetCharacter
+[2020.09.11-01.45.05:165][132]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.11-01.47.49:597][965]BlueprintLog: New page: Compile BTT_Test_CalcHealth
+[2020.09.11-01.47.51:220][965]LogUObjectHash: Compacting FUObjectHashTables data took  29.35ms
+[2020.09.11-01.48.30:246][196]BlueprintLog: New page: Compile BTT_Test_CalcHealth
+[2020.09.11-01.48.31:484][196]LogUObjectHash: Compacting FUObjectHashTables data took  16.02ms
+[2020.09.11-01.50.20:579][905]LogUObjectHash: Compacting FUObjectHashTables data took  19.05ms
+[2020.09.11-01.50.20:581][905]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.144
+[2020.09.11-01.50.20:581][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/EnemyBT] ([1] browsable assets)...
+[2020.09.11-01.50.20:581][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/EnemyBT]
+[2020.09.11-01.50.20:651][905]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/EnemyBT_Auto3E48AA1B84B967DA379A3DFA18E97ACEF.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/EnemyBT_Auto3.uasset'
+[2020.09.11-01.50.20:656][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BT/BTT_Test_CalcHealth] ([1] browsable assets)...
+[2020.09.11-01.50.20:656][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/BT/BTT_Test_CalcHealth]
+[2020.09.11-01.50.20:720][905]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/BTT_Test_CalcHealth_Auto36C9BB1494B084F81695D8E93FEAEFF74.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/BT/BTT_Test_CalcHealth_Auto3.uasset'
+[2020.09.11-01.50.20:726][905]LogFileHelpers: Auto-saving content packages took 0.145
+[2020.09.11-01.52.47:755][201]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.09.11-01.52.48:018][201]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/TestingMapA5DAD9E24CC7A91C565E1E982264E04A.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap.umap'
+[2020.09.11-01.52.48:243][201]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/TestingMap_BuiltData16E8851A468A952931EE5E9889C3EE7D.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap_BuiltData.uasset'
+[2020.09.11-01.52.48:318][201]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.11-01.52.48:319][201]LogContentValidation: Display: Validating World /Game/Levels/TestingMap.TestingMap
+[2020.09.11-01.52.48:319][201]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestingMap_BuiltData.TestingMap_BuiltData
