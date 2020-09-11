@@ -13,9 +13,6 @@ AEnemyCharacter::AEnemyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	// Set initial AgentState
-	CurrentAgentState = AgentState::PATROL;
 }
 
 // Called when the game starts or when spawned
@@ -28,14 +25,12 @@ void AEnemyCharacter::BeginPlay()
 	PerceptionComponent->OnTargetPerceptionUpdated.AddDynamic(this, &AEnemyCharacter::SensePlayer);
 
 	DetectedActor = nullptr;
+	bSensed = false;
 	bCanSeeActor = false;
 	bAllowedMoveAlongPath = false;
 
 	HealthComponent = FindComponentByClass<UHealthComponent>();
 	TeamComponent = FindComponentByClass<UTeamComponent>();
-
-	//EnemyBlackboard = GetBlackboardComponent();
-	
 }
 
 // Called every frame
@@ -57,6 +52,7 @@ void AEnemyCharacter::CreatePathPatrol()
 	if (Path.Num() == 0 && Manager != NULL)
 		Path = Manager->GeneratePath(CurrentNode, Manager->AllNodes[FMath::RandRange(0, Manager->AllNodes.Num() - 1)]);
 }
+
 void AEnemyCharacter::CreatePathEngage()
 {
 	if (bCanSeeActor)
@@ -112,6 +108,18 @@ void AEnemyCharacter::Trigger() {
 	Fire(DetectedActor->GetActorLocation() - GetActorLocation());
 }
 
+float AEnemyCharacter::CalcKillApprox()
+{
+	//if everything was initialized, calculate kill possibility and return
+	if (HealthComponent != nullptr && DetectedActor != nullptr) {
+		float playerHealth = DetectedActor->FindComponentByClass<UHealthComponent>()->HealthPercentageRemaining();
+		if (playerHealth > 0)
+			return HealthComponent->HealthPercentageRemaining() / playerHealth;
+	}
+	//if everything was not initialized yet, return 0
+	return 0.0f;
+}
+
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 {
 	//UE_LOG(LogTemp, Error, TEXT("%s"), *ActorSensed->GetClass()->GetFName().ToString())
@@ -119,6 +127,7 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	// && ActorSensed->GetClass()->GetFName() == TEXT("PlayerCharacterBlueprint_C")
 	if (Stimulus.WasSuccessfullySensed() && ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
 	{
+		bSensed = true;
 		if (Stimulus.Type.Name == "Default__AISense_Sight")
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
@@ -128,7 +137,6 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 		if (Stimulus.Type.Name == "Default__AISense_Hearing")
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
-
 		}
 
 		DetectedActor = ActorSensed;
@@ -150,17 +158,18 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	else
 	{
 		// Reset stuff here
+		bSensed = false;
 		bCanSeeActor = false;
 		UE_LOG(LogTemp, Warning, TEXT("Player Lost"))
 	}
+}
+
+bool AEnemyCharacter::GetBSensed() const
+{
+	return bSensed;
 }
 
 bool AEnemyCharacter::GetBCanSeeActor() const
 {
 	return bCanSeeActor;
 }
-
-//bool AEnemyCharacter::TestFunction()
-//{
-//	return true;
-//}
