@@ -112,12 +112,15 @@ float AEnemyCharacter::CalcKillApprox()
 {
 	//if everything was initialized, calculate kill possibility and return
 	if (HealthComponent != nullptr && DetectedActor != nullptr) {
+		UE_LOG(LogTemp, Warning, TEXT("Both Health Component Exist"))
 		float playerHealth = DetectedActor->FindComponentByClass<UHealthComponent>()->HealthPercentageRemaining();
-		if (playerHealth > 0)
+		if (playerHealth > 0) {
+			UE_LOG(LogTemp, Warning, TEXT("Player is alive"))
 			return HealthComponent->HealthPercentageRemaining() / playerHealth;
+		}
 	}
 	//if everything was not initialized yet, return 0
-	return 0.0f;
+	return 1.0f;
 }
 
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
