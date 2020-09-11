@@ -28,7 +28,6 @@ void AEnemyCharacter::BeginPlay()
 	DetectedActor = nullptr;
 	bSensed = false;
 	bCanSeeActor = false;
-	bAllowedMoveAlongPath = false;
 
 	HealthComponent = FindComponentByClass<UHealthComponent>();
 	TeamComponent = FindComponentByClass<UTeamComponent>();
@@ -41,16 +40,14 @@ void AEnemyCharacter::BeginPlay()
 void AEnemyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (bAllowedMoveAlongPath) MoveAlongPath();
-
-	//PerceptionComponent->HandleExpiredStimulus();
+	
+	MoveAlongPath();
 }
 
 // Called to bind functionality to input
 void AEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 
 void AEnemyCharacter::CreatePathPatrol()
@@ -78,11 +75,6 @@ void AEnemyCharacter::CreatePathEvade()
 	if (bCanSeeActor)
 		if (Path.Num() == 0 && Manager != NULL)
 			Path = Manager->GeneratePath(CurrentNode, Manager->FindFurthestNode(DetectedActor->GetActorLocation()));
-}
-
-void AEnemyCharacter::AllowMoveAlongPath()
-{
-	bAllowedMoveAlongPath = true;
 }
 
 void AEnemyCharacter::MoveAlongPath()
@@ -125,12 +117,12 @@ float AEnemyCharacter::CalcKillApprox()
 {
 	//if everything was initialized, calculate kill possibility and return
 	if (HealthComponent != nullptr && DetectedActor != nullptr) {
-		UE_LOG(LogTemp, Warning, TEXT("Both Health Component Exist"))
+		//UE_LOG(LogTemp, Warning, TEXT("Both Health Component Exist"))
 		float playerHealth = DetectedActor->FindComponentByClass<UHealthComponent>()->HealthPercentageRemaining();
 		if (playerHealth > 0) {
-			UE_LOG(LogTemp, Warning, TEXT("Player is alive"))
-			UE_LOG(LogTemp, Warning, TEXT("%f"), HealthComponent->HealthPercentageRemaining())
-			UE_LOG(LogTemp, Warning, TEXT("%f"), playerHealth)
+			//UE_LOG(LogTemp, Warning, TEXT("Player is alive"))
+			//UE_LOG(LogTemp, Warning, TEXT("%f"), HealthComponent->HealthPercentageRemaining())
+			//UE_LOG(LogTemp, Warning, TEXT("%f"), playerHealth)
 			return HealthComponent->HealthPercentageRemaining() / playerHealth;
 		}
 	}
@@ -193,12 +185,7 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	}
 }
 
-bool AEnemyCharacter::GetBSensed() const
-{
-	return bSensed;
-}
 
-bool AEnemyCharacter::GetBCanSeeActor() const
-{
-	return bCanSeeActor;
-}
+//Getters
+bool AEnemyCharacter::GetBSensed() const{ return bSensed; }
+bool AEnemyCharacter::GetBCanSeeActor() const { return bCanSeeActor; }
