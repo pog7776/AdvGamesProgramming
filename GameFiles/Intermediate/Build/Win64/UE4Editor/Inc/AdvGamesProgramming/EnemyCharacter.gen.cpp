@@ -28,6 +28,8 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	AIMODULE_API UScriptStruct* Z_Construct_UScriptStruct_FAIStimulus();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacter_Trigger();
+	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AMyAIController_NoRegister();
+	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTreeComponent_NoRegister();
 // End Cross Module References
 	static UEnum* AgentState_StaticEnum()
@@ -290,6 +292,14 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AIController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemyBlackboard_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EnemyBlackboard;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BehaviorTreeComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviorTreeComponent;
@@ -332,6 +342,23 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController_MetaData[] = {
+		{ "Category", "EnemyCharacter" },
+		{ "Comment", "//UFUNCTION(BlueprintImplementableEvent)\n//bool TestFunction();\n" },
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+		{ "ToolTip", "UFUNCTION(BlueprintImplementableEvent)\nbool TestFunction();" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController = { "AIController", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, AIController), Z_Construct_UClass_AMyAIController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard_MetaData[] = {
+		{ "Category", "EnemyCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard = { "EnemyBlackboard", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, EnemyBlackboard), Z_Construct_UClass_UBlackboardComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BehaviorTreeComponent_MetaData[] = {
 		{ "Category", "AI" },
 		{ "EditInline", "true" },
@@ -366,6 +393,8 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState = { "CurrentAgentState", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, CurrentAgentState), Z_Construct_UEnum_AdvGamesProgramming_AgentState, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentAgentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AIController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyBlackboard,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BehaviorTreeComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bCanSeeActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DetectedActor,
@@ -399,7 +428,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 3450461506);
+	IMPLEMENT_CLASS(AEnemyCharacter, 705228464);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();
