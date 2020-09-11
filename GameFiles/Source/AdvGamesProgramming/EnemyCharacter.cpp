@@ -33,23 +33,7 @@ void AEnemyCharacter::BeginPlay()
 	HealthComponent = FindComponentByClass<UHealthComponent>();
 	TeamComponent = FindComponentByClass<UTeamComponent>();
 
-	//EnemyBlackboard = GetBlackboardComponent();
-	//AAIController* AIController = GetController<AIController>();
-
-	//UE_LOG(LogTemp, Error, TEXT("%s"), *AIController->GetFName().ToString())
-
-	//EnemyBlackboard->SetValueAsBool(MyBlackboardKey.bSensed, false);
-
 	EnemyBlackboard = AIController->get_blackboard();
-	FName test = "bSensed";
-	try
-	{
-		EnemyBlackboard->SetValueAsBool(test, true);
-	}
-	catch (const std::nullptr_t&)
-	{
-		UE_LOG(LogTemp, Error, TEXT("Didn't work, dumb dumb"))
-	}
 
 }
 
@@ -58,6 +42,8 @@ void AEnemyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	if (bAllowedMoveAlongPath) MoveAlongPath();
+
+	//PerceptionComponent->HandleExpiredStimulus();
 }
 
 // Called to bind functionality to input
@@ -148,41 +134,54 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	//UE_LOG(LogTemp, Error, TEXT("%s"), *ActorSensed->GetClass()->GetFName().ToString())
 	//UE_LOG(LogTemp, Error, TEXT("%s"), *Stimulus.Type.Name.ToString())
 	// && ActorSensed->GetClass()->GetFName() == TEXT("PlayerCharacterBlueprint_C")
-	if (Stimulus.WasSuccessfullySensed() && ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
+
+	if (Stimulus.WasSuccessfullySensed())
 	{
-		bSensed = true;
-		if (Stimulus.Type.Name == "Default__AISense_Sight")
+		 // Is unfriendly
+		if (ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
-			bCanSeeActor = true;
-		}
-
-		if (Stimulus.Type.Name == "Default__AISense_Hearing")
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
-		}
-
-		DetectedActor = ActorSensed;
-
-		// Print team info
-		FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
-		for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
-		{
-			teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
-
-			if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+			bSensed = true;
+			if (Stimulus.Type.Name == "Default__AISense_Sight")
 			{
-				teams += ", ";
-			}
-		}
+				UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
 
-		UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
+				EnemyBlackboard->SetValueAsBool(FName("bSensed"), true);
+				EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), true);
+				bCanSeeActor = true;
+			}
+
+			if (Stimulus.Type.Name == "Default__AISense_Hearing")
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
+
+					EnemyBlackboard->SetValueAsBool(FName("bSensed"), true);
+			}
+
+			DetectedActor = ActorSensed;
+
+			// Print team info
+			FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
+			for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
+			{
+				teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
+
+				if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+				{
+					teams += ", ";
+				}
+			}
+
+			UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
+		}
 	}
 	else
 	{
 		// Reset stuff here
 		bSensed = false;
 		bCanSeeActor = false;
+
+		EnemyBlackboard->SetValueAsBool(FName("bSensed"), false);
+		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), false);
 		UE_LOG(LogTemp, Warning, TEXT("Player Lost"))
 	}
 }
