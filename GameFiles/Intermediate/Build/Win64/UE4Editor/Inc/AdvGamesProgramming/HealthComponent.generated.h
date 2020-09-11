@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GameFiles_Source_AdvGamesProgramming_HealthComponent_h_12_SPARSE_DATA
 #define GameFiles_Source_AdvGamesProgramming_HealthComponent_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execHealthPercentageRemaining) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->HealthPercentageRemaining(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnDeath) \
 	{ \
 		P_FINISH; \
@@ -35,6 +43,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define GameFiles_Source_AdvGamesProgramming_HealthComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHealthPercentageRemaining) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->HealthPercentageRemaining(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnDeath) \
 	{ \

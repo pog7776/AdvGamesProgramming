@@ -22,9 +22,16 @@ protected:
 	class UBlackboardComponent* get_blackboard() const;
 
 private:
+<<<<<<< HEAD
 	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (AllowPrivateAccess = "true"))
 		class UBehaviorTreeComponent* btree_comp;
 	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (AllowPrivateAccess = "true"))
 		class UBehaviorTree* btree;
+=======
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
+	class UBehaviorTreeComponent* btree_comp;
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
+	class UBehaviorTree* btree;
+>>>>>>> master
 	class UBlackboardComponent* blackboard;
 };

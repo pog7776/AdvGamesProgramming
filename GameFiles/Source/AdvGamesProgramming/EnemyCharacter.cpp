@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+ // Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "EnemyCharacter.h"
@@ -149,6 +149,11 @@ void AEnemyCharacter::AgentEvade()
 		}
 		MoveAlongPath();
 	}
+}
+
+void AEnemyCharacter::EmptyPath()
+{
+	Path.Empty();
 }
 
 void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
