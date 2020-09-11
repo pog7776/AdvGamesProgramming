@@ -53,27 +53,35 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEvade) \
+	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEvade(); \
+		P_THIS->AllowMoveAlongPath(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEngage) \
+	DECLARE_FUNCTION(execCreatePathEvade) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEngage(); \
+		P_THIS->CreatePathEvade(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentPatrol) \
+	DECLARE_FUNCTION(execCreatePathEngage) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentPatrol(); \
+		P_THIS->CreatePathEngage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCreatePathPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreatePathPatrol(); \
 		P_NATIVE_END; \
 	}
 
@@ -114,27 +122,35 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEvade) \
+	DECLARE_FUNCTION(execAllowMoveAlongPath) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEvade(); \
+		P_THIS->AllowMoveAlongPath(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentEngage) \
+	DECLARE_FUNCTION(execCreatePathEvade) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentEngage(); \
+		P_THIS->CreatePathEvade(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAgentPatrol) \
+	DECLARE_FUNCTION(execCreatePathEngage) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AgentPatrol(); \
+		P_THIS->CreatePathEngage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCreatePathPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreatePathPatrol(); \
 		P_NATIVE_END; \
 	}
 
