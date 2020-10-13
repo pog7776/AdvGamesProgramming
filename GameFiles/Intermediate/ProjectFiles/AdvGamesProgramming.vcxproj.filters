@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{109A5390-4D71-499F-AB73-53D6F947E4DB}</UniqueIdentifier>
+      <UniqueIdentifier>{9B0DF4C8-195F-4464-9CAD-07A65EF50D51}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1E86BB09-D7D7-4332-9F17-AFC1499832EB}</UniqueIdentifier>
+      <UniqueIdentifier>{7EE1295D-1A9A-442E-B257-19154D55ACE9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{D91D5B1A-B72E-4A87-862E-A25B04257007}</UniqueIdentifier>
+      <UniqueIdentifier>{77BB2F36-19D0-47AE-82A7-A54018CFA7F6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -74,6 +74,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\NavigationNode.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\Pickup.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\Pickup.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\PickupRotator.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -90,6 +96,18 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\TeamComponent.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\WeaponPickup.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickup.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
   </ItemGroup>
