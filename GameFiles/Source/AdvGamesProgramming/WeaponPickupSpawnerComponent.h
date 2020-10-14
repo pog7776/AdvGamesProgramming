@@ -28,8 +28,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Search")
 		float Radius;
 
-	void CheckSurroundings();
 	USphereComponent* SearchRange;
 	TArray<AActor*> OverlapActors;
 
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<class APickup> PickupClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Position")
+	FVector SpawnOffset;
+
+private:
+	void CheckSurroundings();
+	void CalculateSpawnChance(AActor* Actor);
+	void CalculateRarity();
+	void SpawnPickup();
+
+	float SpawnChance;
 };

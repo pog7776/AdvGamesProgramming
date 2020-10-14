@@ -17,6 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeWeaponPickupSpawnerComponent() {}
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_UWeaponPickupSpawner();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_AdvGamesProgramming();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_APickup_NoRegister();
 // End Cross Module References
 	void UWeaponPickupSpawner::StaticRegisterNativesUWeaponPickupSpawner()
 	{
@@ -31,6 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeWeaponPickupSpawnerComponent() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SpawnOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PickupClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_PickupClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Radius_MetaData[];
 #endif
@@ -52,6 +63,20 @@ void EmptyLinkFunctionForGeneratedCodeWeaponPickupSpawnerComponent() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_SpawnOffset_MetaData[] = {
+		{ "Category", "Position" },
+		{ "ModuleRelativePath", "WeaponPickupSpawnerComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_SpawnOffset = { "SpawnOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UWeaponPickupSpawner, SpawnOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_SpawnOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_SpawnOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_PickupClass_MetaData[] = {
+		{ "Category", "WeaponPickupSpawner" },
+		{ "ModuleRelativePath", "WeaponPickupSpawnerComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_PickupClass = { "PickupClass", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UWeaponPickupSpawner, PickupClass), Z_Construct_UClass_APickup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_PickupClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_PickupClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_Radius_MetaData[] = {
 		{ "Category", "Search" },
 		{ "ModuleRelativePath", "WeaponPickupSpawnerComponent.h" },
@@ -59,6 +84,8 @@ void EmptyLinkFunctionForGeneratedCodeWeaponPickupSpawnerComponent() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_Radius = { "Radius", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UWeaponPickupSpawner, Radius), METADATA_PARAMS(Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_Radius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_Radius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UWeaponPickupSpawner_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_SpawnOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_PickupClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponPickupSpawner_Statics::NewProp_Radius,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UWeaponPickupSpawner_Statics::StaticCppClassTypeInfo = {
@@ -88,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponPickupSpawnerComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UWeaponPickupSpawner, 1798574939);
+	IMPLEMENT_CLASS(UWeaponPickupSpawner, 2094753515);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<UWeaponPickupSpawner>()
 	{
 		return UWeaponPickupSpawner::StaticClass();

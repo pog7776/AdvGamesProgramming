@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "WeaponPickupSpawnerComponent.h"
+#include "EnemyCharacter.h"
+#include "Pickup.h"
 
 // Sets default values for this component's properties
 UWeaponPickupSpawner::UWeaponPickupSpawner()
@@ -23,7 +25,9 @@ void UWeaponPickupSpawner::BeginPlay()
 	SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
 	SearchRange->SetSphereRadius(Radius);
 	UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
-		CheckSurroundings();
+	SpawnChance = 100;
+	CheckSurroundings();
+	SpawnPickup();
 }
 
 
@@ -49,7 +53,39 @@ void UWeaponPickupSpawner::CheckSurroundings()
 		{
 			FString Name = Actor->GetName();
 			UE_LOG(LogTemp, Warning, TEXT("ActorFound: %s"), *Name)
+			CalculateSpawnChance(Actor);
 		}
 	}
 }
 
+void UWeaponPickupSpawner::CalculateSpawnChance(AActor* Actor)
+{
+	//if (Actor->IsA(UWeaponPickupSpawner::StaticClass()))
+	UWeaponPickupSpawner* PickupComp = Actor->FindComponentByClass<UWeaponPickupSpawner>();
+	if (PickupComp != nullptr)
+	{
+		SpawnChance /= 2;
+	}
+
+	if (Actor->IsA(AEnemyCharacter::StaticClass()))
+	{
+		SpawnChance += 10;
+	}
+}
+
+void UWeaponPickupSpawner::CalculateRarity()
+{
+
+}
+
+void UWeaponPickupSpawner::SpawnPickup()
+{
+	// Roll and see if the pickup should spawn
+	float Roll = FMath::RandRange(0, 100);
+	UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+	if (Roll < SpawnChance)
+	{
+		// Spawn the pickup
+		APickup* WeaponPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
+	}
+}
