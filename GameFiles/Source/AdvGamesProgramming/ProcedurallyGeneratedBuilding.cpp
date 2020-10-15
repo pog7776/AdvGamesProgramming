@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Algo/Reverse.h"
 #include "ProcedurallyGeneratedBuilding.h"
+#include "Algo/Reverse.h"
+#include "WeaponPickupSpawnerComponent.h"
 
 static const float BASE_SIZE = 4.0f;
 
@@ -176,5 +177,19 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	dir = to - from;			//direction to 'to' from 'from' (with magnitude) (its not unit vector)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
-	WeaponSpawners.Add(World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator));
+	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
+	WeaponSpawners.Add(NewSpawner);
+	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
+	
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
+
+	if (Spawner)
+	{
+		Spawner->StartSpawn();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Didn't spawn a gun spawner"))
+	}
+	
 }

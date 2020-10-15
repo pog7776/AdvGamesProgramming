@@ -9,13 +9,13 @@
 
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
-class ADVGAMESPROGRAMMING_API UWeaponPickupSpawner : public UActorComponent
+class ADVGAMESPROGRAMMING_API UWeaponPickupSpawnerComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this component's properties
-	UWeaponPickupSpawner();
+	UWeaponPickupSpawnerComponent();
 
 protected:
 	// Called when the game starts
@@ -24,6 +24,9 @@ protected:
 public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	
+	UFUNCTION(BlueprintCallable)
+	void StartSpawn();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Search")
 		float Radius;

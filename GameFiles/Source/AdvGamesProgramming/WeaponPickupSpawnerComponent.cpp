@@ -3,9 +3,10 @@
 #include "WeaponPickupSpawnerComponent.h"
 #include "EnemyCharacter.h"
 #include "Pickup.h"
+#include "WeaponPickup.h"
 
 // Sets default values for this component's properties
-UWeaponPickupSpawner::UWeaponPickupSpawner()
+UWeaponPickupSpawnerComponent::UWeaponPickupSpawnerComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
@@ -16,7 +17,7 @@ UWeaponPickupSpawner::UWeaponPickupSpawner()
 
 
 // Called when the game starts
-void UWeaponPickupSpawner::BeginPlay()
+void UWeaponPickupSpawnerComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
@@ -26,13 +27,13 @@ void UWeaponPickupSpawner::BeginPlay()
 	SearchRange->SetSphereRadius(Radius);
 	UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
 	SpawnChance = 100;
-	CheckSurroundings();
-	SpawnPickup();
+	//CheckSurroundings();
+	//SpawnPickup();
 }
 
 
 // Called every frame
-void UWeaponPickupSpawner::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UWeaponPickupSpawnerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
@@ -40,7 +41,17 @@ void UWeaponPickupSpawner::TickComponent(float DeltaTime, ELevelTick TickType, F
 
 }
 
-void UWeaponPickupSpawner::CheckSurroundings()
+void UWeaponPickupSpawnerComponent::StartSpawn()
+{
+	SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
+	SearchRange->SetSphereRadius(Radius);
+	UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
+	SpawnChance = 100;
+	CheckSurroundings();
+	SpawnPickup();
+}
+
+void UWeaponPickupSpawnerComponent::CheckSurroundings()
 {
 	SearchRange->GetOverlappingActors(OverlapActors);
 
@@ -58,11 +69,18 @@ void UWeaponPickupSpawner::CheckSurroundings()
 	}
 }
 
-void UWeaponPickupSpawner::CalculateSpawnChance(AActor* Actor)
+void UWeaponPickupSpawnerComponent::CalculateSpawnChance(AActor* Actor)
 {
-	//if (Actor->IsA(UWeaponPickupSpawner::StaticClass()))
-	UWeaponPickupSpawner* PickupComp = Actor->FindComponentByClass<UWeaponPickupSpawner>();
+	//if (Actor->IsA(UWeaponSpawnerComponent::StaticClass()))
+	/*
+	UWeaponPickupSpawnerComponent* PickupComp = Actor->FindComponentByClass<UWeaponPickupSpawnerComponent>();
 	if (PickupComp != nullptr)
+	{
+		SpawnChance /= 2;
+	}
+	*/
+
+	if (Actor->IsA(AWeaponPickup::StaticClass()))
 	{
 		SpawnChance /= 2;
 	}
@@ -73,12 +91,12 @@ void UWeaponPickupSpawner::CalculateSpawnChance(AActor* Actor)
 	}
 }
 
-void UWeaponPickupSpawner::CalculateRarity()
+void UWeaponPickupSpawnerComponent::CalculateRarity()
 {
 
 }
 
-void UWeaponPickupSpawner::SpawnPickup()
+void UWeaponPickupSpawnerComponent::SpawnPickup()
 {
 	// Roll and see if the pickup should spawn
 	float Roll = FMath::RandRange(0, 100);
