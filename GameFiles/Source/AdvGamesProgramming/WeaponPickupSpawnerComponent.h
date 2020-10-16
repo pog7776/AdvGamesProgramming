@@ -40,6 +40,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Position")
 	FVector SpawnOffset;
 
+	/*
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test thing")
+	AActor* Class;
+	*/
+
 private:
 	void CheckSurroundings();
 	void CalculateSpawnChance(AActor* Actor);

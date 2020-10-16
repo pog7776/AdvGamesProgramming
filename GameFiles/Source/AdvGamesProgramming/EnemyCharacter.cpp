@@ -143,37 +143,41 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	if (Stimulus.WasSuccessfullySensed())
 	{
 		 // Is unfriendly
-		if (ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
+		UTeamComponent* SensedTeamComponent = ActorSensed->FindComponentByClass<UTeamComponent>();
+		if (SensedTeamComponent != nullptr)
 		{
-			bSensed = true;
-			EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
-			if (Stimulus.Type.Name == "Default__AISense_Sight")
+			if (SensedTeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
 			{
-				UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
-				bCanSeeActor = true;
-				EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
-			}
-
-			if (Stimulus.Type.Name == "Default__AISense_Hearing")
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
-			}
-
-			DetectedActor = ActorSensed;
-
-			// Print team info
-			FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
-			for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
-			{
-				teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
-
-				if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+				bSensed = true;
+				EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
+				if (Stimulus.Type.Name == "Default__AISense_Sight")
 				{
-					teams += ", ";
+					UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
+						bCanSeeActor = true;
+					EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
 				}
-			}
 
-			UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
+				if (Stimulus.Type.Name == "Default__AISense_Hearing")
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
+				}
+
+				DetectedActor = ActorSensed;
+
+				// Print team info
+				FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
+				for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
+				{
+					teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
+
+					if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+					{
+						teams += ", ";
+					}
+				}
+
+				UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
+			}
 		}
 	}
 	else

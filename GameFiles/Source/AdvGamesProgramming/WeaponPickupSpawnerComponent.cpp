@@ -4,6 +4,7 @@
 #include "EnemyCharacter.h"
 #include "Pickup.h"
 #include "WeaponPickup.h"
+#include "TeamComponent.h"
 
 // Sets default values for this component's properties
 UWeaponPickupSpawnerComponent::UWeaponPickupSpawnerComponent()
@@ -25,7 +26,7 @@ void UWeaponPickupSpawnerComponent::BeginPlay()
 
 	SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
 	SearchRange->SetSphereRadius(Radius);
-	UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
+	//UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
 	SpawnChance = 100;
 	//CheckSurroundings();
 	//SpawnPickup();
@@ -45,7 +46,7 @@ void UWeaponPickupSpawnerComponent::StartSpawn()
 {
 	SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
 	SearchRange->SetSphereRadius(Radius);
-	UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
+	//UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
 	SpawnChance = 100;
 	CheckSurroundings();
 	SpawnPickup();
@@ -53,41 +54,50 @@ void UWeaponPickupSpawnerComponent::StartSpawn()
 
 void UWeaponPickupSpawnerComponent::CheckSurroundings()
 {
+	// Get a list of all nearby Actors
 	SearchRange->GetOverlappingActors(OverlapActors);
+	OverlapActors.Remove(GetOwner());
 
+	// Handle other spawn points first
 	for (AActor* Actor : OverlapActors)
 	{
-		if (Actor == GetOwner()) {
+		if (Actor->IsA(AWeaponPickup::StaticClass()))
+		{
+			CalculateSpawnChance(Actor);
 			OverlapActors.Remove(Actor);
 		}
-		else
-		{
-			FString Name = Actor->GetName();
-			UE_LOG(LogTemp, Warning, TEXT("ActorFound: %s"), *Name)
-			CalculateSpawnChance(Actor);
-		}
 	}
+
+	// Handle all other actors
+	for (AActor* Actor : OverlapActors)
+	{
+		CalculateSpawnChance(Actor);
+	}
+
 }
 
 void UWeaponPickupSpawnerComponent::CalculateSpawnChance(AActor* Actor)
 {
-	//if (Actor->IsA(UWeaponSpawnerComponent::StaticClass()))
-	/*
-	UWeaponPickupSpawnerComponent* PickupComp = Actor->FindComponentByClass<UWeaponPickupSpawnerComponent>();
-	if (PickupComp != nullptr)
-	{
-		SpawnChance /= 2;
-	}
-	*/
-
+	// If the Actor is a WeaponPickup
 	if (Actor->IsA(AWeaponPickup::StaticClass()))
 	{
+		UE_LOG(LogTemp, Warning, TEXT("%s - Near Weapon | Chance = %f/2"), *(GetOwner()->GetFName().ToString()), SpawnChance)
 		SpawnChance /= 2;
 	}
 
-	if (Actor->IsA(AEnemyCharacter::StaticClass()))
+	// If Actor is unfriendly
+	if (Actor->IsA(APawn::StaticClass()) && (SpawnChance + Actor->FindComponentByClass<UTeamComponent>()->ThreatValue) <= 100)
 	{
-		SpawnChance += 10;
+		// If the actor is unfriendly and if so add spawn chance (Risk)
+		if (Actor->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(GetOwner()->FindComponentByClass<UTeamComponent>()->OwnedFactions))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("%s - Near Enemy | Chance = %f + %f"), *(GetOwner()->GetFName().ToString()), SpawnChance, Actor->FindComponentByClass<UTeamComponent>()->ThreatValue)
+			SpawnChance += Actor->FindComponentByClass<UTeamComponent>()->ThreatValue;
+		}
+	}
+	else if ((SpawnChance + Actor->FindComponentByClass<UTeamComponent>()->ThreatValue) >= 100)
+	{
+		//SpawnChance = 100;
 	}
 }
 
@@ -100,10 +110,14 @@ void UWeaponPickupSpawnerComponent::SpawnPickup()
 {
 	// Roll and see if the pickup should spawn
 	float Roll = FMath::RandRange(0, 100);
-	UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
-	if (Roll < SpawnChance)
+	if (Roll <= SpawnChance)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 		// Spawn the pickup
 		APickup* WeaponPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f -- Fail"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 	}
 }

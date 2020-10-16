@@ -1,13 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming).
+  Parsing headers for AdvGamesProgrammingEditor
+    Running UnrealHeaderTool "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\Development\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for AdvGamesProgrammingEditor in 11.3186742 seconds
   Building AdvGamesProgrammingEditor...
   Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] ProcedurallyGeneratedBuilding.cpp
-    [2/5] WeaponPickupSpawnerComponent.cpp
-    [3/5] UE4Editor-AdvGamesProgramming-0039.lib
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0039.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0039.exp
-    [4/5] UE4Editor-AdvGamesProgramming-0039.dll
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0039.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0039.suppressed.exp
-    [5/5] AdvGamesProgrammingEditor.target
-  Total time in Parallel executor: 17.88 seconds
-  Total execution time: 19.49 seconds
+  Building 7 actions with 8 processes...
+    [1/7] AdvGamesProgramming.init.gen.cpp
+    [2/7] WeaponPickupSpawnerComponent.gen.cpp
+    [3/7] ProcedurallyGeneratedBuilding.cpp
+    [4/7] WeaponPickupSpawnerComponent.cpp
+    [5/7] UE4Editor-AdvGamesProgramming-0004.lib
+       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0004.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0004.exp
+    [6/7] UE4Editor-AdvGamesProgramming-0004.dll
+       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0004.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0004.suppressed.exp
+    [7/7] AdvGamesProgrammingEditor.target
+  Total time in Parallel executor: 6.78 seconds
+  Total execution time: 19.75 seconds

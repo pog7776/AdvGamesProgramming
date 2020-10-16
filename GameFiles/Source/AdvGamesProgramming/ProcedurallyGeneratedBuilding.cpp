@@ -181,15 +181,10 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	WeaponSpawners.Add(NewSpawner);
 	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
 	
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
 
 	if (Spawner)
 	{
 		Spawner->StartSpawn();
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Didn't spawn a gun spawner"))
-	}
-	
+	}	
 }
