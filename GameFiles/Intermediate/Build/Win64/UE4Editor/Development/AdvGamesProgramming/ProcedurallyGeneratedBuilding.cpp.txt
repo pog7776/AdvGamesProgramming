@@ -1,9 +1,9 @@
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\ProcedurallyGeneratedBuilding.generated.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\ProcedurallyGeneratedBuilding.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\ProcedurallyGeneratedBuilding.generated.h
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\WeaponPickupSpawnerComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\WeaponPickupSpawnerComponent.generated.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\WeaponPickupSpawnerComponent.generated.h

@@ -177,8 +177,11 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	dir = to - from;			//direction to 'to' from 'from' (with magnitude) (its not unit vector)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
+	//spawn weapon spawner
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);
+
+	//For actual Weapon spawning by Jack Cooper
 	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
 	
 	UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
