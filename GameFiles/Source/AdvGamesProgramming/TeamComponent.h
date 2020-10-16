@@ -30,6 +30,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Team")
 		TArray<int> UnfriendlyFactions;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Threat")
+		float ThreatValue;
+
 	bool CheckFriendly(int32 Team);
 	bool CheckUnfriendly(int32 Team);
 

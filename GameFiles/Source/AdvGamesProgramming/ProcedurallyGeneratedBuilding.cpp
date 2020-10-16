@@ -184,15 +184,10 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	//For actual Weapon spawning by Jack Cooper
 	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
 	
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
 
 	if (Spawner)
 	{
 		Spawner->StartSpawn();
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Didn't spawn a gun spawner"))
-	}
-	
+	}	
 }
