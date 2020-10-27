@@ -1,0 +1,230 @@
+﻿Log file open, 10/28/20 04:42:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: AdvGamesProgramming
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.103006
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" -Output="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: AdvGamesProgramming
+Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+Creating makefile for AdvGamesProgrammingEditor (no existing makefile)
+@progress push 5%
+Parsing headers for AdvGamesProgrammingEditor
+  Running UnrealHeaderTool "C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\Development\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for AdvGamesProgrammingEditor in 8.6055687 seconds
+@progress pop
+Building AdvGamesProgrammingEditor...
+Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+Building 37 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 3%
+  [1/37] Default.rc2
+  @progress 'Compiling C++ source code...' 5%
+  [2/37] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 8%
+  [3/37] TeamComponent.cpp
+  @progress 'Compiling C++ source code...' 11%
+  [4/37] PickupRotator.cpp
+  @progress 'Compiling C++ source code...' 14%
+  [5/37] ProcedurallyGeneratedBuilding2.cpp
+  @progress 'Compiling C++ source code...' 16%
+  [6/37] Pickup.cpp
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\Pickup.cpp(15): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(666): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+  @progress 'Compiling C++ source code...' 19%
+  [7/37] ProcedurallyGeneratedBuilding.cpp
+  @progress 'Compiling C++ source code...' 22%
+  [8/37] HealthComponent.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [9/37] PlayerCharacter.cpp
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\PlayerCharacter.cpp(70): warning C4996: 'USceneComponent::RelativeRotation': This member will be made private. Please use GetRelativeRotation or SetRelativeRotation. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(159): note: 'USceneComponent::RelativeRotation' ?????? ?????Ͻʽÿ?.
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\PlayerCharacter.cpp(77): warning C4996: 'USceneComponent::RelativeRotation': This member will be made private. Please use GetRelativeRotation or SetRelativeRotation. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(159): note: 'USceneComponent::RelativeRotation' ?????? ?????Ͻʽÿ?.
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\PlayerCharacter.cpp(78): warning C4996: 'USceneComponent::RelativeRotation': This member will be made private. Please use GetRelativeRotation or SetRelativeRotation. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(159): note: 'USceneComponent::RelativeRotation' ?????? ?????Ͻʽÿ?.
+  @progress 'Compiling C++ source code...' 27%
+  [10/37] AdvGamesProgrammingGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 30%
+  [11/37] AdvGamesProgramming.cpp
+  @progress 'Compiling C++ source code...' 32%
+  [12/37] WeaponPickup.cpp
+  @progress 'Compiling C++ source code...' 35%
+  [13/37] AdvGamesProgramming.init.gen.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [14/37] WeaponPickupSpawnerComponent.gen.cpp
+  @progress 'Compiling C++ source code...' 41%
+  [15/37] MyAIController.cpp
+  @progress 'Compiling C++ source code...' 43%
+  [16/37] WeaponPickupSpawnerComponent.cpp
+  @progress 'Compiling C++ source code...' 46%
+  [17/37] TeamComponent.gen.cpp
+  @progress 'Compiling C++ source code...' 49%
+  [18/37] WeaponPickup.gen.cpp
+  @progress 'Compiling C++ source code...' 51%
+  [19/37] ProcedurallyGeneratedBuilding2.gen.cpp
+  @progress 'Compiling C++ source code...' 54%
+  [20/37] ProcedurallyGeneratedBuilding.gen.cpp
+  @progress 'Compiling C++ source code...' 57%
+  [21/37] PickupRotator.gen.cpp
+  @progress 'Compiling C++ source code...' 59%
+  [22/37] AIManager.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [23/37] AdvGamesProgrammingGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 65%
+  [24/37] EnemyCharacter.cpp
+  @progress 'Compiling C++ source code...' 68%
+  [25/37] PlayerCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 70%
+  [26/37] NavigationNode.gen.cpp
+  @progress 'Compiling C++ source code...' 73%
+  [27/37] HealthComponent.gen.cpp
+  @progress 'Compiling C++ source code...' 76%
+  [28/37] AIManager.gen.cpp
+  @progress 'Compiling C++ source code...' 78%
+  [29/37] NavigationNode.cpp
+  @progress 'Compiling C++ source code...' 81%
+  [30/37] Pickup.gen.cpp
+  @progress 'Compiling C++ source code...' 84%
+  [31/37] EnemyCharacterNavMesh.cpp
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp(27): error C2027: ???ǵ??? ???? ???? 'AEnemyCharacter'??(??) ?????߽??ϴ?.
+  c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\AIManager.h(10): note: 'AEnemyCharacter' ?????? ?????Ͻʽÿ?.
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp(27): error C2276: '&': ???ε??? ???? ?Լ? ???? ?????? ?߸??Ǿ????ϴ?.
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp(27): error C2672: 'TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,AActor *,FAIStimulus>::__Internal_AddDynamic': ??ġ?ϴ? ?????ε??? ?Լ??? ?????ϴ?.
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp(27): error C2780: 'void TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,AActor *,FAIStimulus>::__Internal_AddDynamic(UserClass *,TBaseDynamicDelegate<FWeakObjectPtr,RetValType,AActor *,FAIStimulus>::TMethodPtrResolver<UserClass>::FMethodPtr,FName)': ?μ??? 3?? ?־??? ?ϴµ? 2???? ?????߽??ϴ?.
+          with
+          [
+              RetValType=void
+          ]
+  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl(1205): note: 'TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,AActor *,FAIStimulus>::__Internal_AddDynamic' ?????? ?????Ͻʽÿ?.
+  C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp(115): warning C4996: 'UNavigationSystemV1::SimpleMoveToLocation': SimpleMoveToLocation is deprecated. Use UAIBlueprintHelperLibrary::SimpleMoveToLocation instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystem.h(1040): note: 'UNavigationSystemV1::SimpleMoveToLocation' ?????? ?????Ͻʽÿ?.
+  @progress 'Compiling C++ source code...' 86%
+  [32/37] MyAIController.gen.cpp
+  @progress 'Compiling C++ source code...' 89%
+  [33/37] EnemyCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 92%
+  [34/37] EnemyCharacterNavMesh.gen.cpp
+LogInit: Warning: Still incompatible or missing module: AdvGamesProgramming
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+LogModuleManager: Shutting down and abandoning module RenderCore (30)
+LogModuleManager: Shutting down and abandoning module Landscape (28)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogExit: Exiting.
+Log file closed, 10/28/20 04:44:05

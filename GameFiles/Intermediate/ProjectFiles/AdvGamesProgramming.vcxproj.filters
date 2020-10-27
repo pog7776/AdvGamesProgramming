@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DC569F76-03EB-40CE-A92E-52DBBF862681}</UniqueIdentifier>
+      <UniqueIdentifier>{7CC679AD-7E9C-471E-9CBD-1B1AFD5CAA7A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\AdvGamesProgrammingEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Jinhoon Choi, Jack Cooper - Assignment 3.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8A571209-B1CA-4B4A-BEF5-DF9F6CC99455}</UniqueIdentifier>
+      <UniqueIdentifier>{9FF19862-2630-410F-9284-08913B27200D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{70067842-F35D-47A6-BA1E-54D6B36A81CA}</UniqueIdentifier>
+      <UniqueIdentifier>{9F0C1B4C-959C-4C41-9854-DA70767D01AE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -54,6 +55,12 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\EnemyCharacter.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\EnemyCharacterNavMesh.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\HealthComponent.cpp">
@@ -122,5 +129,15 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
