@@ -142,6 +142,15 @@ ANavigationNode* AAIManager::FindNearestNode(const FVector& Location)
 	// If there are lots of nodes in AllNodes, this could take a while.
 }
 
+ANavigationNode* AAIManager::FindNearNode(const FVector& Location)
+{
+	//Get Nearest Node First
+	ANavigationNode* NearestNode = FindNearestNode(Location);
+	ANavigationNode* NearNode = NearestNode->ConnectedNodes[FMath::RandRange(0, NearestNode->ConnectedNodes.Num())];
+	ANavigationNode* ABitFarNode = NearNode->ConnectedNodes[FMath::RandRange(0, NearNode->ConnectedNodes.Num())];
+	return ABitFarNode;
+}
+
 ANavigationNode* AAIManager::FindFurthestNode(const FVector& Location)
 {
 	ANavigationNode* FurthestNode = nullptr;

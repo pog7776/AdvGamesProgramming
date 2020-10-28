@@ -46,6 +46,7 @@ public:
 	@return NearestNode - The nearest node to the given location.
 	*/
 	ANavigationNode* FindNearestNode(const FVector& Location);
+	ANavigationNode* FindNearNode(const FVector& Location);
 	/**
 	Finds the furthest navigation node from the given location.
 	@param Location - The location that you want to find the furthest node from.

@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{57C69C13-98D3-4CC5-827F-37314C6D1505}</ProjectGuid>
+    <ProjectGuid>{260C274B-0483-4307-97B1-6A232362FEB8}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>AdvGamesProgramming</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -392,6 +392,10 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PickupRotator.h"/>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.cpp"/>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.h"/>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.cpp"/>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.h"/>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.cpp"/>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.h"/>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp"/>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\TeamComponent.h"/>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\WeaponPickup.cpp"/>

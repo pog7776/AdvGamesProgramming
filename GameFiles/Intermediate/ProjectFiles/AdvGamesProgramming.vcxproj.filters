@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9B0DF4C8-195F-4464-9CAD-07A65EF50D51}</UniqueIdentifier>
+      <UniqueIdentifier>{857328A5-5E7B-4630-95FA-97483B4FDEAE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7EE1295D-1A9A-442E-B257-19154D55ACE9}</UniqueIdentifier>
+      <UniqueIdentifier>{90D11C5B-27F8-42EC-8B3A-E625873BC6E3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{77BB2F36-19D0-47AE-82A7-A54018CFA7F6}</UniqueIdentifier>
+      <UniqueIdentifier>{0648BB5E-BF5E-41D3-A055-CF16475DE1D8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -90,6 +90,18 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp">

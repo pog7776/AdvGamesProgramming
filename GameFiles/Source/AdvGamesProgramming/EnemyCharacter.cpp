@@ -28,7 +28,6 @@ void AEnemyCharacter::BeginPlay()
 	DetectedActor = nullptr;
 	bSensed = false;
 	bCanSeeActor = false;
-	bAllowedMoveAlongPath = false;
 
 	HealthComponent = FindComponentByClass<UHealthComponent>();
 	TeamComponent = FindComponentByClass<UTeamComponent>();
@@ -41,16 +40,14 @@ void AEnemyCharacter::BeginPlay()
 void AEnemyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (bAllowedMoveAlongPath) MoveAlongPath();
-
-	//PerceptionComponent->HandleExpiredStimulus();
+	
+	MoveAlongPath();
 }
 
 // Called to bind functionality to input
 void AEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 
 void AEnemyCharacter::CreatePathPatrol()
@@ -60,6 +57,13 @@ void AEnemyCharacter::CreatePathPatrol()
 }
 
 void AEnemyCharacter::CreatePathEngage()
+{
+	if (bCanSeeActor)
+		if (Path.Num() == 0 && Manager != NULL)
+			Path = Manager->GeneratePath(CurrentNode, Manager->FindNearNode(DetectedActor->GetActorLocation()));
+}
+
+void AEnemyCharacter::CreatePathEngageSpecific()
 {
 	if (bCanSeeActor)
 		if (Path.Num() == 0 && Manager != NULL)
@@ -73,9 +77,8 @@ void AEnemyCharacter::CreatePathEvade()
 			Path = Manager->GeneratePath(CurrentNode, Manager->FindFurthestNode(DetectedActor->GetActorLocation()));
 }
 
-void AEnemyCharacter::AllowMoveAlongPath()
-{
-	bAllowedMoveAlongPath = true;
+void AEnemyCharacter::AllowMoveAlongPath() {
+
 }
 
 void AEnemyCharacter::MoveAlongPath()
@@ -118,10 +121,12 @@ float AEnemyCharacter::CalcKillApprox()
 {
 	//if everything was initialized, calculate kill possibility and return
 	if (HealthComponent != nullptr && DetectedActor != nullptr) {
-		UE_LOG(LogTemp, Warning, TEXT("Both Health Component Exist"))
+		//UE_LOG(LogTemp, Warning, TEXT("Both Health Component Exist"))
 		float playerHealth = DetectedActor->FindComponentByClass<UHealthComponent>()->HealthPercentageRemaining();
 		if (playerHealth > 0) {
-			UE_LOG(LogTemp, Warning, TEXT("Player is alive"))
+			//UE_LOG(LogTemp, Warning, TEXT("Player is alive"))
+			//UE_LOG(LogTemp, Warning, TEXT("%f"), HealthComponent->HealthPercentageRemaining())
+			//UE_LOG(LogTemp, Warning, TEXT("%f"), playerHealth)
 			return HealthComponent->HealthPercentageRemaining() / playerHealth;
 		}
 	}
@@ -138,60 +143,57 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 	if (Stimulus.WasSuccessfullySensed())
 	{
 		 // Is unfriendly
-		if (ActorSensed->FindComponentByClass<UTeamComponent>()->CheckUnfriendly(TeamComponent->OwnedFactions))
+		UTeamComponent* SensedTeamComponent = ActorSensed->FindComponentByClass<UTeamComponent>();
+		if (SensedTeamComponent != nullptr)
 		{
-			bSensed = true;
-			if (Stimulus.Type.Name == "Default__AISense_Sight")
+			if (SensedTeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
 			{
-				UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
-
-				EnemyBlackboard->SetValueAsBool(FName("bSensed"), true);
-				EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), true);
-				bCanSeeActor = true;
-			}
-
-			if (Stimulus.Type.Name == "Default__AISense_Hearing")
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
-
-					EnemyBlackboard->SetValueAsBool(FName("bSensed"), true);
-			}
-
-			DetectedActor = ActorSensed;
-
-			// Print team info
-			FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
-			for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
-			{
-				teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
-
-				if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+				bSensed = true;
+				EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
+				if (Stimulus.Type.Name == "Default__AISense_Sight")
 				{
-					teams += ", ";
+					UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
+						bCanSeeActor = true;
+					EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
 				}
-			}
 
-			UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
+				if (Stimulus.Type.Name == "Default__AISense_Hearing")
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Player Heard"))
+				}
+
+				DetectedActor = ActorSensed;
+
+				// Print team info
+				FString teams = ActorSensed->GetClass()->GetFName().ToString() + " owned Teams: ";
+				for (int i = 0; i < ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num(); i++)
+				{
+					teams += FString::FromInt(ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions[i]);
+
+					if (i != ActorSensed->FindComponentByClass<UTeamComponent>()->OwnedFactions.Num() - 1)
+					{
+						teams += ", ";
+					}
+				}
+
+				UE_LOG(LogTemp, Warning, TEXT("%s"), *teams)
+			}
 		}
 	}
 	else
 	{
 		// Reset stuff here
 		bSensed = false;
+		EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
 		bCanSeeActor = false;
-
+		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
 		EnemyBlackboard->SetValueAsBool(FName("bSensed"), false);
 		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), false);
 		UE_LOG(LogTemp, Warning, TEXT("Player Lost"))
 	}
 }
 
-bool AEnemyCharacter::GetBSensed() const
-{
-	return bSensed;
-}
 
-bool AEnemyCharacter::GetBCanSeeActor() const
-{
-	return bCanSeeActor;
-}
+//Getters
+bool AEnemyCharacter::GetBSensed() const{ return bSensed; }
+bool AEnemyCharacter::GetBCanSeeActor() const { return bCanSeeActor; }
