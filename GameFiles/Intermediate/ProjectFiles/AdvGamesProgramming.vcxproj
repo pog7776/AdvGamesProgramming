@@ -379,7 +379,9 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\AdvGamesProgrammingGameModeBase.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\AIManager.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManager.h" />
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\AIManagerNM.cpp" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\EnemyCharacter.cpp" />
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManagerNM.h" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\EnemyCharacter.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\EnemyCharacterNavMesh.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\EnemyCharacterNavMesh.h" />

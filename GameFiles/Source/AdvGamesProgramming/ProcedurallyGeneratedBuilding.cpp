@@ -49,6 +49,8 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 			GenerateBuilding();					//generates buildings with values
 			bSpawnCity = !bSpawnCity;			//un-trigger boolean
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+			AIManager->PopulateNodes();
+			AIManager->CreateAgents();
 		}
 		if (bRandSpawnCity) {				//in case if random values are required
 			DivisionFactorX =					//create random value ranged between given values from detail panel (buildings in a row)
@@ -58,6 +60,8 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 			GenerateBuilding();					//generates buildings with value
 			bRandSpawnCity = !bRandSpawnCity;	//un-trigger boolean
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+			AIManager->PopulateNodes();
+			AIManager->CreateAgents();
 		}
 	}
 }

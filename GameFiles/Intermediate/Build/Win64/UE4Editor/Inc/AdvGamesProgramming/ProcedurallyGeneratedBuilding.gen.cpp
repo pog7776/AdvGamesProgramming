@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 	UPackage* Z_Construct_UPackage__Script_AdvGamesProgramming();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AAIManagerNM_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 // End Cross Module References
@@ -87,6 +88,10 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIManager_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AIManager;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponSpawner_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WeaponSpawner;
@@ -153,6 +158,15 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_AIManager_MetaData[] = {
+		{ "Category", "Agent" },
+		{ "Comment", "//weapon spanwer (has to be given from detail panel)\n" },
+		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
+		{ "ToolTip", "weapon spanwer (has to be given from detail panel)" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_AIManager = { "AIManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, AIManager), Z_Construct_UClass_AAIManagerNM_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_AIManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_AIManager_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -271,6 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_SizeReferenceTarget = { "SizeReferenceTarget", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, SizeReferenceTarget), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_SizeReferenceTarget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_SizeReferenceTarget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_AIManager,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PCGBuilding,
@@ -311,7 +326,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 4268569801);
+	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 2400375462);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AProcedurallyGeneratedBuilding>()
 	{
 		return AProcedurallyGeneratedBuilding::StaticClass();

@@ -134,9 +134,15 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManagerNM.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\AIManagerNM.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
   </ItemGroup>

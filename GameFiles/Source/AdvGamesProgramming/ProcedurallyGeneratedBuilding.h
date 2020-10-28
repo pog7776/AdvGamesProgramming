@@ -1,10 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 #include "CoreMinimal.h"
 #include "Engine/World.h"
 #include "UObject/ConstructorHelpers.h"
 #include "GameFramework/Actor.h"
+#include "AIManagerNM.h"
 #include "ProcedurallyGeneratedBuilding.generated.h"
 
 UCLASS()
@@ -66,4 +66,8 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> WeaponSpawner;				//weapon spanwer (has to be given from detail panel)
+
+
+	UPROPERTY(EditAnywhere, Category = Agent)
+	AAIManagerNM* AIManager;								//
 };
