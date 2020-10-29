@@ -177,6 +177,8 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	dir = to - from;			//direction to 'to' from 'from' (with magnitude) (its not unit vector)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
+	PickupManager->CreateSpawner(WeaponSpawner, pos);
+	/*
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);
 	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
@@ -186,5 +188,6 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	if (Spawner)
 	{
 		Spawner->StartSpawn();
-	}	
+	}
+	*/
 }

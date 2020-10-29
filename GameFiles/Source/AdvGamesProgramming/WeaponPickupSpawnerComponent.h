@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Components/SphereComponent.h"
+#include "Pickup.h"
 #include "WeaponPickupSpawnerComponent.generated.h"
 
 
@@ -40,10 +41,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Position")
 		FVector SpawnOffset;
 
-	/*
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test thing")
-	AActor* Class;
-	*/
+	APickup* CurrentPickup;
 
 private:
 	void CheckSurroundings();

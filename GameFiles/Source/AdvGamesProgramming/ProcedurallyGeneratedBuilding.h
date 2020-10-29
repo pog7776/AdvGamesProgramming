@@ -5,6 +5,7 @@
 #include "Engine/World.h"
 #include "UObject/ConstructorHelpers.h"
 #include "GameFramework/Actor.h"
+#include "PickupManager.h"
 #include "ProcedurallyGeneratedBuilding.generated.h"
 
 UCLASS()
@@ -64,6 +65,8 @@ public:
 	void Init(AActor* target, float x, float y, float z);	//it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)
 
 
+	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
+	APickupManager* PickupManager;							//PickupManager (has to be given from detail panel)
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> WeaponSpawner;				//weapon spanwer (has to be given from detail panel)
 };

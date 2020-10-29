@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ADVGAMESPROGRAMMING_WeaponPickupSpawnerComponent_generated_h
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_SPARSE_DATA
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_RPC_WRAPPERS \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_SPARSE_DATA
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execStartSpawn) \
 	{ \
@@ -25,7 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execStartSpawn) \
 	{ \
@@ -36,7 +36,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_INCLASS_NO_PURE_DECLS \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWeaponPickupSpawnerComponent(); \
 	friend struct Z_Construct_UClass_UWeaponPickupSpawnerComponent_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UWeaponPickupSpawnerComponent)
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_INCLASS \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUWeaponPickupSpawnerComponent(); \
 	friend struct Z_Construct_UClass_UWeaponPickupSpawnerComponent_Statics; \
@@ -54,7 +54,7 @@ public: \
 	DECLARE_SERIALIZER(UWeaponPickupSpawnerComponent)
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_STANDARD_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWeaponPickupSpawnerComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWeaponPickupSpawnerComponent) \
@@ -67,7 +67,7 @@ private: \
 public:
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_ENHANCED_CONSTRUCTORS \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UWeaponPickupSpawnerComponent(UWeaponPickupSpawnerComponent&&); \
@@ -78,28 +78,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWeaponPickupSpawnerComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UWeaponPickupSpawnerComponent)
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_PRIVATE_PROPERTY_OFFSET
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_11_PROLOG
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_GENERATED_BODY_LEGACY \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_PRIVATE_PROPERTY_OFFSET
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_12_PROLOG
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_PRIVATE_PROPERTY_OFFSET \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_SPARSE_DATA \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_RPC_WRAPPERS \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_INCLASS \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_STANDARD_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_RPC_WRAPPERS \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_INCLASS \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_GENERATED_BODY \
+#define GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_PRIVATE_PROPERTY_OFFSET \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_SPARSE_DATA \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_INCLASS_NO_PURE_DECLS \
-	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_14_ENHANCED_CONSTRUCTORS \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_SPARSE_DATA \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_INCLASS_NO_PURE_DECLS \
+	GameFiles_Source_AdvGamesProgramming_WeaponPickupSpawnerComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

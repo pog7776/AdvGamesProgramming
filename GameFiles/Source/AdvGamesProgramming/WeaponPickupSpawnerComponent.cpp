@@ -114,7 +114,8 @@ void UWeaponPickupSpawnerComponent::SpawnPickup()
 	{
 		UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 		// Spawn the pickup
-		APickup* WeaponPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
+		CurrentPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
+		//TODO Handle previous pickup
 	}
 	else
 	{

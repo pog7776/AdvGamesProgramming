@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{857328A5-5E7B-4630-95FA-97483B4FDEAE}</UniqueIdentifier>
+      <UniqueIdentifier>{A959F8CF-AC90-4039-9AA7-BB345ED85ED0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{90D11C5B-27F8-42EC-8B3A-E625873BC6E3}</UniqueIdentifier>
+      <UniqueIdentifier>{9182CC95-853D-4D55-90F2-3BEAEDEECEFA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{0648BB5E-BF5E-41D3-A055-CF16475DE1D8}</UniqueIdentifier>
+      <UniqueIdentifier>{37E3D30F-E727-496D-91BE-89FCA2957949}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -122,5 +122,27 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\AmmoPickup.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\PickupManager.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\Spawner.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\AmmoPickup.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\PickupManager.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\Spawner.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

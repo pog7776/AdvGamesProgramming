@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_APickupManager_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 // End Cross Module References
 	static FName NAME_AProcedurallyGeneratedBuilding_Init = FName(TEXT("Init"));
@@ -91,6 +92,10 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WeaponSpawner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PickupManager_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PickupManager;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HeightGroundLift_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_HeightGroundLift;
@@ -157,12 +162,22 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "WeaponSpawner" },
+		{ "Comment", "//PickupManager (has to be given from detail panel)\n" },
+		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
+		{ "ToolTip", "PickupManager (has to be given from detail panel)" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner = { "WeaponSpawner", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, WeaponSpawner), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "WeaponSpawner" },
 		{ "Comment", "//it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)\n" },
 		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
 		{ "ToolTip", "it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner = { "WeaponSpawner", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, WeaponSpawner), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager = { "PickupManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PickupManager), Z_Construct_UClass_APickupManager_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift_MetaData[] = {
 		{ "Category", "Building" },
@@ -272,6 +287,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_SizeReferenceTarget = { "SizeReferenceTarget", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, SizeReferenceTarget), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_SizeReferenceTarget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_SizeReferenceTarget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_WeaponSpawner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PCGBuilding,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorY,
@@ -311,7 +327,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 4268569801);
+	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 1941486047);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AProcedurallyGeneratedBuilding>()
 	{
 		return AProcedurallyGeneratedBuilding::StaticClass();
