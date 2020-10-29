@@ -133,6 +133,9 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\Spawner.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerHud.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\AmmoPickup.cpp">
@@ -142,6 +145,9 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\Spawner.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\PlayerHud.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
   </ItemGroup>

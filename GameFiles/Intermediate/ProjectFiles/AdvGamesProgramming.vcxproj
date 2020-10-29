@@ -396,7 +396,9 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PickupRotator.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.h" />
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\PlayerHud.cpp" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.cpp" />
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerHud.h" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.h" />
