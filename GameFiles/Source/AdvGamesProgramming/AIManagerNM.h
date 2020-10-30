@@ -24,7 +24,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, Category = "Agents")
-	TSubclassOf<AEnemyCharacterNavMesh> AgentToSpawn;
+	TArray<TSubclassOf<class AActor>> AgentToSpawn;
 
 	UPROPERTY(EditAnywhere, Category = "Agents", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> SpawnPoint;

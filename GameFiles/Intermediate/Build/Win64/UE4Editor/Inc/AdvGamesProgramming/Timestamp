@@ -1,9 +1,12 @@
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\AdvGamesProgrammingGameModeBase.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacter.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\AIManager.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\AIManagerNM.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacter.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\HealthComponent.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\MyAIController.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\MyAIControllerNM.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\NavigationNode.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\Pickup.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\PickupRotator.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\PlayerCharacter.h
@@ -12,6 +15,4 @@ C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Sour
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\TeamComponent.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\WeaponPickup.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\MyAIControllerNM.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\NavigationNode.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\AIManagerNM.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\MultiplayerGameMode.h

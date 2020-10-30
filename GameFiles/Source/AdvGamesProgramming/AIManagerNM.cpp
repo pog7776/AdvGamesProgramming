@@ -39,9 +39,10 @@ void AAIManagerNM::CreateAgents()
 	for (int32 i = 0; i < NumAI; i++)
 	{
 		int32 RandIndex = FMath::RandRange(0, AllNodes.Num() - 1);
+		int32 RandIndex2 = FMath::RandRange(0, AgentToSpawn.Num() - 1);
 		AEnemyCharacterNavMesh* Agent =
 			GetWorld()->SpawnActor<AEnemyCharacterNavMesh>(
-				AgentToSpawn,
+				AgentToSpawn[RandIndex2],
 				AllNodes[RandIndex]->GetActorLocation() + FVector(0.0f, 0.0f, 100.0f),
 				FRotator(0.f, 0.f, 0.f));
 		AllAgents.Add(Agent);

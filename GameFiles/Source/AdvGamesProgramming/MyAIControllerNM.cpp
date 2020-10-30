@@ -32,5 +32,5 @@ void AMyAIControllerNM::OnPossess(APawn * const pawn)
 
 UBlackboardComponent * AMyAIControllerNM::get_blackboard() const
 {
-	return blackboard;
+	return this ? blackboard : nullptr;
 }

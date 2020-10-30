@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7CC679AD-7E9C-471E-9CBD-1B1AFD5CAA7A}</UniqueIdentifier>
+      <UniqueIdentifier>{226D95A1-EEC9-461D-9A41-2F9F1658BE2A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -11,9 +11,8 @@
     <None Include="..\..\Source\AdvGamesProgrammingEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\Jinhoon Choi, Jack Cooper - Assignment 3.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9FF19862-2630-410F-9284-08913B27200D}</UniqueIdentifier>
+      <UniqueIdentifier>{144D5417-8DD0-411F-877E-584F7AE2FCB0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{9F0C1B4C-959C-4C41-9854-DA70767D01AE}</UniqueIdentifier>
+      <UniqueIdentifier>{2EA11DB1-A7C7-4981-BAEC-F1823F5B5573}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -51,6 +50,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManager.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\AIManagerNM.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManagerNM.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\EnemyCharacter.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -69,10 +74,22 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\HealthComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\MultiplayerGameMode.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\MultiplayerGameMode.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIController.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIController.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\NavigationNode.cpp">
@@ -129,21 +146,5 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManagerNM.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\MyAIControllerNM.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\AIManagerNM.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
