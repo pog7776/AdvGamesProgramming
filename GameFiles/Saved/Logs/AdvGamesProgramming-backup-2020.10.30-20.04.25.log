@@ -1,0 +1,1272 @@
+﻿Log file open, 10/31/20 07:02:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: AdvGamesProgramming
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.303769
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.30-20.02.19:638][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.30-20.02.19:638][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.30-20.02.19:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:638][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.30-20.02.19:639][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.10.30-20.02.19:639][  0]LogConfig: Setting CVar [[r.EarlyZPass:2]]
+[2020.10.30-20.02.19:639][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:1]]
+[2020.10.30-20.02.19:639][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:639][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:639][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.30-20.02.19:639][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.30-20.02.19:639][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.30-20.02.19:640][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.30-20.02.19:641][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.30-20.02.19:642][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.30-20.02.19:642][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.30-20.02.19:642][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.30-20.02.19:642][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.30-20.02.19:643][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.30-20.02.19:643][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.30-20.02.19:643][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:643][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:671][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:672][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.30-20.02.19:672][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.30-20.02.19:672][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:672][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.30-20.02.19:672][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.30-20.02.19:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.30-20.02.19:674][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.30-20.02.19:675][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.30-20.02.19:676][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.30-20.02.19:677][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.30-20.02.19:678][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.30-20.02.19:679][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.30-20.02.19:680][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:681][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.30-20.02.19:681][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.30-20.02.19:681][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:681][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.30-20.02.19:681][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.30-20.02.19:681][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.30-20.02.19:681][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.30-20.02.19:682][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.30-20.02.19:691][  0]LogHAL: Display: Platform has ~ 32 GB [34225496064 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.30-20.02.19:691][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.30-20.02.19:691][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:691][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.30-20.02.19:691][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.30-20.02.19:692][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.30-20.02.19:693][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.30-20.02.19:694][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.30-20.02.19:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.30-20.02.19:696][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.30-20.02.19:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.30-20.02.19:698][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.30-20.02.19:699][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.30-20.02.19:700][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.30-20.02.19:700][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.30-20.02.19:700][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.30-20.02.19:700][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.30-20.02.19:700][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.30-20.02.19:701][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.30-20.02.19:701][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.30-20.02.19:701][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.30-20.02.19:701][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.30-20.02.19:701][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:701][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.30-20.02.19:702][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.30-20.02.19:702][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Scalability.ini]
+[2020.10.30-20.02.19:702][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.30-20.02.19:702][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.30-20.02.19:702][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.30-20.02.19:702][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.30-20.02.19:703][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.30-20.02.19:703][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.30-20.02.19:703][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Config/Windows/Engine.ini]
+[2020.10.30-20.02.19:703][  0]LogInit: Computer: DESKTOP-DOLCJVN
+[2020.10.30-20.02.19:704][  0]LogInit: User: wlsgn
+[2020.10.30-20.02.19:704][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.30-20.02.19:704][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.30-20.02.19:704][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.10.30-20.02.19:704][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.30-20.02.19:704][  0]LogMemory: Process Physical Memory: 108.76 MB used, 108.76 MB peak
+[2020.10.30-20.02.19:704][  0]LogMemory: Process Virtual Memory: 101.55 MB used, 101.55 MB peak
+[2020.10.30-20.02.19:705][  0]LogMemory: Physical Memory: 12175.98 MB used,  20464.00 MB free, 32639.98 MB total
+[2020.10.30-20.02.19:705][  0]LogMemory: Virtual Memory: 5135.30 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.10.30-20.02.19:724][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.30-20.02.20:008][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.10.30-20.02.20:008][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.10.30-20.02.20:412][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.30-20.02.20:679][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.30-20.02.20:679][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.30-20.02.21:358][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.30-20.02.21:358][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.30-20.02.21:358][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.30-20.02.21:555][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX130' (Feature Level 11_0)
+[2020.10.30-20.02.21:555][  0]LogD3D11RHI:       2010/0/16319 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.30-20.02.21:663][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.10.30-20.02.21:663][  0]LogD3D11RHI:       128/0/16319 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.30-20.02.21:678][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.30-20.02.21:678][  0]LogD3D11RHI:       0/0/16319 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.30-20.02.21:688][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.30-20.02.21:688][  0]LogD3D11RHI:       0/0/16319 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.30-20.02.21:688][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.30-20.02.21:769][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.30-20.02.21:769][  0]LogD3D11RHI:     GPU DeviceId: 0x174d (for the marketing name, search the web for "GPU Device Id")
+[2020.10.30-20.02.21:769][  0]LogWindows: EnumDisplayDevices:
+[2020.10.30-20.02.21:770][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2020.10.30-20.02.21:772][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.10.30-20.02.21:774][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.10.30-20.02.21:775][  0]LogWindows:    3. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:777][  0]LogWindows:    4. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:779][  0]LogWindows:    5. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:781][  0]LogWindows:    6. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:784][  0]LogWindows:    7. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:786][  0]LogWindows:    8. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:788][  0]LogWindows:    9. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:789][  0]LogWindows:    10. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:791][  0]LogWindows:    11. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:793][  0]LogWindows:    12. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:794][  0]LogWindows:    13. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:796][  0]LogWindows:    14. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:798][  0]LogWindows:    15. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:799][  0]LogWindows:    16. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:802][  0]LogWindows:    17. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:804][  0]LogWindows:    18. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.30-20.02.21:805][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.30-20.02.21:805][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX130
+[2020.10.30-20.02.21:805][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.30-20.02.21:805][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.30-20.02.21:806][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2020.10.30-20.02.21:921][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.30-20.02.21:921][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.30-20.02.21:965][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.30-20.02.23:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.30-20.02.23:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.30-20.02.23:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.30-20.02.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.30-20.02.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.30-20.02.23:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.30-20.02.23:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.30-20.02.23:356][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.30-20.02.23:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.30-20.02.23:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.30-20.02.23:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.30-20.02.23:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.30-20.02.23:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.30-20.02.23:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.30-20.02.23:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.30-20.02.23:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.30-20.02.23:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.30-20.02.23:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.30-20.02.23:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.30-20.02.23:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.30-20.02.23:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.30-20.02.23:776][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.30-20.02.23:823][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.30-20.02.24:230][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Intermediate/Shaders/WorkingDirectory/22880/).
+[2020.10.30-20.02.24:231][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wlsgn/AppData/Local/Temp/UnrealShaderWorkingDir/4BD6419742D037BD74A12DBB2FC5949C/'.
+[2020.10.30-20.02.24:233][  0]LogXGEController: Cleaning working directory: C:/Users/wlsgn/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.30-20.02.24:236][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.30-20.02.24:237][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.30-20.02.24:237][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.30-20.02.25:777][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.30-20.02.25:873][  0]LogDerivedDataCache: Loaded boot cache 0.10s 96MB C:/Users/wlsgn/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.10.30-20.02.25:873][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wlsgn/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.10.30-20.02.25:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.30-20.02.25:873][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.30-20.02.25:874][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.30-20.02.25:874][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.30-20.02.25:891][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.30-20.02.25:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.30-20.02.25:891][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.30-20.02.25:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wlsgn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.30-20.02.25:895][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.30-20.02.25:895][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.30-20.02.25:957][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.30-20.02.25:960][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.30-20.02.25:962][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.30-20.02.26:097][  0]LogAssetRegistry: FAssetRegistry took 0.0076 seconds to start up
+[2020.10.30-20.02.26:689][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.30-20.02.27:040][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.30-20.02.27:040][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.30-20.02.27:040][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.30-20.02.27:040][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.30-20.02.27:040][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.30-20.02.27:077][  0]LogNetVersion: AdvGamesProgramming 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 489682494)
+[2020.10.30-20.02.29:113][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 1 prioritized culture(s) in 0.068528 seconds
+[2020.10.30-20.02.29:123][  0]LogUObjectArray: 46098 objects as part of root set at end of initial load.
+[2020.10.30-20.02.29:123][  0]LogUObjectAllocator: 8030680 out of 0 bytes used by permanent object pool.
+[2020.10.30-20.02.29:124][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.30-20.02.30:515][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.30-20.02.30:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.30-20.02.31:015][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.10.30-20.02.31:016][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2020.10.30-20.02.32:389][  0]SourceControl: Source control is disabled
+[2020.10.30-20.02.32:389][  0]SourceControl: Source control is disabled
+[2020.10.30-20.02.32:409][  0]SourceControl: Source control is disabled
+[2020.10.30-20.02.32:419][  0]SourceControl: Source control is disabled
+[2020.10.30-20.02.32:427][  0]SourceControl: Source control is disabled
+[2020.10.30-20.02.32:902][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.30-20.02.32:971][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.30-20.02.32:971][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.30-20.02.33:273][  0]LogEngine: Initializing Engine...
+[2020.10.30-20.02.33:279][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.10.30-20.02.33:789][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.30-20.02.33:807][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.30-20.02.33:841][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.30-20.02.33:842][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.30-20.02.33:842][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.30-20.02.33:843][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.30-20.02.34:432][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: Name: 헤드폰(QCY-T5 Stereo)
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: Sample Rate: 44100
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: Channel Order:
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.30-20.02.34:433][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.30-20.02.34:926][  0]LogAudioMixer: Display: Using Audio Device 헤드폰(QCY-T5 Stereo)
+[2020.10.30-20.02.34:936][  0]LogInit: FAudioDevice initialized.
+[2020.10.30-20.02.34:937][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.30-20.02.35:032][  0]LogDerivedDataCache: Saved boot cache 0.10s 96MB C:/Users/wlsgn/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.10.30-20.02.35:037][  0]LogInit: Texture streaming: Enabled
+[2020.10.30-20.02.35:099][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.30-20.02.35:099][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={D72C92FE-4CFC-D733-49D1-2C9A760A2209}
+[2020.10.30-20.02.35:099][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.30-20.02.35:103][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.30-20.02.35:203][  0]LogInit: Transaction tracking system initialized
+[2020.10.30-20.02.35:295][  0]BlueprintLog: New page: Editor Load
+[2020.10.30-20.02.35:507][  0]LocalizationService: Localization service is disabled
+[2020.10.30-20.02.36:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/' took 0.01s
+[2020.10.30-20.02.36:465][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.30-20.02.36:466][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.30-20.02.37:008][  0]SourceControl: Source control is disabled
+[2020.10.30-20.02.37:009][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.30-20.02.37:010][  0]LightingResults: New page: Lighting Build
+[2020.10.30-20.02.37:012][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.30-20.02.37:013][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.30-20.02.37:013][  0]MapCheck: New page: Map Check
+[2020.10.30-20.02.37:013][  0]LightingResults: New page: Lighting Build
+[2020.10.30-20.02.37:057][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.10.30-20.02.37:905][  0]LogAIModule: Creating AISystem for world TestingMap
+[2020.10.30-20.02.37:938][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.30-20.02.37:983][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.10.30-20.02.37:983][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.30-20.02.37:984][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.578ms to complete.
+[2020.10.30-20.02.37:984][  0]LogFileHelpers: Loading map 'TestingMap' took 0.975
+[2020.10.30-20.02.38:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.02.38:242][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.02.38:252][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.02.38:261][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.02.38:280][  0]LogCollectionManager: Loaded 0 collections in 0.001994 seconds
+[2020.10.30-20.02.38:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Saved/Collections/' took 0.01s
+[2020.10.30-20.02.38:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Developers/wlsgn/Collections/' took 0.01s
+[2020.10.30-20.02.38:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/Content/Collections/' took 0.00s
+[2020.10.30-20.02.38:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 3015 classes and 703 folders.
+[2020.10.30-20.02.38:326][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.30-20.02.38:432][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.30-20.02.38:453][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.10.30-20.02.38:591][  0]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.30-20.02.38:596][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.30-20.02.38:605][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.30-20.02.38:758][  0]LogRenderer: Reallocating scene render targets to support 1608x996 Format 10 NumSamples 1 (Frame:1).
+[2020.10.30-20.02.38:947][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.30-20.02.38:947][  0]LogLoad: (Engine Initialization) Total time: 23.41 seconds
+[2020.10.30-20.02.38:947][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.30-20.02.39:022][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.30-20.02.39:103][  1]LogAssetRegistry: Asset discovery search completed in 13.0092 seconds
+[2020.10.30-20.02.39:108][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2020.10.30-20.04.03:184][279]Candidate modules for hot reload:
+[2020.10.30-20.04.03:184][279]  AdvGamesProgramming
+[2020.10.30-20.04.03:185][279]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AdvGamesProgramming,1653 Win64 Development -TargetType=Editor -Project="C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject" "C:/Users/wlsgn/Documents/Unreal Projects/Proj/AdvGamesProgramming/GameFiles/AdvGamesProgramming.uproject"  -IgnoreJunk]
+[2020.10.30-20.04.03:190][279]Warning: Starting HotReload took  0.1s.
+[2020.10.30-20.04.15:053][639]CompilerResultsLog: New page: Compilation - Oct 31, 2020, 6:04:15 PM
+[2020.10.30-20.04.15:053][639]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+[2020.10.30-20.04.15:053][639]CompilerResultsLog: Building AdvGamesProgrammingEditor...
+[2020.10.30-20.04.15:053][639]CompilerResultsLog: Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2020.10.30-20.04.15:053][639]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.10.30-20.04.15:054][639]CompilerResultsLog:   [1/4] MyAIController.cpp
+[2020.10.30-20.04.15:054][639]CompilerResultsLog:   [2/4] UE4Editor-AdvGamesProgramming-1653.lib
+[2020.10.30-20.04.15:054][639]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-1653.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-1653.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.10.30-20.04.15:054][639]CompilerResultsLog:   [3/4] UE4Editor-AdvGamesProgramming-1653.dll
+[2020.10.30-20.04.15:054][639]CompilerResultsLog:      C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-1653.suppressed.lib ???̺귯?? ?? C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-1653.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.10.30-20.04.15:054][639]CompilerResultsLog:   [4/4] AdvGamesProgrammingEditor.target
+[2020.10.30-20.04.15:054][639]CompilerResultsLog: Total time in Parallel executor: 9.13 seconds
+[2020.10.30-20.04.15:054][639]CompilerResultsLog: Total execution time: 11.66 seconds
+[2020.10.30-20.04.15:054][639]LogMainFrame: MainFrame: Module compiling took 11.888 seconds
+[2020.10.30-20.04.15:085][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.10.30-20.04.15:165][639]LogClass: AgentState HotReload.
+[2020.10.30-20.04.15:165][639]LogClass: WeaponPickupRarity HotReload.
+[2020.10.30-20.04.15:178][639]LogContentBrowser: Native class hierarchy updated for 'AdvGamesProgramming' in 0.0006 seconds. Added 18 classes and 2 folders.
+[2020.10.30-20.04.15:182][639]Display: HotReload successful (22 functions remapped  0 scriptstructs remapped)
+[2020.10.30-20.04.15:294][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.10.30-20.04.15:306][639]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 3017 classes and 706 folders.
+[2020.10.30-20.04.15:313][639]Display: HotReload took 12.2s.
+[2020.10.30-20.04.19:773][776]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.30-20.04.19:791][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Levels/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2020.10.30-20.04.19:791][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.30-20.04.19:791][776]PIE: New page: PIE session: TestingMap (Oct 31, 2020, 6:04:19 PM)
+[2020.10.30-20.04.19:794][776]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.30-20.04.19:795][776]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.30-20.04.19:796][776]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_TestingMap
+[2020.10.30-20.04.19:827][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031566s)
+[2020.10.30-20.04.19:828][776]LogAIModule: Creating AISystem for world TestingMap
+[2020.10.30-20.04.19:828][776]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2020.10.30-20.04.19:828][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_1_TestingMap.TestingMap (0.033498s)
+[2020.10.30-20.04.19:854][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.10.30-20.04.19:862][776]LogLoad: Game class is 'MultiplayerGameModeBlueprint_C'
+[2020.10.30-20.04.19:865][776]LogWorld: Bringing World /Game/Levels/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 60) at 2020.10.31-07.04.19
+[2020.10.30-20.04.19:865][776]LogWorld: Bringing up level for play took: 0.001992
+[2020.10.30-20.04.19:867][776]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.30-20.04.19:867][776]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.30-20.04.19:868][776]LogInit: WinSock: I am DESKTOP-DOLCJVN (192.168.146.1:0)
+[2020.10.30-20.04.19:868][776]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.30-20.04.19:868][776]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.19:868][776]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.10.30-20.04.19:868][776]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.30-20.04.19:869][776]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.10.30-20.04.19:873][776]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.30-20.04.19:873][776]PIE: Play in editor start time for /Game/Levels/UEDPIE_1_TestingMap -0.728
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.30-20.04.19:876][776]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.30-20.04.19:876][776]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.30-20.04.19:877][776]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.30-20.04.19:877][776]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.30-20.04.20:255][776]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.10.30-20.04.20:255][776]LogAudioMixer: Display: Name: 헤드폰(QCY-T5 Stereo)
+[2020.10.30-20.04.20:255][776]LogAudioMixer: Display: Is Default: Yes
+[2020.10.30-20.04.20:255][776]LogAudioMixer: Display: Sample Rate: 44100
+[2020.10.30-20.04.20:256][776]LogAudioMixer: Display: Channel Count Used: 2
+[2020.10.30-20.04.20:256][776]LogAudioMixer: Display: Device Channel Count: 2
+[2020.10.30-20.04.20:256][776]LogAudioMixer: Display: Channel Order:
+[2020.10.30-20.04.20:256][776]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.30-20.04.20:256][776]LogAudioMixer: Display: 1: FrontRight
+[2020.10.30-20.04.20:538][776]LogAudioMixer: Display: Using Audio Device 헤드폰(QCY-T5 Stereo)
+[2020.10.30-20.04.20:542][776]LogInit: FAudioDevice initialized.
+[2020.10.30-20.04.20:555][776]LogNet: Browse: 127.0.0.1:17777//Game/Levels/TestingMap
+[2020.10.30-20.04.20:557][776]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.30-20.04.20:557][776]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.20:557][776]LogNet: Game client on port 17777, rate 10000
+[2020.10.30-20.04.20:557][776]PIE: Play in editor start time for /Game/Levels/TestingMap -0.045
+[2020.10.30-20.04.20:633][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.04.20:634][776]LogNet: Browse: 127.0.0.1:17777//Game/Levels/TestingMap
+[2020.10.30-20.04.20:635][776]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.30-20.04.20:636][776]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.20:636][776]LogNet: Game client on port 17777, rate 10000
+[2020.10.30-20.04.20:638][776]PIE: Play in editor start time for /Game/Levels/TestingMap 0.036
+[2020.10.30-20.04.20:698][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.04.20:699][776]LogNet: Browse: 127.0.0.1:17777//Game/Levels/TestingMap
+[2020.10.30-20.04.20:700][776]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.30-20.04.20:701][776]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.20:701][776]LogNet: Game client on port 17777, rate 10000
+[2020.10.30-20.04.20:704][776]PIE: Play in editor start time for /Game/Levels/TestingMap 0.102
+[2020.10.30-20.04.20:765][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.30-20.04.20:766][776]LogNet: Browse: 127.0.0.1:17777//Game/Levels/TestingMap
+[2020.10.30-20.04.20:767][776]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.30-20.04.20:768][776]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.20:769][776]LogNet: Game client on port 17777, rate 10000
+[2020.10.30-20.04.20:771][776]PIE: Play in editor start time for /Game/Levels/TestingMap 0.169
+[2020.10.30-20.04.20:779][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Levels/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2020.10.30-20.04.20:780][776]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49765
+[2020.10.30-20.04.20:780][776]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 042078077136208008188044109176255116032036072215252173126228
+[2020.10.30-20.04.20:780][776]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49766
+[2020.10.30-20.04.20:780][776]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 000102086009066090072084109055178209033195036069116115111195
+[2020.10.30-20.04.20:780][776]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49767
+[2020.10.30-20.04.20:780][776]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 174048182210212039147038068097045158254240252184075051050078
+[2020.10.30-20.04.20:780][776]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49768
+[2020.10.30-20.04.20:781][776]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 111155110076026056190226238031253164014084094227006005190135
+[2020.10.30-20.04.20:787][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_0 - Roll: 76.000000 | Chance: 100.000000 -- Success
+[2020.10.30-20.04.20:788][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.20:788][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.20:789][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.20:789][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_1 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.20:789][776]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.30-20.04.20:789][776]LogOutputDevice: Error: Ensure condition failed: Lhs.CurrentNum == Lhs.InitialNum [File:C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 207] 
+Array has changed during ranged-for iteration!
+
+[2020.10.30-20.04.20:790][776]LogStats:             FDebug::EnsureFailed -  0.000 s
+[2020.10.30-20.04.23:637][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_1 - Roll: 65.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:638][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:638][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_2 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:638][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_2 - Roll: 1.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:639][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:639][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:639][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:639][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:640][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:640][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:640][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_3 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:640][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_3 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:641][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_3 - Roll: 12.000000 | Chance: 25.000000 -- Success
+[2020.10.30-20.04.23:641][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:641][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:641][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:642][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:642][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:642][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:642][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_4 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:642][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_4 - Roll: 68.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:644][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:644][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:644][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_5 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:644][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_5 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:644][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_5 - Roll: 95.000000 | Chance: 25.000000 -- Fail
+[2020.10.30-20.04.23:645][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:645][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_6 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:645][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_6 - Roll: 87.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:646][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_7 - Roll: 56.000000 | Chance: 100.000000 -- Success
+[2020.10.30-20.04.23:646][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:646][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:647][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:647][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:648][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:648][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_8 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:648][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_8 - Roll: 100.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:649][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:650][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_9 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:650][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_9 - Roll: 36.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:650][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:651][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:651][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:651][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:651][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:653][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:653][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:653][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_10 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:653][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_10 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:653][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_10 - Roll: 74.000000 | Chance: 25.000000 -- Fail
+[2020.10.30-20.04.23:654][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:654][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_11 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:655][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_11 - Roll: 31.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:655][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:655][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:656][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:656][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:656][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:657][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:657][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:657][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_12 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:657][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_12 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:657][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_12 - Roll: 8.000000 | Chance: 25.000000 -- Success
+[2020.10.30-20.04.23:658][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:658][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:658][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:658][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:658][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:659][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_13 - Roll: 41.000000 | Chance: 100.000000 -- Success
+[2020.10.30-20.04.23:660][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:660][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:661][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:661][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:661][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:661][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:661][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:662][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:662][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Near Weapon | Chance = 25.000000/2
+[2020.10.30-20.04.23:662][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Near Weapon | Chance = 12.500000/2
+[2020.10.30-20.04.23:662][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Roll: 69.000000 | Chance: 6.250000 -- Fail
+[2020.10.30-20.04.23:663][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:663][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_15 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:663][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_15 - Roll: 58.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:664][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:664][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_16 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:664][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_16 - Roll: 8.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:665][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:665][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:665][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:665][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:665][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:666][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:666][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:666][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_17 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:667][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_17 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:667][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_17 - Roll: 67.000000 | Chance: 25.000000 -- Fail
+[2020.10.30-20.04.23:668][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:668][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_18 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:668][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_18 - Roll: 89.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:669][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:669][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_19 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:670][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_19 - Roll: 75.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:670][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:671][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_20 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:671][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_20 - Roll: 6.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:678][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:678][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:678][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:678][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:679][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:679][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:679][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:680][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:681][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_21 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:681][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_21 - Roll: 6.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:681][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:682][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:682][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:682][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:682][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:683][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:683][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:684][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_22 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:684][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_22 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:684][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_22 - Roll: 41.000000 | Chance: 25.000000 -- Fail
+[2020.10.30-20.04.23:686][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:686][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:686][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:686][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:687][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:687][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:687][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Near Weapon | Chance = 25.000000/2
+[2020.10.30-20.04.23:687][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Near Weapon | Chance = 12.500000/2
+[2020.10.30-20.04.23:687][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Roll: 28.000000 | Chance: 6.250000 -- Fail
+[2020.10.30-20.04.23:688][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:688][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_24 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:689][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_24 - Roll: 77.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:689][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_25 - Roll: 78.000000 | Chance: 100.000000 -- Success
+[2020.10.30-20.04.23:690][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:690][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:690][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:690][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:691][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:691][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:692][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:692][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_26 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:692][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_26 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:692][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_26 - Roll: 92.000000 | Chance: 25.000000 -- Fail
+[2020.10.30-20.04.23:693][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:694][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_27 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:694][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_27 - Roll: 62.000000 | Chance: 50.000000 -- Fail
+[2020.10.30-20.04.23:694][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:694][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_28 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:694][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_28 - Roll: 49.000000 | Chance: 50.000000 -- Success
+[2020.10.30-20.04.23:694][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:695][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:695][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:695][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:695][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:695][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:696][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:696][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:696][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_29 - Near Weapon | Chance = 100.000000/2
+[2020.10.30-20.04.23:696][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_29 - Near Weapon | Chance = 50.000000/2
+[2020.10.30-20.04.23:697][776]LogTemp: Warning: PickupSpawnPontBlueprint_C_29 - Roll: 74.000000 | Chance: 25.000000 -- Fail
+[2020.10.30-20.04.23:700][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:701][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:702][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:704][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:706][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:706][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:707][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:708][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:709][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:711][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:712][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:713][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:714][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:715][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:716][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:718][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:719][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:722][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:723][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:723][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:726][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:728][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:730][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:730][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:735][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:735][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:736][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:738][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:738][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:740][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:741][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:742][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:743][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:744][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:745][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:748][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:748][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:751][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:752][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:754][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:755][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:758][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:758][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:762][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:763][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:765][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:766][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:767][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:769][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:770][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:773][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:773][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:775][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:776][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:776][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:778][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:780][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:780][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:783][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:783][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:784][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:787][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:788][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:789][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:792][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:794][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:797][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:797][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:798][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:801][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:802][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:805][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:805][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:809][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:810][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:811][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:813][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:813][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:815][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:817][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:819][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:820][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:823][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:824][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:824][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:826][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:827][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:827][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:829][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:830][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:834][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:834][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:835][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:837][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:837][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:840][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:840][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:841][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:843][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:845][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:845][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:847][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:848][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:850][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:851][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:856][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:858][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:858][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:860][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:861][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:864][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:864][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:865][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:867][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:868][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:870][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:871][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:871][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:873][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:874][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:877][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:877][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:881][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:882][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:882][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:885][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:886][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:890][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:891][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:895][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:897][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:897][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:900][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:901][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:902][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:904][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:905][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:908][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:909][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:911][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:912][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:914][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:915][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:918][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:919][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:920][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:922][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:922][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:925][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:925][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:927][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:928][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:931][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:932][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:933][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:935][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:936][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:938][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:939][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:941][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:942][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:945][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:945][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:948][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:948][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:952][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:953][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:955][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:955][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:958][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:959][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:961][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:962][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:965][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:965][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:966][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:969][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:969][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:973][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:973][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:974][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:976][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:977][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:980][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:981][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:982][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:984][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:985][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:988][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:989][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:990][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:992][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:993][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:994][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.23:996][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:996][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.23:999][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:000][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:004][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:005][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:008][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:009][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:010][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:012][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:013][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:013][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:016][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:017][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:020][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:021][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:022][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:025][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:026][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:026][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:028][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:029][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:032][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:033][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:036][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:038][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:040][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:040][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:043][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:044][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:044][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:046][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:047][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:047][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:049][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:050][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:053][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:054][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:057][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:057][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:058][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:060][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:060][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:063][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:064][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:065][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:067][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:067][776]LogBehaviorTree: Warning: > Failed to find key 'bDoneMovement' in BB asset BlackboardData /Game/BTforNM/EnemyNMBB.EnemyNMBB. BB Key Selector will be set to 'Invalid'
+[2020.10.30-20.04.24:068][776]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.24:121][776]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.10.30-20.04.24:130][776]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 042078077136208008188044109176255116032036072215252173126228
+[2020.10.30-20.04.24:131][776]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 000102086009066090072084109055178209033195036069116115111195
+[2020.10.30-20.04.24:133][776]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 174048182210212039147038068097045158254240252184075051050078
+[2020.10.30-20.04.24:134][776]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 111155110076026056190226238031253164014084094227006005190135
+[2020.10.30-20.04.24:428][777]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49765
+[2020.10.30-20.04.24:428][777]LogHandshake: SendChallengeAck. InCookie: 042078077136208008188044109176255116032036072215252173126228
+[2020.10.30-20.04.24:428][777]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49765
+[2020.10.30-20.04.24:429][777]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.24:430][777]LogNet: NotifyAcceptedConnection: Name: TestingMap, TimeStamp: 10/31/20 07:04:24, [UNetConnection] RemoteAddr: 127.0.0.1:49765, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:430][777]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49765, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:430][777]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49766
+[2020.10.30-20.04.24:430][777]LogHandshake: SendChallengeAck. InCookie: 000102086009066090072084109055178209033195036069116115111195
+[2020.10.30-20.04.24:430][777]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49766
+[2020.10.30-20.04.24:431][777]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.24:431][777]LogNet: NotifyAcceptedConnection: Name: TestingMap, TimeStamp: 10/31/20 07:04:24, [UNetConnection] RemoteAddr: 127.0.0.1:49766, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:431][777]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49766, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:431][777]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49767
+[2020.10.30-20.04.24:432][777]LogHandshake: SendChallengeAck. InCookie: 174048182210212039147038068097045158254240252184075051050078
+[2020.10.30-20.04.24:432][777]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49767
+[2020.10.30-20.04.24:433][777]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.24:433][777]LogNet: NotifyAcceptedConnection: Name: TestingMap, TimeStamp: 10/31/20 07:04:24, [UNetConnection] RemoteAddr: 127.0.0.1:49767, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:433][777]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49767, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:433][777]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49768
+[2020.10.30-20.04.24:433][777]LogHandshake: SendChallengeAck. InCookie: 111155110076026056190226238031253164014084094227006005190135
+[2020.10.30-20.04.24:434][777]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49768
+[2020.10.30-20.04.24:434][777]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.30-20.04.24:435][777]LogNet: NotifyAcceptedConnection: Name: TestingMap, TimeStamp: 10/31/20 07:04:24, [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:435][777]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:448][777]LogNetVersion: AdvGamesProgramming 1.0.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1585971074)
+[2020.10.30-20.04.24:448][777]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:449][777]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:449][777]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:450][777]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_3, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.30-20.04.24:750][778]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2020.10.30-20.04.24:751][778]LogNet: Remote platform little endian=1
+[2020.10.30-20.04.24:751][778]LogNet: This platform little endian=1
+[2020.10.30-20.04.24:751][778]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2020.10.30-20.04.24:751][778]LogNet: Remote platform little endian=1
+[2020.10.30-20.04.24:752][778]LogNet: This platform little endian=1
+[2020.10.30-20.04.24:752][778]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2020.10.30-20.04.24:753][778]LogNet: Remote platform little endian=1
+[2020.10.30-20.04.24:753][778]LogNet: This platform little endian=1
+[2020.10.30-20.04.24:753][778]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2020.10.30-20.04.24:753][778]LogNet: Remote platform little endian=1
+[2020.10.30-20.04.24:753][778]LogNet: This platform little endian=1
+[2020.10.30-20.04.24:759][778]LogTemp: Display: At Node NavigationNode13
+[2020.10.30-20.04.24:769][778]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.10.30-20.04.24:776][778]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.10.30-20.04.24:783][778]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.10.30-20.04.24:790][778]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.10.30-20.04.24:805][779]LogNet: Login request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-AD4668264250890FDA4EB0B1DD24F625 userId: NULL:DESKTOP-DOLCJVN-AD4668264250890FDA4EB0B1DD24F625 platform: NULL
+[2020.10.30-20.04.24:806][779]LogNet: Login request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-493707DF4607E7E911412DA59A38BE68 userId: NULL:DESKTOP-DOLCJVN-493707DF4607E7E911412DA59A38BE68 platform: NULL
+[2020.10.30-20.04.24:806][779]LogNet: Login request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-C3E8421947627F403B0DC58F945F1658 userId: NULL:DESKTOP-DOLCJVN-C3E8421947627F403B0DC58F945F1658 platform: NULL
+[2020.10.30-20.04.24:806][779]LogNet: Login request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-55570EB04E19D0790B1E97AC14DA9FBB userId: NULL:DESKTOP-DOLCJVN-55570EB04E19D0790B1E97AC14DA9FBB platform: NULL
+[2020.10.30-20.04.24:816][779]LogTemp: Display: At Node NavigationNode13
+[2020.10.30-20.04.24:820][779]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestingMap, Game: /Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C)
+[2020.10.30-20.04.24:821][779]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_TestingMap?game=/Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C
+[2020.10.30-20.04.24:821][779]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.10.30-20.04.24:821][779]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.30-20.04.24:821][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.30-20.04.24:821][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.30-20.04.24:857][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.10.30-20.04.24:902][779]LogAIModule: Creating AISystem for world TestingMap
+[2020.10.30-20.04.24:905][779]LogWorld: Bringing World /Game/Levels/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 60) at 2020.10.31-07.04.24
+[2020.10.30-20.04.24:906][779]LogWorld: Bringing up level for play took: 0.001957
+[2020.10.30-20.04.24:906][779]LogNavigation: Warning: Was not able to create navigation data for SupportedAgent[0]: Default
+[2020.10.30-20.04.24:907][779]LogLoad: Took 0.086140 seconds to LoadMap(/Game/Levels/UEDPIE_1_TestingMap)
+[2020.10.30-20.04.24:907][779]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestingMap, Game: /Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C)
+[2020.10.30-20.04.24:908][779]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_TestingMap?game=/Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C
+[2020.10.30-20.04.24:908][779]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.10.30-20.04.24:908][779]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.30-20.04.24:908][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.30-20.04.24:908][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.30-20.04.24:955][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.10.30-20.04.24:991][779]LogAIModule: Creating AISystem for world TestingMap
+[2020.10.30-20.04.24:993][779]LogWorld: Bringing World /Game/Levels/UEDPIE_3_TestingMap.TestingMap up for play (max tick rate 60) at 2020.10.31-07.04.24
+[2020.10.30-20.04.24:994][779]LogWorld: Bringing up level for play took: 0.002089
+[2020.10.30-20.04.24:994][779]LogNavigation: Warning: Was not able to create navigation data for SupportedAgent[0]: Default
+[2020.10.30-20.04.24:995][779]LogLoad: Took 0.087724 seconds to LoadMap(/Game/Levels/UEDPIE_1_TestingMap)
+[2020.10.30-20.04.24:995][779]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestingMap, Game: /Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C)
+[2020.10.30-20.04.24:996][779]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_TestingMap?game=/Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C
+[2020.10.30-20.04.24:996][779]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2020.10.30-20.04.24:996][779]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.30-20.04.24:997][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.30-20.04.24:997][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.30-20.04.25:047][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.10.30-20.04.25:090][779]LogAIModule: Creating AISystem for world TestingMap
+[2020.10.30-20.04.25:093][779]LogWorld: Bringing World /Game/Levels/UEDPIE_4_TestingMap.TestingMap up for play (max tick rate 60) at 2020.10.31-07.04.25
+[2020.10.30-20.04.25:093][779]LogWorld: Bringing up level for play took: 0.002205
+[2020.10.30-20.04.25:094][779]LogNavigation: Warning: Was not able to create navigation data for SupportedAgent[0]: Default
+[2020.10.30-20.04.25:094][779]LogLoad: Took 0.098008 seconds to LoadMap(/Game/Levels/UEDPIE_1_TestingMap)
+[2020.10.30-20.04.25:095][779]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestingMap, Game: /Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C)
+[2020.10.30-20.04.25:095][779]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_TestingMap?game=/Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C
+[2020.10.30-20.04.25:095][779]LogWorld: BeginTearingDown for /Temp/Untitled_4
+[2020.10.30-20.04.25:095][779]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.30-20.04.25:096][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.30-20.04.25:096][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.30-20.04.25:151][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.10.30-20.04.25:193][779]LogAIModule: Creating AISystem for world TestingMap
+[2020.10.30-20.04.25:196][779]LogWorld: Bringing World /Game/Levels/UEDPIE_5_TestingMap.TestingMap up for play (max tick rate 60) at 2020.10.31-07.04.25
+[2020.10.30-20.04.25:196][779]LogWorld: Bringing up level for play took: 0.001780
+[2020.10.30-20.04.25:196][779]LogNavigation: Warning: Was not able to create navigation data for SupportedAgent[0]: Default
+[2020.10.30-20.04.25:197][779]LogLoad: Took 0.101901 seconds to LoadMap(/Game/Levels/UEDPIE_1_TestingMap)
+[2020.10.30-20.04.25:232][780]LogNet: Client netspeed is 10000
+[2020.10.30-20.04.25:232][780]LogNet: Join request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-AD4668264250890FDA4EB0B1DD24F625?SplitscreenCount=1
+[2020.10.30-20.04.25:232][780]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.30-20.04.25:234][780]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.30-20.04.25:237][780]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.30-20.04.25:238][780]LogNet: Join succeeded: DESKTOP-DOLCJVN-AD46
+[2020.10.30-20.04.25:238][780]LogNet: Client netspeed is 10000
+[2020.10.30-20.04.25:238][780]LogNet: Join request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-493707DF4607E7E911412DA59A38BE68?SplitscreenCount=1
+[2020.10.30-20.04.25:238][780]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.30-20.04.25:241][780]LogNet: Join succeeded: DESKTOP-DOLCJVN-4937
+[2020.10.30-20.04.25:241][780]LogNet: Client netspeed is 10000
+[2020.10.30-20.04.25:241][780]LogNet: Join request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-C3E8421947627F403B0DC58F945F1658?SplitscreenCount=1
+[2020.10.30-20.04.25:242][780]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.30-20.04.25:244][780]LogNet: Join succeeded: DESKTOP-DOLCJVN-C3E8
+[2020.10.30-20.04.25:245][780]LogNet: Client netspeed is 10000
+[2020.10.30-20.04.25:245][780]LogNet: Join request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-55570EB04E19D0790B1E97AC14DA9FBB?SplitscreenCount=1
+[2020.10.30-20.04.25:245][780]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.30-20.04.25:247][780]LogNet: Join succeeded: DESKTOP-DOLCJVN-5557
+[2020.10.30-20.04.25:535][783]LogTemp: Warning: Overlap Event
+[2020.10.30-20.04.25:585][784]LogTemp: Warning: Overlap Event

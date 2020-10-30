@@ -49,6 +49,8 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 			GenerateBuilding();					//generates buildings with values
 			bSpawnCity = !bSpawnCity;			//un-trigger boolean
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+			AIManager->PopulateNodes();
+			AIManager->CreateAgents();
 		}
 		if (bRandSpawnCity) {				//in case if random values are required
 			DivisionFactorX =					//create random value ranged between given values from detail panel (buildings in a row)
@@ -58,6 +60,8 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 			GenerateBuilding();					//generates buildings with value
 			bRandSpawnCity = !bRandSpawnCity;	//un-trigger boolean
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+			AIManager->PopulateNodes();
+			AIManager->CreateAgents();
 		}
 	}
 }
@@ -177,10 +181,16 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	dir = to - from;			//direction to 'to' from 'from' (with magnitude) (its not unit vector)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
+<<<<<<< HEAD
 	PickupManager->CreateSpawner(WeaponSpawner, pos);
 	/*
+=======
+	//spawn weapon spawner
+>>>>>>> master
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);
+
+	//For actual Weapon spawning by Jack Cooper
 	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
 	
 	//UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())

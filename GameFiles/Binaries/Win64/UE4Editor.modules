@@ -2,6 +2,10 @@
 	"BuildId": "10570792",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"AdvGamesProgramming": "UE4Editor-AdvGamesProgramming-2121.dll"
+=======
+		"AdvGamesProgramming": "UE4Editor-AdvGamesProgramming.dll"
+>>>>>>> master
 	}
 }

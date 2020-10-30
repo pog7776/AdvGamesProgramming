@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming).
   Parsing headers for AdvGamesProgrammingEditor
     Running UnrealHeaderTool "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\Development\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
@@ -17,3 +18,12 @@
     [8/8] AdvGamesProgrammingEditor.target
   Total time in Parallel executor: 11.63 seconds
   Total execution time: 22.45 seconds
+=======
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
+  Building AdvGamesProgrammingEditor...
+  Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+  Building 1 action with 8 processes...
+    [1/1] AdvGamesProgrammingEditor.target
+  Total time in Parallel executor: 0.30 seconds
+  Total execution time: 1.22 seconds
+>>>>>>> master
