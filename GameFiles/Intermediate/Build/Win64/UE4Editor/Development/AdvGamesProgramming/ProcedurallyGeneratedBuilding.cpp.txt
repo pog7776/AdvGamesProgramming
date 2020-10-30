@@ -1,29 +1,17 @@
-<<<<<<< HEAD
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\PickupManager.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\Pickup.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
-=======
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
 c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\ProcedurallyGeneratedBuilding.h
-c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\AIManagerNM.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\AIManagerNM.generated.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\ProcedurallyGeneratedBuilding.generated.h
-c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\WeaponPickupSpawnerComponent.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
->>>>>>> master
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\PickupManager.h
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\Pickup.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\Pickup.generated.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\Pickup.generated.h
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\WeaponPickupSpawnerComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-<<<<<<< HEAD
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\WeaponPickupSpawnerComponent.generated.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\PickupManager.generated.h
-C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\ProcedurallyGeneratedBuilding.generated.h
-=======
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\WeaponPickupSpawnerComponent.generated.h
->>>>>>> master
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\PickupManager.generated.h
+c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\AIManagerNM.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\AIManagerNM.generated.h
+C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\ProcedurallyGeneratedBuilding.generated.h

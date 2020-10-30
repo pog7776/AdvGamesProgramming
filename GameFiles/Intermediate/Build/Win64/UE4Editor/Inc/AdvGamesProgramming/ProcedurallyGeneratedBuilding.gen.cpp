@@ -342,11 +342,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		}
 		return OuterClass;
 	}
-<<<<<<< HEAD
-	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 1941486047);
-=======
-	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 2400375462);
->>>>>>> master
+	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 2974312748);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AProcedurallyGeneratedBuilding>()
 	{
 		return AProcedurallyGeneratedBuilding::StaticClass();

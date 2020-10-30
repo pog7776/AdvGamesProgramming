@@ -4,11 +4,8 @@
 #include "Engine/World.h"
 #include "UObject/ConstructorHelpers.h"
 #include "GameFramework/Actor.h"
-<<<<<<< HEAD
 #include "PickupManager.h"
-=======
 #include "AIManagerNM.h"
->>>>>>> master
 #include "ProcedurallyGeneratedBuilding.generated.h"
 
 UCLASS()
@@ -72,7 +69,6 @@ public:
 	APickupManager* PickupManager;							//PickupManager (has to be given from detail panel)
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> WeaponSpawner;				//weapon spanwer (has to be given from detail panel)
-
 
 	UPROPERTY(EditAnywhere, Category = Agent)
 	AAIManagerNM* AIManager;								//

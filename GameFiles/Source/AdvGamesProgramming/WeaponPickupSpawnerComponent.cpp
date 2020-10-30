@@ -95,10 +95,11 @@ void UWeaponPickupSpawnerComponent::CalculateSpawnChance(AActor* Actor)
 			SpawnChance += Actor->FindComponentByClass<UTeamComponent>()->ThreatValue;
 		}
 	}
+	/*
 	else if ((SpawnChance + Actor->FindComponentByClass<UTeamComponent>()->ThreatValue) >= 100)
 	{
 		//SpawnChance = 100;
-	}
+	}*/
 }
 
 void UWeaponPickupSpawnerComponent::CalculateRarity()

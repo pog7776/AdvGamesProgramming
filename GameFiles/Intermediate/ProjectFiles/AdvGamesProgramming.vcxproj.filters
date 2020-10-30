@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-      <UniqueIdentifier>{A959F8CF-AC90-4039-9AA7-BB345ED85ED0}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{226D95A1-EEC9-461D-9A41-2F9F1658BE2A}</UniqueIdentifier>
->>>>>>> master
+      <UniqueIdentifier>{9E769F25-D7E7-4A42-A93A-826F710515F8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -16,11 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-      <UniqueIdentifier>{9182CC95-853D-4D55-90F2-3BEAEDEECEFA}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{144D5417-8DD0-411F-877E-584F7AE2FCB0}</UniqueIdentifier>
->>>>>>> master
+      <UniqueIdentifier>{F9247900-C8AC-4A2A-AEE9-E45D0147F262}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,11 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-<<<<<<< HEAD
-      <UniqueIdentifier>{37E3D30F-E727-496D-91BE-89FCA2957949}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{2EA11DB1-A7C7-4981-BAEC-F1823F5B5573}</UniqueIdentifier>
->>>>>>> master
+      <UniqueIdentifier>{DEDAE4B0-D456-4F22-8FE8-EF935AF51CFA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -66,6 +54,12 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\AIManagerNM.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\AmmoPickup.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\AmmoPickup.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\EnemyCharacter.cpp">
@@ -116,6 +110,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\Pickup.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\PickupManager.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\PickupManager.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\PickupRotator.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -128,6 +128,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerCharacter.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\PlayerHud.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerHud.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -138,6 +144,12 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\Spawner.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\Spawner.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp">
@@ -158,33 +170,5 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickupSpawnerComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\AmmoPickup.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\PickupManager.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\Spawner.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\PlayerHud.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\AmmoPickup.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\PickupManager.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\Spawner.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\PlayerHud.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
