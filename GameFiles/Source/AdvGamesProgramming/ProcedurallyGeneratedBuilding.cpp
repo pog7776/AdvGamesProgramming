@@ -3,7 +3,7 @@
 #include "ProcedurallyGeneratedBuilding.h"
 #include "Algo/Reverse.h"
 #include "Net/UnrealNetwork.h"
-#include "WeaponPickupSpawnerComponent.h"
+#include "SpawnerComponent.h"
 
 static const float BASE_SIZE = 4.0f;
 
@@ -73,8 +73,9 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 			GenerateBuilding();					//generates buildings with values
 			bSpawnCity = false;					//un-trigger boolean
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+
 			AIManager->PopulateNodes();
-			AIManager->CreateAgents();
+			//AIManager->CreateAgents();
 		}
 	}
 }
@@ -82,8 +83,9 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 void AProcedurallyGeneratedBuilding::OnBuildCity() {		//for replicated clients
 	GenerateBuilding();					//generates buildings with values
 	GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
-	//AIManager->PopulateNodes();		//commented due to duplicate spawning of enemy agents without controller
-	//AIManager->CreateAgents();		//commented due to duplicate spawning of enemy agents without controller
+	SpawnerManager->StartTimer();		// Starts the spawning timer
+	//AIManager->PopulateNodes();
+	//AIManager->CreateAgents();
 }
 
 void AProcedurallyGeneratedBuilding::GenerateBuilding()
@@ -200,7 +202,7 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
 	//spawn weapon spawner
-	PickupManager->CreateSpawner(WeaponSpawner, pos);
+	SpawnerManager->CreateSpawner(WeaponSpawner, pos);
 	/*
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);

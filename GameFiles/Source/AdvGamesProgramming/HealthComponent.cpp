@@ -2,6 +2,11 @@
 
 
 #include "HealthComponent.h"
+#include "Engine/GameEngine.h"
+#include "Net/UnrealNetwork.h"
+#include "Kismet/GameplayStatics.h"
+#include "PlayerHUD.h"
+#include "PlayerCharacter.h"
 
 // Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
@@ -20,6 +25,7 @@ void UHealthComponent::BeginPlay()
 	Super::BeginPlay();
 
 	CurrentHealth = MaxHealth;
+	UpdateHealthBar();
 	// ...
 	
 }
@@ -30,12 +36,18 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	/* Debug Shenanigans
+	CurrentHealth = FMath::FRandRange(0, 100);
+	UpdateHealthBar();
+	*/
+
 	// ...
 }
 
 void UHealthComponent::OnTakeDamage(float Damage)
 {
 	CurrentHealth -= Damage;
+	UpdateHealthBar();
 	if (CurrentHealth <= 0) 
 	{
 		CurrentHealth = 0;
@@ -51,4 +63,20 @@ void UHealthComponent::OnDeath()
 float UHealthComponent::HealthPercentageRemaining()
 {
 	return CurrentHealth / MaxHealth;
+}
+
+void UHealthComponent::UpdateHealthBar()
+{
+	//If the owner of this health component is an autonomous proxy
+	//NOTE: Possible to use function GetOwnerRole() as well! If you look at the 
+	if ((GetOwner()->GetLocalRole() == ROLE_AutonomousProxy || GetOwner()->GetLocalRole() == ROLE_Authority) && GetOwner()->IsA(APlayerCharacter::StaticClass()))
+	{
+		//Find the hud associated to this player
+		APlayerHud* HUD = Cast<APlayerHud>(UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetHUD());
+		if (HUD)
+		{
+			//Update the progress bar widget on the players hud.
+			HUD->SetPlayerHealthBarPercent(HealthPercentageRemaining());
+		}
+	}
 }

@@ -17,9 +17,75 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_APlayerHud();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	UPackage* Z_Construct_UPackage__Script_AdvGamesProgramming();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_APlayerHud_DebugButton();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_APlayerHud_SetAmmoText();
 // End Cross Module References
 	void APlayerHud::StaticRegisterNativesAPlayerHud()
 	{
+		UClass* Class = APlayerHud::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "DebugButton", &APlayerHud::execDebugButton },
+			{ "SetAmmoText", &APlayerHud::execSetAmmoText },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayerHud_DebugButton_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerHud_DebugButton_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerHud_DebugButton_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerHud, nullptr, "DebugButton", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerHud_DebugButton_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerHud_DebugButton_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerHud_DebugButton()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerHud_DebugButton_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics
+	{
+		struct PlayerHud_eventSetAmmoText_Parms
+		{
+			int32 RoundsRemaining;
+			int32 MagazineSize;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MagazineSize;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_RoundsRemaining;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::NewProp_MagazineSize = { "MagazineSize", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerHud_eventSetAmmoText_Parms, MagazineSize), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::NewProp_RoundsRemaining = { "RoundsRemaining", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerHud_eventSetAmmoText_Parms, RoundsRemaining), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::NewProp_MagazineSize,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::NewProp_RoundsRemaining,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerHud, nullptr, "SetAmmoText", nullptr, nullptr, sizeof(PlayerHud_eventSetAmmoText_Parms), Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerHud_SetAmmoText()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_APlayerHud_NoRegister()
 	{
@@ -28,6 +94,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 	struct Z_Construct_UClass_APlayerHud_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +104,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 	UObject* (*const Z_Construct_UClass_APlayerHud_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AHUD,
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvGamesProgramming,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerHud_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayerHud_DebugButton, "DebugButton" }, // 1208736407
+		{ &Z_Construct_UFunction_APlayerHud_SetAmmoText, "SetAmmoText" }, // 1982197072
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerHud_Statics::Class_MetaDataParams[] = {
@@ -55,11 +126,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x009002ACu,
@@ -74,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerHud, 3279792545);
+	IMPLEMENT_CLASS(APlayerHud, 3749959982);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<APlayerHud>()
 	{
 		return APlayerHud::StaticClass();
