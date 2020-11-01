@@ -2,7 +2,8 @@
 
 #include "ProcedurallyGeneratedBuilding.h"
 #include "Algo/Reverse.h"
-#include "SpawnerComponent.h"
+#include "Net/UnrealNetwork.h"
+#include "WeaponPickupSpawnerComponent.h"
 
 static const float BASE_SIZE = 4.0f;
 
@@ -17,6 +18,19 @@ AProcedurallyGeneratedBuilding::AProcedurallyGeneratedBuilding()
 	if (PCGBuildingArchitype.Object) {
 		PCGBuilding = (UClass*)PCGBuildingArchitype.Object->GeneratedClass;
 	}
+
+	SetReplicates(true);
+}
+
+void AProcedurallyGeneratedBuilding::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AProcedurallyGeneratedBuilding, PerlinScale);
+	DOREPLIFETIME(AProcedurallyGeneratedBuilding, PerlinRoughness);
+	DOREPLIFETIME(AProcedurallyGeneratedBuilding, PerlinOffset);
+	DOREPLIFETIME(AProcedurallyGeneratedBuilding, DivisionFactorX);
+	DOREPLIFETIME(AProcedurallyGeneratedBuilding, DivisionFactorY);
+	DOREPLIFETIME(AProcedurallyGeneratedBuilding, HeightGroundLift);
 }
 
 // Called when the game starts or when spawned
@@ -43,23 +57,33 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-
-	if (!bDoNotExecute) {				//Exception Handling. Check BeginPlay() for detail.
-		if (bSpawnCity) {					//in case if values are given manually
-			GenerateBuilding();					//generates buildings with values
-			bSpawnCity = !bSpawnCity;			//un-trigger boolean
-			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
-		}
-		if (bRandSpawnCity) {				//in case if random values are required
+	//Exception Handling. Check BeginPlay() for detail. & Runs only in server
+	if (!bDoNotExecute && GetLocalRole() == ROLE_Authority) {
+		if(bRandSpawnCity) {				//in case if random values are required
 			DivisionFactorX =					//create random value ranged between given values from detail panel (buildings in a row)
 				FMath::RandRange(RandRange_DivisionFactorX.X, RandRange_DivisionFactorX.Y);
 			DivisionFactorY =					//create random value ranged between given values from detail panel (buildings in a column)
 				FMath::RandRange(RandRange_DivisionFactorY.X, RandRange_DivisionFactorY.Y);
-			GenerateBuilding();					//generates buildings with value
-			bRandSpawnCity = !bRandSpawnCity;	//un-trigger boolean
+			bSpawnCity = true;					//trigger boolean
+			bRandSpawnCity = false;				//un-trigger boolean
+		}
+		if (bSpawnCity) {					//in case if values are given manually
+			PerlinOffset = FMath::RandRange(-10000.0f, 10000.0f);
+												//for height adjustment based on perlin noise
+			GenerateBuilding();					//generates buildings with values
+			bSpawnCity = false;					//un-trigger boolean
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+			AIManager->PopulateNodes();
+			AIManager->CreateAgents();
 		}
 	}
+}
+
+void AProcedurallyGeneratedBuilding::OnBuildCity() {		//for replicated clients
+	GenerateBuilding();					//generates buildings with values
+	GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
+	AIManager->PopulateNodes();
+	AIManager->CreateAgents();
 }
 
 void AProcedurallyGeneratedBuilding::GenerateBuilding()
@@ -84,8 +108,6 @@ void AProcedurallyGeneratedBuilding::GenerateBuilding()
 	//displace centre to initial position (y)
 	pos.Y -= gapDistanceY * 0.5f * (DivisionFactorY - 1);
 
-	//for height adjustment based on perlin noise
-	float PerlinOffset = FMath::RandRange(-10000.0f, 10000.0f);
 	for (int i = 0; i < DivisionFactorY; ++i) {
 		for (int j = 0; j < DivisionFactorX; ++j) {
 			//Spawn building, but keep the reference to the spawned actor
@@ -177,11 +199,14 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	dir = to - from;			//direction to 'to' from 'from' (with magnitude) (its not unit vector)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
+	//spawn weapon spawner
 	PickupManager->CreateSpawner(WeaponSpawner, pos);
 	/*
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);
-	USpawnerComponent* Spawner = NewSpawner->FindComponentByClass<USpawnerComponent>();//->StartSpawn();
+
+	//For actual Weapon spawning by Jack Cooper
+	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
 	
 	//UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
 

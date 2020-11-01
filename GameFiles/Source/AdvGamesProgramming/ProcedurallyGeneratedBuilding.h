@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 #include "CoreMinimal.h"
@@ -6,6 +5,7 @@
 #include "UObject/ConstructorHelpers.h"
 #include "GameFramework/Actor.h"
 #include "PickupManager.h"
+#include "AIManagerNM.h"
 #include "ProcedurallyGeneratedBuilding.generated.h"
 
 UCLASS()
@@ -38,19 +38,21 @@ public:
 	UPROPERTY(EditAnywhere, Category = City, meta = (AllowPrivateAccess = "true"))
 	AActor* SizeReferenceTarget;							//size of the city
 	UPROPERTY(EditAnywhere, Category = City)
-	bool bSpawnCity;										//to trigger spawning city with given number
-	UPROPERTY(EditAnywhere, Category = City)
+	bool bSpawnCity;										//to trigger spawning city with given number (can only be called on server)
+	UPROPERTY(Replicated, BlueprintReadOnly, EditAnywhere, Category = City)
 	int DivisionFactorX;									//number of division along x axis in the city
-	UPROPERTY(EditAnywhere, Category = City)
+	UPROPERTY(Replicated, BlueprintReadOnly, EditAnywhere, Category = City)
 	int DivisionFactorY;									//number of division along y axis in the city
 
 
 	UPROPERTY(EditAnywhere, Category = Random)
-	bool bRandSpawnCity;									//to trigger spawning city with random number
-	UPROPERTY(EditAnywhere, Category = Random)
+	bool bRandSpawnCity;									//to trigger spawning city with random number (can only be called on server)
+	UPROPERTY(Replicated, EditAnywhere, Category = Random)
 	float PerlinScale;										//perlin scale
-	UPROPERTY(EditAnywhere, Category = Random)
+	UPROPERTY(Replicated, EditAnywhere, Category = Random)
 	float PerlinRoughness;									//perlin roughness
+	UPROPERTY(ReplicatedUsing = OnBuildCity, VisibleAnywhere, Category = Random)
+	float PerlinOffset;										//perlin offset (changed to property due to replication)
 	UPROPERTY(EditAnywhere, Category = Random)
 	FVector2D RandRange_DivisionFactorX;					//to give random range (x) from detail panel. FVector2D is used for better looking
 	UPROPERTY(EditAnywhere, Category = Random)
@@ -59,14 +61,21 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = Building, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> PCGBuilding;					//actual building
-	UPROPERTY(EditAnywhere, Category = Building)
+	UPROPERTY(Replicated, EditAnywhere, Category = Building)
 	int HeightGroundLift;									//To prevent height being 0
 	UFUNCTION(BlueprintImplementableEvent, Category = "Building")
-	void Init(AActor* target, float x, float y, float z);	//it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)
+	void Init(AActor* Target, float X, float Y, float Z);	//it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)
+
+
+	UFUNCTION()
+	void OnBuildCity();
 
 
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
 	APickupManager* PickupManager;							//PickupManager (has to be given from detail panel)
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> WeaponSpawner;				//weapon spanwer (has to be given from detail panel)
+
+	UPROPERTY(EditAnywhere, Category = Agent)
+	AAIManagerNM* AIManager;								//
 };

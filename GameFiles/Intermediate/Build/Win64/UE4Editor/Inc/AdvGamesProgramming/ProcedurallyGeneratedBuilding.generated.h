@@ -15,15 +15,35 @@ class AActor;
 #define ADVGAMESPROGRAMMING_ProcedurallyGeneratedBuilding_generated_h
 
 #define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_SPARSE_DATA
-#define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_RPC_WRAPPERS
-#define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBuildCity) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBuildCity(); \
+		P_NATIVE_END; \
+	}
+
+
+#define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBuildCity) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBuildCity(); \
+		P_NATIVE_END; \
+	}
+
+
 #define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_EVENT_PARMS \
 	struct ProcedurallyGeneratedBuilding_eventInit_Parms \
 	{ \
-		AActor* target; \
-		float x; \
-		float y; \
-		float z; \
+		AActor* Target; \
+		float X; \
+		float Y; \
+		float Z; \
 	};
 
 
@@ -34,7 +54,8 @@ private: \
 	friend struct Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics; \
 public: \
 	DECLARE_CLASS(AProcedurallyGeneratedBuilding, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AdvGamesProgramming"), NO_API) \
-	DECLARE_SERIALIZER(AProcedurallyGeneratedBuilding)
+	DECLARE_SERIALIZER(AProcedurallyGeneratedBuilding) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_INCLASS \
@@ -43,7 +64,8 @@ private: \
 	friend struct Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics; \
 public: \
 	DECLARE_CLASS(AProcedurallyGeneratedBuilding, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AdvGamesProgramming"), NO_API) \
-	DECLARE_SERIALIZER(AProcedurallyGeneratedBuilding)
+	DECLARE_SERIALIZER(AProcedurallyGeneratedBuilding) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define GameFiles_Source_AdvGamesProgramming_ProcedurallyGeneratedBuilding_h_13_STANDARD_CONSTRUCTORS \

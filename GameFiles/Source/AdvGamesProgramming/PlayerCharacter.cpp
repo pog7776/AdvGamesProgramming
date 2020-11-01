@@ -12,7 +12,7 @@ APlayerCharacter::APlayerCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	AutoPossessPlayer = EAutoReceiveInput::Player0;
+	//AutoPossessPlayer = EAutoReceiveInput::Player0;
 	//bUseControllerRotationPitch = true;
 
 	LookSensitivity = 1.0f;
@@ -64,18 +64,20 @@ void APlayerCharacter::Strafe(float Value)
 
 void APlayerCharacter::LookUp(float Value)
 {
-	FRotator DeltaRotation = FRotator::ZeroRotator;
-	DeltaRotation.Pitch = Value * LookSensitivity;
-	//Bonus Task - Removing Stutter by only adding relative rotation if it does not push pitch above or below 90 or -90 respectively
-	if (DeltaRotation.Pitch + Camera->RelativeRotation.Pitch < 90.0f && DeltaRotation.Pitch + Camera->RelativeRotation.Pitch > -90.0f)
-	{
-		Camera->AddRelativeRotation(DeltaRotation);
+	if (Camera != nullptr) {
+		FRotator DeltaRotation = FRotator::ZeroRotator;
+		DeltaRotation.Pitch = Value * LookSensitivity;
+		//Bonus Task - Removing Stutter by only adding relative rotation if it does not push pitch above or below 90 or -90 respectively
+		if (DeltaRotation.Pitch + Camera->RelativeRotation.Pitch < 90.0f && DeltaRotation.Pitch + Camera->RelativeRotation.Pitch > -90.0f)
+		{
+			Camera->AddRelativeRotation(DeltaRotation);
+		}
+		//Need to make sure that the camera is not rolling or yawing when the pitch is
+		//trying to pitch greater than 90 or less than -90. AddRelativeRotation starts
+		//adding things to roll and yaw at these extremes.
+		Camera->RelativeRotation.Yaw = 0.0f;
+		Camera->RelativeRotation.Roll = 0.0f;
 	}
-	//Need to make sure that the camera is not rolling or yawing when the pitch is
-	//trying to pitch greater than 90 or less than -90. AddRelativeRotation starts
-	//adding things to roll and yaw at these extremes.
-	Camera->RelativeRotation.Yaw = 0.0f;
-	Camera->RelativeRotation.Roll = 0.0f;
 }
 
 void APlayerCharacter::Turn(float Value)
