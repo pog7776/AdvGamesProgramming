@@ -3,7 +3,7 @@
 #include "ProcedurallyGeneratedBuilding.h"
 #include "Algo/Reverse.h"
 #include "Net/UnrealNetwork.h"
-#include "WeaponPickupSpawnerComponent.h"
+#include "SpawnerComponent.h"
 
 static const float BASE_SIZE = 4.0f;
 

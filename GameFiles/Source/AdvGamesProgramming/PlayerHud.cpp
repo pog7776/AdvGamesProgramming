@@ -11,9 +11,9 @@
 
 APlayerHud::APlayerHud()
 {
-	static ConstructorHelpers::FClassFinder<UUserWidget> PlayerHudObject(TEXT("/Game/Widgets/PlayerHudWidget"));
+	static ConstructorHelpers::FClassFinder<UUserWidget> PlayerHUDObject(TEXT("/Game/UI/PlayerHud"));
 
-	PlayerHudClass = PlayerHudObject.Class;
+	PlayerHudClass = PlayerHUDObject.Class;
 
 	//Make sure the PlayerHud class was found correctly
 	if (PlayerHudClass)
@@ -27,7 +27,7 @@ APlayerHud::APlayerHud()
 			//Find the health bar and the ammo text block
 			HealthProgressBar = Cast<UProgressBar>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("HealthBar")));
 			AmmoTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("AmmoCounter")));
-			//CrosshairImageBlock = Cast<UImage>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ImgCrosshair")));
+			CrosshairImageBlock = Cast<UImage>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ImgCrosshair")));
 		}
 	}
 }
@@ -35,6 +35,7 @@ APlayerHud::APlayerHud()
 void APlayerHud::SetPlayerHealthBarPercent(float Percent)
 {
 	if (HealthProgressBar) {
+		UE_LOG(LogTemp, Warning, TEXT("HealthBar set to: %f"), Percent)
 		HealthProgressBar->SetPercent(Percent);
 	}
 }

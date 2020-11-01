@@ -28,6 +28,6 @@ private:
 	UUserWidget* CurrentPlayerHudWidget;
 	class UProgressBar* HealthProgressBar;
 	class UTextBlock* AmmoTextBlock;
-	//class UImage* CrosshairImageBlock;
+	class UImage* CrosshairImageBlock;
 	
 };
