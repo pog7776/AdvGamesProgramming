@@ -82,8 +82,8 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 void AProcedurallyGeneratedBuilding::OnBuildCity() {		//for replicated clients
 	GenerateBuilding();					//generates buildings with values
 	GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
-	AIManager->PopulateNodes();
-	AIManager->CreateAgents();
+	//AIManager->PopulateNodes();		//commented due to duplicate spawning of enemy agents without controller
+	//AIManager->CreateAgents();		//commented due to duplicate spawning of enemy agents without controller
 }
 
 void AProcedurallyGeneratedBuilding::GenerateBuilding()
