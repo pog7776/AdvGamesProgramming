@@ -165,4 +165,14 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\SpawnerManager.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\SpawnerManager.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

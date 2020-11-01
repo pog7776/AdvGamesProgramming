@@ -17,15 +17,39 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_APlayerHud();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	UPackage* Z_Construct_UPackage__Script_AdvGamesProgramming();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_APlayerHud_DebugButton();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_APlayerHud_SetAmmoText();
 // End Cross Module References
 	void APlayerHud::StaticRegisterNativesAPlayerHud()
 	{
 		UClass* Class = APlayerHud::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "DebugButton", &APlayerHud::execDebugButton },
 			{ "SetAmmoText", &APlayerHud::execSetAmmoText },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayerHud_DebugButton_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerHud_DebugButton_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerHud_DebugButton_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerHud, nullptr, "DebugButton", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerHud_DebugButton_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerHud_DebugButton_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerHud_DebugButton()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerHud_DebugButton_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_APlayerHud_SetAmmoText_Statics
 	{
@@ -82,6 +106,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvGamesProgramming,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerHud_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayerHud_DebugButton, "DebugButton" }, // 1208736407
 		{ &Z_Construct_UFunction_APlayerHud_SetAmmoText, "SetAmmoText" }, // 1982197072
 	};
 #if WITH_METADATA
@@ -120,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHud() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerHud, 3617328634);
+	IMPLEMENT_CLASS(APlayerHud, 3749959982);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<APlayerHud>()
 	{
 		return APlayerHud::StaticClass();

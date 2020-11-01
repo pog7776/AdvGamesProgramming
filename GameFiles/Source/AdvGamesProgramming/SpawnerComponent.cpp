@@ -42,6 +42,7 @@ void USpawnerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 
 }
 
+// TODO Change to starting a timer
 void USpawnerComponent::StartSpawn()
 {
 	SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
@@ -50,6 +51,7 @@ void USpawnerComponent::StartSpawn()
 	SpawnChance = 100;
 	CheckSurroundings();
 	SpawnPickup();
+	SpawnEnemy();
 }
 
 void USpawnerComponent::CheckSurroundings()
@@ -112,13 +114,30 @@ void USpawnerComponent::SpawnPickup()
 	float Roll = FMath::RandRange(0, 100);
 	if (Roll <= SpawnChance)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+		UE_LOG(LogTemp, Warning, TEXT("PICKUP SPAWN: %s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 		// Spawn the pickup
 		CurrentPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
 		//TODO Handle previous pickup
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s - Roll: %f | Chance: %f -- Fail"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+		UE_LOG(LogTemp, Warning, TEXT("PICKUP SPAWN: %s - Roll: %f | Chance: %f -- Fail"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+	}
+}
+
+void USpawnerComponent::SpawnEnemy()
+{
+	// Roll and see if the Enemy should spawn
+	float Roll = FMath::RandRange(0, 100);
+	if (Roll <= SpawnChance && AIManager->AllAgents.Num() < AIManager->NumAI)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("ENEMY SPAWN: %s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+			// Spawn the enemy
+			//CurrentPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
+			AIManager->CreateAgents(GetOwner()->GetActorLocation() + SpawnOffset);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("ENEMY SPAWN: %s - Roll: %f | Chance: %f -- Fail"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 	}
 }

@@ -48,3 +48,14 @@ void AAIManagerNM::CreateAgents()
 		AllAgents.Add(Agent);
 	}
 }
+
+void AAIManagerNM::CreateAgents(FVector spawnPos)
+{
+	int32 RandIndex2 = FMath::RandRange(0, AgentToSpawn.Num() - 1);
+	AEnemyCharacterNavMesh* Agent =
+		GetWorld()->SpawnActor<AEnemyCharacterNavMesh>(
+			AgentToSpawn[RandIndex2],
+			spawnPos,
+			FRotator(0.f, 0.f, 0.f));
+	AllAgents.Add(Agent);
+}

@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GameFiles_Source_AdvGamesProgramming_PlayerHud_h_16_SPARSE_DATA
 #define GameFiles_Source_AdvGamesProgramming_PlayerHud_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDebugButton) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DebugButton(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetAmmoText) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_RoundsRemaining); \
@@ -28,6 +36,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define GameFiles_Source_AdvGamesProgramming_PlayerHud_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDebugButton) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DebugButton(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetAmmoText) \
 	{ \

@@ -6,6 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "Components/SphereComponent.h"
 #include "Pickup.h"
+#include "AIManagerNM.h"
 #include "SpawnerComponent.generated.h"
 
 
@@ -38,10 +39,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
 		TSubclassOf<class APickup> PickupClass;
 
+	AAIManagerNM* AIManager;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Position")
 		FVector SpawnOffset;
 
 	APickup* CurrentPickup;
+
+	void SpawnEnemy();
 
 private:
 	void CheckSurroundings();
