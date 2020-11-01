@@ -2,7 +2,7 @@
 
 #include "ProcedurallyGeneratedBuilding.h"
 #include "Algo/Reverse.h"
-#include "WeaponPickupSpawnerComponent.h"
+#include "SpawnerComponent.h"
 
 static const float BASE_SIZE = 4.0f;
 
@@ -181,7 +181,7 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	/*
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);
-	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
+	USpawnerComponent* Spawner = NewSpawner->FindComponentByClass<USpawnerComponent>();//->StartSpawn();
 	
 	//UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())
 
