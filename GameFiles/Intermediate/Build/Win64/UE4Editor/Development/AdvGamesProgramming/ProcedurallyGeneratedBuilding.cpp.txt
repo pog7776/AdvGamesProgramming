@@ -15,3 +15,4 @@ C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Inte
 c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\source\advgamesprogramming\AIManagerNM.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\AIManagerNM.generated.h
 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\ProcedurallyGeneratedBuilding.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h

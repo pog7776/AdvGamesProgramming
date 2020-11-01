@@ -1,16 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming).
-  Parsing headers for AdvGamesProgrammingEditor
-    Running UnrealHeaderTool "C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\DebugGame\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for AdvGamesProgrammingEditor in 6.0757925 seconds
   Building AdvGamesProgrammingEditor...
   Using Visual Studio 2017 14.16.27032 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] ProcedurallyGeneratedBuilding.cpp
-    [2/5] ProcedurallyGeneratedBuilding.gen.cpp
-    [3/5] UE4Editor-AdvGamesProgramming-Win64-DebugGame.lib
+  Building 4 actions with 8 processes...
+    [1/4] EnemyCharacterNavMesh.cpp
+    [2/4] UE4Editor-AdvGamesProgramming-Win64-DebugGame.lib
        C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.lib 라이브러리 및 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.exp 개체를 생성하고 있습니다.
-    [4/5] UE4Editor-AdvGamesProgramming-Win64-DebugGame.dll
+    [3/4] UE4Editor-AdvGamesProgramming-Win64-DebugGame.dll
        C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.suppressed.lib 라이브러리 및 C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-Win64-DebugGame.suppressed.exp 개체를 생성하고 있습니다.
-    [5/5] AdvGamesProgrammingEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 2.95 seconds
-  Total execution time: 10.20 seconds
+    [4/4] AdvGamesProgrammingEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 6.06 seconds
+  Total execution time: 7.61 seconds

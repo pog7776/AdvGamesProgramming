@@ -68,6 +68,9 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void Fire(FVector FireDirection);
 
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
+	bool bIsClient;
+
 	/*
 	//For NavMesh Movement
 	UNavigationSystemV1 *NavSys;

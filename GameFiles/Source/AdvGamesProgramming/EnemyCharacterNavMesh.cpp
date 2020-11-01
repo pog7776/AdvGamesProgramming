@@ -13,6 +13,9 @@ AEnemyCharacterNavMesh::AEnemyCharacterNavMesh()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	bIsClient = false;
+	//SetReplicates(true);
 }
 
 // Called when the game starts or when spawned
@@ -21,6 +24,8 @@ void AEnemyCharacterNavMesh::BeginPlay()
 	Super::BeginPlay();
 
 	//NavSys = FNavigationSystem::GetCurrent<UNavigationSystemV1>(GetWorld());
+
+	if (GetLocalRole() != ROLE_Authority) bIsClient = true;
 
 	PerceptionComponent = FindComponentByClass<UAIPerceptionComponent>();
 	if (!PerceptionComponent) { UE_LOG(LogTemp, Error, TEXT("NO PERCEPTION COMPONENT FOUND")) }
@@ -64,12 +69,14 @@ void AEnemyCharacterNavMesh::SensePlayer(AActor* ActorSensed, FAIStimulus Stimul
 			if (SensedTeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
 			{
 				bSensed = true;
-				EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
+				if(GetLocalRole()==ROLE_Authority && EnemyBlackboard)
+					EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
 				if (Stimulus.Type.Name == "Default__AISense_Sight")
 				{
 					UE_LOG(LogTemp, Warning, TEXT("Player Seen"))
 						bCanSeeActor = true;
-					EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
+					if (GetLocalRole() == ROLE_Authority && EnemyBlackboard)
+						EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
 				}
 
 				if (Stimulus.Type.Name == "Default__AISense_Hearing")
@@ -99,11 +106,13 @@ void AEnemyCharacterNavMesh::SensePlayer(AActor* ActorSensed, FAIStimulus Stimul
 	{
 		// Reset stuff here
 		bSensed = false;
-		EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
 		bCanSeeActor = false;
-		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
-		EnemyBlackboard->SetValueAsBool(FName("bSensed"), false);
-		EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), false);
+		if (GetLocalRole() == ROLE_Authority && EnemyBlackboard) {
+			EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);
+			EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), bCanSeeActor);
+			EnemyBlackboard->SetValueAsBool(FName("bSensed"), false);
+			EnemyBlackboard->SetValueAsBool(FName("bCanSeePlayer"), false);
+		}
 		UE_LOG(LogTemp, Warning, TEXT("Player Lost"))
 	}
 }

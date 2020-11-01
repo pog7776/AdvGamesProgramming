@@ -19,45 +19,51 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 	UPackage* Z_Construct_UPackage__Script_AdvGamesProgramming();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity();
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AAIManagerNM_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_APickupManager_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 // End Cross Module References
 	static FName NAME_AProcedurallyGeneratedBuilding_Init = FName(TEXT("Init"));
-	void AProcedurallyGeneratedBuilding::Init(AActor* target, float x, float y, float z)
+	void AProcedurallyGeneratedBuilding::Init(AActor* Target, float X, float Y, float Z)
 	{
 		ProcedurallyGeneratedBuilding_eventInit_Parms Parms;
-		Parms.target=target;
-		Parms.x=x;
-		Parms.y=y;
-		Parms.z=z;
+		Parms.Target=Target;
+		Parms.X=X;
+		Parms.Y=Y;
+		Parms.Z=Z;
 		ProcessEvent(FindFunctionChecked(NAME_AProcedurallyGeneratedBuilding_Init),&Parms);
 	}
 	void AProcedurallyGeneratedBuilding::StaticRegisterNativesAProcedurallyGeneratedBuilding()
 	{
+		UClass* Class = AProcedurallyGeneratedBuilding::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnBuildCity", &AProcedurallyGeneratedBuilding::execOnBuildCity },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics
 	{
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_z;
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_y;
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_x;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_target;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Z;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Y;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_X;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Target;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_z = { "z", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, z), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_y = { "y", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, y), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_x = { "x", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, x), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_target = { "target", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, target), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, Z), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, Y), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, X), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_Target = { "Target", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ProcedurallyGeneratedBuilding_eventInit_Parms, Target), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_z,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_y,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_x,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_target,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_Z,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_Y,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_X,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::NewProp_Target,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::Function_MetaDataParams[] = {
@@ -74,6 +80,30 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)\n" },
+		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
+		{ "ToolTip", "it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProcedurallyGeneratedBuilding, nullptr, "OnBuildCity", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -117,6 +147,10 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_RandRange_DivisionFactorX;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PerlinOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PerlinOffset;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PerlinRoughness_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PerlinRoughness;
@@ -155,7 +189,8 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvGamesProgramming,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init, "Init" }, // 3694688890
+		{ &Z_Construct_UFunction_AProcedurallyGeneratedBuilding_Init, "Init" }, // 4115206762
+		{ &Z_Construct_UFunction_AProcedurallyGeneratedBuilding_OnBuildCity, "OnBuildCity" }, // 2207451726
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::Class_MetaDataParams[] = {
@@ -186,9 +221,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "WeaponSpawner" },
-		{ "Comment", "//it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)\n" },
 		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
-		{ "ToolTip", "it is blueprint implementable event since it morphs static mesh's size and its easier on blueprint side)" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager = { "PickupManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PickupManager), Z_Construct_UClass_APickupManager_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PickupManager_MetaData)) };
@@ -200,7 +233,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		{ "ToolTip", "actual building" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift = { "HeightGroundLift", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, HeightGroundLift), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift = { "HeightGroundLift", nullptr, (EPropertyFlags)0x0010000000000021, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, HeightGroundLift), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_HeightGroundLift_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PCGBuilding_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -223,12 +256,21 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX_MetaData[] = {
 		{ "Category", "Random" },
+		{ "Comment", "//perlin offset (changed to property due to replication)\n" },
+		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
+		{ "ToolTip", "perlin offset (changed to property due to replication)" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX = { "RandRange_DivisionFactorX", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, RandRange_DivisionFactorX), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinOffset_MetaData[] = {
+		{ "Category", "Random" },
 		{ "Comment", "//perlin roughness\n" },
 		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
 		{ "ToolTip", "perlin roughness" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX = { "RandRange_DivisionFactorX", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, RandRange_DivisionFactorX), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinOffset = { "PerlinOffset", "OnBuildCity", (EPropertyFlags)0x0010000100020021, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PerlinOffset), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinOffset_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness_MetaData[] = {
 		{ "Category", "Random" },
@@ -237,16 +279,16 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		{ "ToolTip", "perlin scale" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness = { "PerlinRoughness", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PerlinRoughness), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness = { "PerlinRoughness", nullptr, (EPropertyFlags)0x0010000000000021, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PerlinRoughness), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale_MetaData[] = {
 		{ "Category", "Random" },
-		{ "Comment", "//to trigger spawning city with random number\n" },
+		{ "Comment", "//to trigger spawning city with random number (can only be called on server)\n" },
 		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
-		{ "ToolTip", "to trigger spawning city with random number" },
+		{ "ToolTip", "to trigger spawning city with random number (can only be called on server)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale = { "PerlinScale", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PerlinScale), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale = { "PerlinScale", nullptr, (EPropertyFlags)0x0010000000000021, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, PerlinScale), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_bRandSpawnCity_MetaData[] = {
 		{ "Category", "Random" },
@@ -268,16 +310,16 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		{ "ToolTip", "number of division along x axis in the city" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorY = { "DivisionFactorY", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, DivisionFactorY), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorY_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorY = { "DivisionFactorY", nullptr, (EPropertyFlags)0x0010000000000035, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, DivisionFactorY), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorY_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX_MetaData[] = {
 		{ "Category", "City" },
-		{ "Comment", "//to trigger spawning city with given number\n" },
+		{ "Comment", "//to trigger spawning city with given number (can only be called on server)\n" },
 		{ "ModuleRelativePath", "ProcedurallyGeneratedBuilding.h" },
-		{ "ToolTip", "to trigger spawning city with given number" },
+		{ "ToolTip", "to trigger spawning city with given number (can only be called on server)" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX = { "DivisionFactorX", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, DivisionFactorX), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX = { "DivisionFactorX", nullptr, (EPropertyFlags)0x0010000000000035, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProcedurallyGeneratedBuilding, DivisionFactorX), METADATA_PARAMS(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_DivisionFactorX_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_bSpawnCity_MetaData[] = {
 		{ "Category", "City" },
@@ -307,6 +349,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PCGBuilding,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorY,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_RandRange_DivisionFactorX,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinRoughness,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_PerlinScale,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcedurallyGeneratedBuilding_Statics::NewProp_bRandSpawnCity,
@@ -342,7 +385,7 @@ void EmptyLinkFunctionForGeneratedCodeProcedurallyGeneratedBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 2974312748);
+	IMPLEMENT_CLASS(AProcedurallyGeneratedBuilding, 2868383736);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AProcedurallyGeneratedBuilding>()
 	{
 		return AProcedurallyGeneratedBuilding::StaticClass();
