@@ -29,8 +29,15 @@ APlayerHud::APlayerHud()
 			HealthProgressBar = Cast<UProgressBar>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("HealthBar")));
 			AmmoTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("AmmoCounter")));
 			ScoreTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ScoreText")));
+			//BigScore = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("BigScore")));
+			TimerTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("Timer")));
+			GameOver = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("GameOver")));
 			CrosshairImageBlock = Cast<UImage>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ImgCrosshair")));
 			DebugButtonBlock = Cast<UButton>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("DebugButton")));
+
+			// Hide Big Score
+			//BigScore->SetVisibility(ESlateVisibility::Hidden);
+			GameOver->SetVisibility(ESlateVisibility::Hidden);
 
 			// Debug thing
 			DebugButtonBlock->SetVisibility(ESlateVisibility::Hidden);
@@ -62,6 +69,23 @@ void APlayerHud::SetScoreText(float Score)
 	if (ScoreTextBlock)
 	{
 		ScoreTextBlock->SetText(FText::FromString(FString::Printf(TEXT("Score: %i"), (int32)Score)));
+	}
+}
+
+void APlayerHud::SetGameOver()
+{
+	if (GameOver)
+	{
+		//BigScore->SetText(FText::FromString(FString::Printf(TEXT("Score: %i"), (int32)Score)));
+		GameOver->SetVisibility(ESlateVisibility::Visible);
+	}
+}
+
+void APlayerHud::SetTimerText(float Time)
+{
+	if (TimerTextBlock)
+	{
+		TimerTextBlock->SetText(FText::FromString(FString::Printf(TEXT("Time Left: %i"), (int32)Time)));
 	}
 }
 

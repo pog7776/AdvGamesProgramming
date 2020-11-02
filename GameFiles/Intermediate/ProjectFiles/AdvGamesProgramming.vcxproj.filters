@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{94124FC0-D38C-4AF5-96AB-7B0A01BCD31B}</UniqueIdentifier>
+      <UniqueIdentifier>{2F49F55C-6DF0-4BA8-A0AF-A87DF1059B73}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B230C457-9E30-46E0-B952-1D200382415C}</UniqueIdentifier>
+      <UniqueIdentifier>{7D1A1802-B4C8-4CF9-A9C5-A53590775704}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{4B549216-80A8-4501-8474-2CBB79C4A603}</UniqueIdentifier>
+      <UniqueIdentifier>{CA6BA543-496A-42A3-BF4A-B28BC6E87D03}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -72,6 +72,12 @@
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AdvGamesProgramming\EnemyCharacterNavMesh.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\GameTimer.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\GameTimer.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\HealthComponent.cpp">
@@ -146,6 +152,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ScoreComponent.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ScoreComponent.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\SpawnerComponent.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -170,15 +182,5 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickup.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\ScoreComponent.h">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\ScoreComponent.cpp">
-      <Filter>Source\AdvGamesProgramming</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

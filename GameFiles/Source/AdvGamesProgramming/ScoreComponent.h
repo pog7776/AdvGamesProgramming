@@ -32,9 +32,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetScore(float Value);
 	void UpdateHUDScore();
+
+	float Score;
 	
 private:
-	float Score;
 	APlayerHud* PlayerHud;
 
 };

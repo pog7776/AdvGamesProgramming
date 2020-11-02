@@ -23,6 +23,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetAmmoText(int32 RoundsRemaining, int32 MagazineSize);
 	void SetScoreText(float Score);
+	void SetGameOver();
+	void SetTimerText(float Time);
 
 private:
 	TSubclassOf<class UUserWidget> PlayerHudClass;
@@ -30,6 +32,9 @@ private:
 	class UProgressBar* HealthProgressBar;
 	class UTextBlock* AmmoTextBlock;
 	class UTextBlock* ScoreTextBlock;
+	//class UTextBlock* BigScore;
+	class UTextBlock* TimerTextBlock;
+	class UTextBlock* GameOver;
 	class UImage* CrosshairImageBlock;
 	class UButton* DebugButtonBlock;
 

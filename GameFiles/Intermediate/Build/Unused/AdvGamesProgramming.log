@@ -1,12 +1,22 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming).
+  Parsing headers for AdvGamesProgrammingEditor
+    Running UnrealHeaderTool "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\AdvGamesProgramming.uproject" "C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\AdvGamesProgrammingEditor\Development\AdvGamesProgrammingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for AdvGamesProgrammingEditor in 9.8034793 seconds
+  Deleted hot-reload file: C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Binaries\Win64\UE4Editor-AdvGamesProgramming-0001.dll
+  Deleted hot-reload file: C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Binaries\Win64\UE4Editor-AdvGamesProgramming-0002.dll
+  Deleted hot-reload file: C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Binaries\Win64\UE4Editor-AdvGamesProgramming-0004.dll
+  Deleted hot-reload file: C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0001.lib
+  Deleted hot-reload file: C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.lib
+  Deleted hot-reload file: C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0004.lib
   Building AdvGamesProgrammingEditor...
   Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] SpawnerManager.cpp
-    [2/4] UE4Editor-AdvGamesProgramming-0002.lib
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.exp
-    [3/4] UE4Editor-AdvGamesProgramming-0002.dll
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0002.suppressed.exp
-    [4/4] AdvGamesProgrammingEditor.target
-  Total time in Parallel executor: 3.13 seconds
-  Total execution time: 4.94 seconds
+  Building 5 actions with 8 processes...
+    [1/5] GameTimer.gen.cpp
+    [2/5] GameTimer.cpp
+    [3/5] UE4Editor-AdvGamesProgramming.lib
+       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.exp
+    [4/5] UE4Editor-AdvGamesProgramming.dll
+       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming.suppressed.exp
+    [5/5] AdvGamesProgrammingEditor.target
+  Total time in Parallel executor: 16.88 seconds
+  Total execution time: 28.49 seconds
