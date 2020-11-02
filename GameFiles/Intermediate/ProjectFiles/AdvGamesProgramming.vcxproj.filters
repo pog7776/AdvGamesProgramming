@@ -74,6 +74,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\EnemyCharacterNavMesh.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\GameTimer.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\GameTimer.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\HealthComponent.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
