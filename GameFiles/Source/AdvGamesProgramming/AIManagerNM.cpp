@@ -10,7 +10,7 @@ AAIManagerNM::AAIManagerNM()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	static ConstructorHelpers::FObjectFinder<UBlueprint> SpawnPointArchitype(TEXT("Blueprint'/Game/Blueprints/PickupSpawnPontBlueprint.PickupSpawnPontBlueprint'"));
+	static ConstructorHelpers::FObjectFinder<UBlueprint> SpawnPointArchitype(TEXT("Blueprint'/Game/Blueprints/SpawnPontBlueprint.SpawnPontBlueprint'"));
 	if (SpawnPointArchitype.Object) {
 		SpawnPoint = (UClass*)SpawnPointArchitype.Object->GeneratedClass;
 	}

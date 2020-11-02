@@ -25,15 +25,15 @@ APlayerHud::APlayerHud()
 		{
 			//Draw the hud to the player controllers viewport
 			CurrentPlayerHudWidget->AddToViewport();
-			//Find the health bar and the ammo text block
+			//Find the health bar, ammo text block, score text and the crosshair image
 			HealthProgressBar = Cast<UProgressBar>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("HealthBar")));
 			AmmoTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("AmmoCounter")));
-			//ScoreTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ScoreText")));
+			ScoreTextBlock = Cast<UTextBlock>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ScoreText")));
 			CrosshairImageBlock = Cast<UImage>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("ImgCrosshair")));
 			DebugButtonBlock = Cast<UButton>(CurrentPlayerHudWidget->GetWidgetFromName(TEXT("DebugButton")));
 
 			// Debug thing
-			//DebugButtonBlock->SetVisibility(ESlateVisibility::Hidden);
+			DebugButtonBlock->SetVisibility(ESlateVisibility::Hidden);
 			DebugButtonBlock->OnClicked.AddDynamic(this, &APlayerHud::DebugButton);
 		}
 	}
@@ -57,11 +57,11 @@ void APlayerHud::SetAmmoText(int32 RoundsRemaining, int32 MagazineSize)
 	
 }
 
-void APlayerHud::SetScoreText(int32 Score)
+void APlayerHud::SetScoreText(float Score)
 {
 	if (ScoreTextBlock)
 	{
-		ScoreTextBlock->SetText(FText::FromString(FString::Printf(TEXT("Score: %i"), Score)));
+		ScoreTextBlock->SetText(FText::FromString(FString::Printf(TEXT("Score: %i"), (int32)Score)));
 	}
 }
 

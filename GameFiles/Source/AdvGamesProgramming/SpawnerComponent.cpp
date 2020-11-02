@@ -28,8 +28,8 @@ void USpawnerComponent::BeginPlay()
 	SearchRange->SetSphereRadius(Radius);
 	//UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
 	SpawnChance = 100;
-	//CheckSurroundings();
-	//SpawnPickup();
+	CheckSurroundings();
+	SpawnPickup();
 }
 
 
@@ -42,16 +42,18 @@ void USpawnerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 
 }
 
-// TODO Change to starting a timer
 void USpawnerComponent::StartSpawn()
 {
-	SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
-	SearchRange->SetSphereRadius(Radius);
-	//UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
-	SpawnChance = 100;
-	CheckSurroundings();
-	SpawnPickup();
-	//SpawnEnemy();
+	if (GetOwner()->GetLocalRole() == ROLE_Authority)
+	{
+		SearchRange = GetOwner()->FindComponentByClass<USphereComponent>();
+		SearchRange->SetSphereRadius(Radius);
+		//UE_LOG(LogTemp, Warning, TEXT("SearchRange: %f"), SearchRange->GetScaledSphereRadius())
+		SpawnChance = 100;
+		CheckSurroundings();
+		SpawnPickup();
+		//SpawnEnemy();
+	}
 }
 
 void USpawnerComponent::CheckSurroundings()
@@ -112,8 +114,13 @@ void USpawnerComponent::SpawnPickup()
 {
 	// Roll and see if the pickup should spawn
 	float Roll = FMath::RandRange(0, 100);
-	if (Roll <= SpawnChance && !CurrentPickup)
+	if (Roll <= SpawnChance)
 	{
+		if (CurrentPickup)
+		{
+			CurrentPickup->Destroy();
+			//CurrentPickup = NULL;
+		}
 		UE_LOG(LogTemp, Warning, TEXT("PICKUP SPAWN: %s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 		// Spawn the pickup
 		CurrentPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);

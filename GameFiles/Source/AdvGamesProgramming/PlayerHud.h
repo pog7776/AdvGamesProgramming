@@ -22,7 +22,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void SetAmmoText(int32 RoundsRemaining, int32 MagazineSize);
-	void SetScoreText(int32 Score);
+	void SetScoreText(float Score);
 
 private:
 	TSubclassOf<class UUserWidget> PlayerHudClass;

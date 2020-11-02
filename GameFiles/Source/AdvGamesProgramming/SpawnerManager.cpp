@@ -17,6 +17,7 @@ ASpawnerManager::ASpawnerManager()
 void ASpawnerManager::BeginPlay()
 {
 	Super::BeginPlay();
+	StartTimer();
 }
 
 // Called every frame

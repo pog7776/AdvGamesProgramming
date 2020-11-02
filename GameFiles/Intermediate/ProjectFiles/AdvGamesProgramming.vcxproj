@@ -410,11 +410,13 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\ProcedurallyGeneratedBuilding2.h" />
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ScoreComponent.cpp" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\SpawnerComponent.cpp" />
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ScoreComponent.h" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\SpawnerComponent.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\SpawnerManager.cpp" />
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\SpawnerManager.h" />
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\TeamComponent.h" />
     <ClCompile Include="..\..\Source\AdvGamesProgramming\WeaponPickup.cpp" />
     <ClInclude Include="..\..\Source\AdvGamesProgramming\WeaponPickup.h" />

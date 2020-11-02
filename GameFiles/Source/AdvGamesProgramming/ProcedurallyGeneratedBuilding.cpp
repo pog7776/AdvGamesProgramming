@@ -83,7 +83,7 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 void AProcedurallyGeneratedBuilding::OnBuildCity() {		//for replicated clients
 	GenerateBuilding();					//generates buildings with values
 	GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
-	SpawnerManager->StartTimer();		// Starts the spawning timer
+	//SpawnerManager->StartTimer();		// Starts the spawning timer
 	//AIManager->PopulateNodes();
 	//AIManager->CreateAgents();
 }

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AdvGamesProgramming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{12F771A7-E011-4277-BBCD-9BD3A650D3D5}</UniqueIdentifier>
+      <UniqueIdentifier>{94124FC0-D38C-4AF5-96AB-7B0A01BCD31B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{85E807FF-52A0-4C74-84FB-C50EF5A8CC51}</UniqueIdentifier>
+      <UniqueIdentifier>{B230C457-9E30-46E0-B952-1D200382415C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AdvGamesProgramming">
-      <UniqueIdentifier>{9A60F566-260E-45DB-A5A9-0F6B3494D233}</UniqueIdentifier>
+      <UniqueIdentifier>{4B549216-80A8-4501-8474-2CBB79C4A603}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AdvGamesProgramming\AdvGamesProgramming.Build.cs">
       <Filter>Source\AdvGamesProgramming</Filter>
@@ -152,6 +152,12 @@
     <ClInclude Include="..\..\Source\AdvGamesProgramming\SpawnerComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\SpawnerManager.cpp">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\SpawnerManager.h">
+      <Filter>Source\AdvGamesProgramming</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AdvGamesProgramming\TeamComponent.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
@@ -166,12 +172,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\AdvGamesProgramming\SpawnerManager.h">
+    <ClInclude Include="..\..\Source\AdvGamesProgramming\ScoreComponent.h">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\AdvGamesProgramming\SpawnerManager.cpp">
+    <ClCompile Include="..\..\Source\AdvGamesProgramming\ScoreComponent.cpp">
       <Filter>Source\AdvGamesProgramming</Filter>
     </ClCompile>
   </ItemGroup>
