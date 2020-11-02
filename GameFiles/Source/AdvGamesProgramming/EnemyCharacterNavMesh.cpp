@@ -66,7 +66,7 @@ void AEnemyCharacterNavMesh::SensePlayer(AActor* ActorSensed, FAIStimulus Stimul
 		UTeamComponent* SensedTeamComponent = ActorSensed->FindComponentByClass<UTeamComponent>();
 		if (SensedTeamComponent != nullptr)
 		{
-			if (TeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
+			if (SensedTeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
 			{
 				bSensed = true;
 				if(GetLocalRole()==ROLE_Authority && EnemyBlackboard)
@@ -118,7 +118,8 @@ void AEnemyCharacterNavMesh::SensePlayer(AActor* ActorSensed, FAIStimulus Stimul
 }
 
 void AEnemyCharacterNavMesh::Trigger() {
-	Fire(DetectedActor->GetActorLocation() - GetActorLocation());
+	//Fire(DetectedActor->GetActorLocation() - GetActorLocation());
+	Attack();
 }
 
 float AEnemyCharacterNavMesh::CalcKillApprox()

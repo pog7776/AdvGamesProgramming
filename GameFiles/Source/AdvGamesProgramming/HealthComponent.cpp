@@ -59,22 +59,12 @@ void UHealthComponent::OnTakeDamage(float Damage)
 
 void UHealthComponent::OnDeath()
 {
-	if (GetOwner()->IsA(AEnemyCharacterNavMesh::StaticClass()))
-	{
-		TArray<AActor*> AIManagers;
-		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAIManagerNM::StaticClass(), AIManagers);
-
-		for (int32 i = 0; i < AIManagers.Num(); i++)
-		{
-			AAIManagerNM* CurrentAIManager = Cast<AAIManagerNM>(AIManagers[i]);
-
-			if (CurrentAIManager->AllAgents.Contains(Cast<AEnemyCharacterNavMesh>(GetOwner())))
-			{
-				CurrentAIManager->AllAgents.Remove(Cast<AEnemyCharacterNavMesh>(GetOwner()));
-			}
+	AActor* Parent = GetOwner();
+	AEnemyCharacterNavMesh* SpecificParent = Cast<AEnemyCharacterNavMesh>(GetOwner());
+	if (Parent) {
+		if (SpecificParent) {
+			SpecificParent->Die();
 		}
-
-		GetOwner()->Destroy();
 	}
 }
 
