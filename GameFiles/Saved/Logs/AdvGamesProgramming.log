@@ -7848,3 +7848,1066 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.02-08.03.58:712][629]LogPlayLevel: Display: Destroying online subsystem :Context_12
 [2020.11.02-08.03.58:712][629]LogPlayLevel: Display: Destroying online subsystem :Context_11
 [2020.11.02-08.03.58:712][629]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.11.02-08.10.03:319][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.11.02-08.10.03:547][767]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/AdvGamesProgramming/GameFiles/Saved/TestingMap_Auto13CC38DDC463F8135991C8B8BFEC45CB0.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/AdvGamesProgramming/GameFiles/Saved/Autosaves/Game/Levels/TestingMap_Auto1.umap'
+[2020.11.02-08.10.03:549][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestingMap' took 0.251
+[2020.11.02-08.10.03:549][767]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2020.11.02-08.14.58:431][128]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BTforNM/BTT_InactivateSensesNM.BTT_InactivateSensesNM
+[2020.11.02-08.14.58:596][128]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.11.02-08.14.59:367][129]LogSlate: Took 0.001080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.02-08.16.37:027][530]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.11.02-08.17.07:343][385]Cmd: TRANSACTION UNDO
+[2020.11.02-08.17.07:343][385]LogEditorTransaction: Undo Move Actors
+[2020.11.02-08.17.15:700][589]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.11.02-08.17.55:659][770]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.11.02-08.18.01:725][966]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.02-08.18.13:391][315]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.11.02-08.18.38:102][ 57]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.11.02-08.18.43:328][201]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.11.02-08.19.33:450][633]Cmd: TRANSACTION UNDO
+[2020.11.02-08.19.33:450][633]LogEditorTransaction: Undo Move Actors
+[2020.11.02-08.19.33:499][633]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.11.02-08.19.33:499][633]LogGeometryMode: Warning: Unable to resolve Wall2 Brush in new BSP, see above
+[2020.11.02-08.19.33:499][633]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.11.02-08.19.35:987][713]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.02-08.19.50:724][ 87]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.02-08.19.50:739][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Levels/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2020.11.02-08.19.50:742][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-08.19.50:742][ 87]PIE: New page: PIE session: TestingMap (Nov 3, 2020, 6:19:50 AM)
+[2020.11.02-08.19.50:742][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_TestingMap
+[2020.11.02-08.19.50:766][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024210s)
+[2020.11.02-08.19.50:766][ 87]LogAIModule: Creating AISystem for world TestingMap
+[2020.11.02-08.19.50:767][ 87]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2020.11.02-08.19.50:767][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingMap.TestingMap to /Game/Levels/UEDPIE_1_TestingMap.TestingMap (0.025286s)
+[2020.11.02-08.19.50:809][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.11.02-08.19.50:812][ 87]LogLoad: Game class is 'MultiplayerGameModeBlueprint_C'
+[2020.11.02-08.19.50:815][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 60) at 2020.11.02-19.19.50
+[2020.11.02-08.19.50:815][ 87]LogWorld: Bringing up level for play took: 0.001580
+[2020.11.02-08.19.50:816][ 87]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.11.02-08.19.50:816][ 87]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.11.02-08.19.50:817][ 87]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.11.02-08.19.50:817][ 87]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-08.19.50:817][ 87]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2020.11.02-08.19.50:817][ 87]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.02-08.19.50:817][ 87]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.11.02-08.19.50:819][ 87]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.02-08.19.50:819][ 87]PIE: Play in editor start time for /Game/Levels/UEDPIE_1_TestingMap 1.071
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-08.19.50:821][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-08.19.50:821][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-08.19.50:822][ 87]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-08.19.50:822][ 87]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Name: Speakers/Headphones(Realtek(R) Audio)
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Is Default: Yes
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Sample Rate: 48000
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Channel Count Used: 2
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Device Channel Count: 2
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: Channel Order:
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-08.19.51:010][ 87]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-08.19.51:138][ 87]LogAudioMixer: Display: Using Audio Device Speakers/Headphones(Realtek(R) Audio)
+[2020.11.02-08.19.51:140][ 87]LogInit: FAudioDevice initialized.
+[2020.11.02-08.19.51:199][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-08.19.51:199][ 87]LogNet: Browse: 127.0.0.1:17777//Game/Levels/TestingMap
+[2020.11.02-08.19.51:200][ 87]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.11.02-08.19.51:200][ 87]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-08.19.51:200][ 87]LogNet: Game client on port 17777, rate 10000
+[2020.11.02-08.19.51:203][ 87]PIE: Play in editor start time for /Game/Levels/TestingMap 1.455
+[2020.11.02-08.19.51:267][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-08.19.51:267][ 87]LogNet: Browse: 127.0.0.1:17777//Game/Levels/TestingMap
+[2020.11.02-08.19.51:268][ 87]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.11.02-08.19.51:269][ 87]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-08.19.51:269][ 87]LogNet: Game client on port 17777, rate 10000
+[2020.11.02-08.19.51:271][ 87]PIE: Play in editor start time for /Game/Levels/TestingMap 1.523
+[2020.11.02-08.19.51:278][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Levels/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2020.11.02-08.19.51:278][ 87]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63015
+[2020.11.02-08.19.51:278][ 87]LogHandshake: SendConnectChallenge. Timestamp: 0.041453, Cookie: 156027109220079129165097062153226132235116023161037210099126
+[2020.11.02-08.19.51:278][ 87]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63016
+[2020.11.02-08.19.51:278][ 87]LogHandshake: SendConnectChallenge. Timestamp: 0.041453, Cookie: 235162056101106109151004097070024081230184216065144204222138
+[2020.11.02-08.19.51:283][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_0 - Roll: 5.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:284][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:284][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:284][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:284][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_1 - Roll: 22.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:285][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:285][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:285][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:285][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:285][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:285][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_2 - Roll: 58.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_3 - Roll: 77.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:286][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_4 - Roll: 36.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:287][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_5 - Roll: 81.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:288][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_6 - Roll: 21.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:289][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_7 - Roll: 3.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:290][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_8 - Roll: 18.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_9 - Roll: 15.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:291][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_10 - Roll: 63.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:292][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_11 - Roll: 57.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:293][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_12 - Roll: 55.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:294][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_13 - Roll: 92.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:295][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Roll: 15.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_15 - Roll: 13.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:296][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_16 - Roll: 62.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:297][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:298][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:298][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:298][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:298][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:298][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:298][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_17 - Roll: 97.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:299][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_18 - Roll: 75.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:300][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:300][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:300][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:300][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:300][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:301][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:301][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:301][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:301][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_19 - Roll: 67.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:301][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:302][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_20 - Roll: 51.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_21 - Roll: 44.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:303][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_22 - Roll: 95.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:304][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Roll: 14.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:305][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_24 - Roll: 8.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:306][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_25 - Roll: 8.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:307][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_26 - Roll: 1.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:308][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_27 - Roll: 77.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:309][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_28 - Roll: 25.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:310][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: PickupSpawnPontBlueprint_C_29 - Roll: 91.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:311][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:314][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:316][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:319][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:321][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:323][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:324][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:326][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:327][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:329][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:331][ 87]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.51:334][ 87]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.11.02-08.19.51:336][ 87]LogHandshake: SendChallengeResponse. Timestamp: 0.041453, Cookie: 156027109220079129165097062153226132235116023161037210099126
+[2020.11.02-08.19.51:337][ 87]LogHandshake: SendChallengeResponse. Timestamp: 0.041453, Cookie: 235162056101106109151004097070024081230184216065144204222138
+[2020.11.02-08.19.51:654][ 88]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63015
+[2020.11.02-08.19.51:654][ 88]LogHandshake: SendChallengeAck. InCookie: 156027109220079129165097062153226132235116023161037210099126
+[2020.11.02-08.19.51:654][ 88]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63015
+[2020.11.02-08.19.51:655][ 88]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-08.19.51:655][ 88]LogNet: NotifyAcceptedConnection: Name: TestingMap, TimeStamp: 11/02/20 19:19:51, [UNetConnection] RemoteAddr: 127.0.0.1:63015, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.02-08.19.51:655][ 88]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63015, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.02-08.19.51:655][ 88]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63016
+[2020.11.02-08.19.51:655][ 88]LogHandshake: SendChallengeAck. InCookie: 235162056101106109151004097070024081230184216065144204222138
+[2020.11.02-08.19.51:655][ 88]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63016
+[2020.11.02-08.19.51:656][ 88]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-08.19.51:656][ 88]LogNet: NotifyAcceptedConnection: Name: TestingMap, TimeStamp: 11/02/20 19:19:51, [UNetConnection] RemoteAddr: 127.0.0.1:63016, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.02-08.19.51:656][ 88]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63016, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.02-08.19.51:661][ 88]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.02-08.19.51:662][ 88]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: PendingNetDriver IpNetDriver_14, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.02-08.19.51:692][ 89]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2020.11.02-08.19.51:692][ 89]LogNet: Remote platform little endian=1
+[2020.11.02-08.19.51:692][ 89]LogNet: This platform little endian=1
+[2020.11.02-08.19.51:692][ 89]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2020.11.02-08.19.51:692][ 89]LogNet: Remote platform little endian=1
+[2020.11.02-08.19.51:692][ 89]LogNet: This platform little endian=1
+[2020.11.02-08.19.51:699][ 89]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.11.02-08.19.51:700][ 89]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.11.02-08.19.51:714][ 90]LogNet: Login request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D userId: NULL:DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D platform: NULL
+[2020.11.02-08.19.51:714][ 90]LogNet: Login request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255 userId: NULL:DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255 platform: NULL
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:721][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:722][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:722][ 90]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.51:723][ 90]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestingMap, Game: /Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C)
+[2020.11.02-08.19.51:723][ 90]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_TestingMap?game=/Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C
+[2020.11.02-08.19.51:723][ 90]LogWorld: BeginTearingDown for /Temp/Untitled_9
+[2020.11.02-08.19.51:723][ 90]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-08.19.51:723][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-08.19.51:724][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.51:810][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2020.11.02-08.19.51:853][ 90]LogAIModule: Creating AISystem for world TestingMap
+[2020.11.02-08.19.51:855][ 90]LogWorld: Bringing World /Game/Levels/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 60) at 2020.11.02-19.19.51
+[2020.11.02-08.19.51:856][ 90]LogWorld: Bringing up level for play took: 0.001698
+[2020.11.02-08.19.51:856][ 90]LogNavigation: Warning: Was not able to create navigation data for SupportedAgent[0]: Default
+[2020.11.02-08.19.51:856][ 90]LogLoad: Took 0.133489 seconds to LoadMap(/Game/Levels/UEDPIE_1_TestingMap)
+[2020.11.02-08.19.51:857][ 90]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestingMap, Game: /Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C)
+[2020.11.02-08.19.51:857][ 90]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_TestingMap?game=/Game/Blueprints/MultiplayerGameModeBlueprint.MultiplayerGameModeBlueprint_C
+[2020.11.02-08.19.51:857][ 90]LogWorld: BeginTearingDown for /Temp/Untitled_10
+[2020.11.02-08.19.51:857][ 90]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-08.19.51:857][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-08.19.51:857][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.51:920][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2020.11.02-08.19.51:960][ 90]LogAIModule: Creating AISystem for world TestingMap
+[2020.11.02-08.19.51:963][ 90]LogWorld: Bringing World /Game/Levels/UEDPIE_3_TestingMap.TestingMap up for play (max tick rate 60) at 2020.11.02-19.19.51
+[2020.11.02-08.19.51:964][ 90]LogWorld: Bringing up level for play took: 0.002141
+[2020.11.02-08.19.51:964][ 90]LogNavigation: Warning: Was not able to create navigation data for SupportedAgent[0]: Default
+[2020.11.02-08.19.51:964][ 90]LogLoad: Took 0.107451 seconds to LoadMap(/Game/Levels/UEDPIE_1_TestingMap)
+[2020.11.02-08.19.51:990][ 91]LogNet: Client netspeed is 10000
+[2020.11.02-08.19.51:990][ 91]LogNet: Join request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D?SplitscreenCount=1
+[2020.11.02-08.19.51:991][ 91]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.02-08.19.51:991][ 91]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.02-08.19.51:994][ 91]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.02-08.19.51:994][ 91]LogNet: Join succeeded: DESKTOP-DOLCJVN-5555
+[2020.11.02-08.19.51:994][ 91]LogNet: Client netspeed is 10000
+[2020.11.02-08.19.51:994][ 91]LogNet: Join request: /Game/Levels/TestingMap?Name=DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255?SplitscreenCount=1
+[2020.11.02-08.19.51:994][ 91]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.02-08.19.51:996][ 91]LogNet: Join succeeded: DESKTOP-DOLCJVN-0283
+[2020.11.02-08.19.52:127][ 94]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.52:127][ 94]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.52:127][ 94]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.52:426][102]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.02-08.19.52:427][102]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.02-08.19.52:481][103]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.11.02-08.19.52:549][105]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.02-08.19.52:552][105]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.02-08.19.52:594][106]LogTemp: Warning: X=1000.000 Y=-250.000 Z=50.000
+[2020.11.02-08.19.52:599][106]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.52:903][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_0 - Roll: 67.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:903][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:903][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:904][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:904][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_1 - Roll: 95.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:905][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:905][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:905][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:906][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:906][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:906][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_2 - Roll: 79.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:907][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:908][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_3 - Roll: 67.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:908][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:908][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:908][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:908][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:908][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_4 - Roll: 6.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:909][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:910][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:910][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:910][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:910][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_5 - Roll: 26.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:911][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:912][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_6 - Roll: 38.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:912][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:912][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:912][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:912][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:912][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_7 - Roll: 85.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:913][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:914][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:914][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:914][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:914][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_8 - Roll: 78.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:915][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:915][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:915][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:915][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:915][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:915][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_9 - Roll: 26.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:916][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:917][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:917][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:917][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_10 - Roll: 66.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:918][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_11 - Roll: 21.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:919][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:919][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:919][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:919][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:919][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_12 - Roll: 91.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:920][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:921][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_13 - Roll: 60.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:921][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:921][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:922][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:922][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:922][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:922][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:922][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Roll: 19.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:923][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:923][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:923][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:923][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:923][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:923][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:924][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:924][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:924][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_15 - Roll: 95.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:924][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:924][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:924][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:925][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:925][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:925][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:925][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:925][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_16 - Roll: 84.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:926][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:926][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:926][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:926][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:926][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_17 - Roll: 2.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:927][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:928][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:928][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:928][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:928][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_18 - Roll: 41.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:929][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:929][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:929][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:929][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:929][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:930][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:930][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:930][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:930][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_19 - Roll: 15.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:931][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_20 - Roll: 53.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:932][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:933][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:933][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:933][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:933][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_21 - Roll: 21.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:934][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:935][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_22 - Roll: 30.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:935][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:935][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:935][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:935][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:935][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:936][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:936][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:936][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:936][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:936][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:936][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Roll: 40.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:937][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:938][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_24 - Roll: 25.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:938][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:938][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:938][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:938][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:938][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_25 - Roll: 3.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:939][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:940][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:940][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:940][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:940][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_26 - Roll: 66.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:941][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_27 - Roll: 57.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:942][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_28 - Roll: 5.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:943][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:943][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:943][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:943][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:943][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:943][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_29 - Roll: 88.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:944][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:945][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:945][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:948][114]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.52:954][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_0 - Roll: 26.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:955][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:955][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:956][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:956][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_1 - Roll: 96.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:956][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:956][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:956][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_2 - Roll: 48.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:957][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:958][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:958][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:958][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:958][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_3 - Roll: 1.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:959][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:960][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_4 - Roll: 89.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:960][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:960][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:960][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:960][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_5 - Roll: 97.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:961][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:962][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:962][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:962][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:962][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_6 - Roll: 85.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:963][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:963][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:963][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:963][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:963][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:964][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:964][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:964][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_7 - Roll: 59.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:965][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:966][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_8 - Roll: 49.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:966][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:966][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:966][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:966][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:966][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:967][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:967][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:967][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:967][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_9 - Roll: 0.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:967][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:967][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:968][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:968][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:968][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:968][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:968][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:968][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_10 - Roll: 52.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:969][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:969][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:969][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:969][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:970][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:970][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:970][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:970][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_11 - Roll: 21.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:970][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:971][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_12 - Roll: 62.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:972][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:972][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:972][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:972][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:972][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:973][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_13 - Roll: 99.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:973][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:973][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_14 - Roll: 60.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:974][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:975][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:975][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:975][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:975][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:975][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:975][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_15 - Roll: 62.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:976][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:976][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:976][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:976][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:976][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_16 - Roll: 34.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:977][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_17 - Roll: 15.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:978][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:979][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_18 - Roll: 47.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:980][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:980][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:980][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:980][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:980][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:980][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_19 - Roll: 69.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:981][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:982][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:982][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:982][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:982][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:982][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:982][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_20 - Roll: 59.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:983][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_21 - Roll: 64.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:984][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:985][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:985][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:985][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:985][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:985][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:985][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_22 - Roll: 46.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:986][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:986][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:986][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:986][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:986][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_23 - Roll: 99.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:987][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:988][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_24 - Roll: 47.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:989][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:989][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:989][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:989][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:989][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:989][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_25 - Roll: 27.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:990][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:991][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:991][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:991][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:991][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_26 - Roll: 25.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:991][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:991][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:992][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_27 - Roll: 17.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:993][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:993][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:993][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:993][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:993][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:993][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_28 - Roll: 17.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:994][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:995][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:995][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:995][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:995][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:995][114]LogTemp: Warning: PickupSpawnPontBlueprint_C_29 - Roll: 24.000000 | Chance: 100.000000 -- Success
+[2020.11.02-08.19.52:996][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:996][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:996][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:996][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:996][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:996][114]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.52:999][114]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:019][115]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:433][126]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:530][128]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:530][128]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:530][128]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:534][128]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:537][128]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:606][130]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:718][133]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.53:724][133]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.53:780][134]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.53:967][139]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:968][139]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:968][139]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.53:974][139]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:276][146]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:276][146]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:276][146]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:279][146]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:282][146]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:299][147]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:471][151]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:524][152]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:525][152]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:525][152]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:528][152]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:594][154]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:594][154]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:594][154]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:601][154]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.54:656][155]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:403][173]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:403][173]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:403][173]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:407][173]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:409][173]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:426][174]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:426][174]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:426][174]LogTemp: Warning: Player Lost
+[2020.11.02-08.19.55:532][176]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.55:536][176]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.55:539][176]LogTemp: Warning: Overlap Event
+[2020.11.02-08.19.56:869][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.56:869][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.56:870][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Levels/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2020.11.02-08.19.56:873][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-08.19.56:873][206]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_3_TestingMap
+[2020.11.02-08.19.56:885][206]LogSlate: Window 'AdvGamesProgramming Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2020.11.02-08.19.56:933][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.56:933][206]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-08.19.56:936][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-08.19.56:965][206]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2020.11.02-08.19.56:965][206]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2020.11.02-08.19.56:965][206]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255, Channels: 23, Time: 2020.11.02-08.19.56
+[2020.11.02-08.19.56:965][206]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255
+[2020.11.02-08.19.56:965][206]LogExit: GameNetDriver IpNetDriver_14 shut down
+[2020.11.02-08.19.56:966][206]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_2_TestingMap
+[2020.11.02-08.19.56:966][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-08.19.56:977][206]LogSlate: Window 'AdvGamesProgramming Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.11.02-08.19.56:983][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.56:983][206]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-08.19.56:986][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-08.19.56:997][206]LogNet: World NetDriver shutdown IpNetDriver_13 [GameNetDriver]
+[2020.11.02-08.19.56:997][206]LogNet: DestroyNamedNetDriver IpNetDriver_13 [GameNetDriver]
+[2020.11.02-08.19.56:997][206]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D, Channels: 23, Time: 2020.11.02-08.19.56
+[2020.11.02-08.19.56:997][206]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D
+[2020.11.02-08.19.56:997][206]LogExit: GameNetDriver IpNetDriver_13 shut down
+[2020.11.02-08.19.56:998][206]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_1_TestingMap
+[2020.11.02-08.19.56:998][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.56:999][206]LogWorld: UWorld::CleanupWorld for TestingMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-08.19.57:003][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-08.19.57:003][206]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2020.11.02-08.19.57:004][206]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2020.11.02-08.19.57:004][206]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63016, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255
+[2020.11.02-08.19.57:004][206]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63016, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255, Channels: 23, Time: 2020.11.02-08.19.57
+[2020.11.02-08.19.57:004][206]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63016, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-DOLCJVN-0283E5E04ADECAB7DF8233AA34622255
+[2020.11.02-08.19.57:004][206]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63015, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D
+[2020.11.02-08.19.57:004][206]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63015, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D, Channels: 23, Time: 2020.11.02-08.19.57
+[2020.11.02-08.19.57:005][206]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63015, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-DOLCJVN-55554AA34213904A2954C6AA9B7A745D
+[2020.11.02-08.19.57:005][206]LogExit: GameNetDriver IpNetDriver_12 shut down
+[2020.11.02-08.19.57:006][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-08.19.57:007][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Levels/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Levels/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2020.11.02-08.19.57:015][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-08.19.57:061][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-08.19.57:087][206]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.11.02-08.19.57:142][207]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.11.02-08.19.57:142][207]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.11.02-08.19.57:142][207]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.11.02-08.20.32:560][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.11.02-08.20.33:154][539]LogSlate: Window 'Save Content' being destroyed
+[2020.11.02-08.20.33:238][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.11.02-08.20.33:646][539]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/AdvGamesProgramming/GameFiles/Saved/TestingMapA8F4F19E461088395A4894A31DD13DA6.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap.umap'
+[2020.11.02-08.20.33:681][539]LogFileHelpers: Saving map 'TestingMap' took 0.480
+[2020.11.02-08.20.33:753][539]LogSavePackage: Moving '../../../../../../Users/wlsgn/Documents/Unreal Projects/AdvGamesProgramming/GameFiles/Saved/TestingMap_BuiltData710591744BDD18BEF1D5A08E1CD646C1.tmp' to '../../../../../../Users/wlsgn/Documents/Unreal Projects/AdvGamesProgramming/GameFiles/Content/Levels/TestingMap_BuiltData.uasset'
+[2020.11.02-08.20.33:781][539]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.02-08.20.33:781][539]LogContentValidation: Display: Validating World /Game/Levels/TestingMap.TestingMap
+[2020.11.02-08.20.33:781][539]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestingMap_BuiltData.TestingMap_BuiltData
