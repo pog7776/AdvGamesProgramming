@@ -1,5 +1,0 @@
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\DebugGame\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\wlsgn\Documents\Unreal Projects\Proj\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming/TeamComponent.h
-c:\users\wlsgn\documents\unreal projects\proj\advgamesprogramming\gamefiles\intermediate\build\win64\ue4editor\inc\advgamesprogramming\TeamComponent.generated.h

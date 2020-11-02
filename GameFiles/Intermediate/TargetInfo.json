@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "AdvGamesProgramming",
-			"Path": "C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Assignment 2\\Git\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgramming.Target.cs",
+			"Path": "C:\\Users\\wlsgn\\Documents\\Unreal Projects\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgramming.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "AdvGamesProgrammingEditor",
-			"Path": "C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Assignment 2\\Git\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgrammingEditor.Target.cs",
+			"Path": "C:\\Users\\wlsgn\\Documents\\Unreal Projects\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgrammingEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

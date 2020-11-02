@@ -59,3 +59,12 @@ void AAIManagerNM::CreateAgents(FVector spawnPos)
 			FRotator(0.f, 0.f, 0.f));
 	AllAgents.Add(Agent);
 }
+
+void AAIManagerNM::RemoveAgent(AEnemyCharacterNavMesh* Agent) {
+	TArray<AEnemyCharacterNavMesh*> temp;
+	for (AEnemyCharacterNavMesh* enemy : AllAgents)
+		if (enemy != Agent) temp.Add(enemy);
+
+	AllAgents.Empty();
+	AllAgents = temp;
+}

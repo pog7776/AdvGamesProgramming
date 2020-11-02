@@ -63,6 +63,14 @@ void UHealthComponent::OnDeath()
 	AEnemyCharacterNavMesh* SpecificParent = Cast<AEnemyCharacterNavMesh>(GetOwner());
 	if (Parent) {
 		if (SpecificParent) {
+
+			TArray<AActor*> AIManagers;
+			UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAIManagerNM::StaticClass(), AIManagers);
+			if (AIManagers.Num() > 0) {
+				AAIManagerNM* AAIManager = Cast<AAIManagerNM>(AIManagers[0]);
+				AAIManager->RemoveAgent(SpecificParent);
+			}
+
 			SpecificParent->Die();
 		}
 	}

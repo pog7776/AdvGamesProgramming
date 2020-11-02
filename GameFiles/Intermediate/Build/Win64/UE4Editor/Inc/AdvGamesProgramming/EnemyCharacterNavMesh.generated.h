@@ -10,7 +10,6 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
 struct FAIStimulus;
-struct FVector;
 #ifdef ADVGAMESPROGRAMMING_EnemyCharacterNavMesh_generated_h
 #error "EnemyCharacterNavMesh.generated.h already included, missing '#pragma once' in EnemyCharacterNavMesh.h"
 #endif
@@ -107,13 +106,7 @@ struct FVector;
 	}
 
 
-#define GameFiles_Source_AdvGamesProgramming_EnemyCharacterNavMesh_h_18_EVENT_PARMS \
-	struct EnemyCharacterNavMesh_eventFire_Parms \
-	{ \
-		FVector FireDirection; \
-	};
-
-
+#define GameFiles_Source_AdvGamesProgramming_EnemyCharacterNavMesh_h_18_EVENT_PARMS
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacterNavMesh_h_18_CALLBACK_WRAPPERS
 #define GameFiles_Source_AdvGamesProgramming_EnemyCharacterNavMesh_h_18_INCLASS_NO_PURE_DECLS \
 private: \
