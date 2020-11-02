@@ -17,9 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AEnemyCharacterNavMesh();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_AdvGamesProgramming();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_CalcKillApprox();
-	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_Die();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_GetBCanSeeActor();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_GetBSensed();
 	ADVGAMESPROGRAMMING_API UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_SensePlayer();
@@ -30,12 +30,15 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTreeComponent_NoRegister();
 	ADVGAMESPROGRAMMING_API UClass* Z_Construct_UClass_AMyAIControllerNM_NoRegister();
 // End Cross Module References
-	static FName NAME_AEnemyCharacterNavMesh_Fire = FName(TEXT("Fire"));
-	void AEnemyCharacterNavMesh::Fire(FVector FireDirection)
+	static FName NAME_AEnemyCharacterNavMesh_Attack = FName(TEXT("Attack"));
+	void AEnemyCharacterNavMesh::Attack()
 	{
-		EnemyCharacterNavMesh_eventFire_Parms Parms;
-		Parms.FireDirection=FireDirection;
-		ProcessEvent(FindFunctionChecked(NAME_AEnemyCharacterNavMesh_Fire),&Parms);
+		ProcessEvent(FindFunctionChecked(NAME_AEnemyCharacterNavMesh_Attack),NULL);
+	}
+	static FName NAME_AEnemyCharacterNavMesh_Die = FName(TEXT("Die"));
+	void AEnemyCharacterNavMesh::Die()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AEnemyCharacterNavMesh_Die),NULL);
 	}
 	void AEnemyCharacterNavMesh::StaticRegisterNativesAEnemyCharacterNavMesh()
 	{
@@ -48,6 +51,28 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 			{ "Trigger", &AEnemyCharacterNavMesh::execTrigger },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacterNavMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacterNavMesh, nullptr, "Attack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AEnemyCharacterNavMesh_CalcKillApprox_Statics
 	{
@@ -81,31 +106,25 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics
+	struct Z_Construct_UFunction_AEnemyCharacterNavMesh_Die_Statics
 	{
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_FireDirection;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::NewProp_FireDirection = { "FireDirection", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacterNavMesh_eventFire_Parms, FireDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::NewProp_FireDirection,
-	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacterNavMesh_Die_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "EnemyCharacterNavMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacterNavMesh, nullptr, "Fire", nullptr, nullptr, sizeof(EnemyCharacterNavMesh_eventFire_Parms), Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08820800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacterNavMesh_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacterNavMesh, nullptr, "Die", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacterNavMesh_Die_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacterNavMesh_Die_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacterNavMesh_Die()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacterNavMesh_Die_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -292,8 +311,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvGamesProgramming,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyCharacterNavMesh_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_Attack, "Attack" }, // 3870296112
 		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_CalcKillApprox, "CalcKillApprox" }, // 519617946
-		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_Fire, "Fire" }, // 1942781397
+		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_Die, "Die" }, // 662257130
 		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_GetBCanSeeActor, "GetBCanSeeActor" }, // 337978398
 		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_GetBSensed, "GetBSensed" }, // 1337932753
 		{ &Z_Construct_UFunction_AEnemyCharacterNavMesh_SensePlayer, "SensePlayer" }, // 3232314280
@@ -309,7 +329,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacterNavMesh_Statics::NewProp_bIsClient_MetaData[] = {
 		{ "Category", "EnemyCharacterNavMesh" },
+		{ "Comment", "//void Fire(FVector FireDirection);\n" },
 		{ "ModuleRelativePath", "EnemyCharacterNavMesh.h" },
+		{ "ToolTip", "void Fire(FVector FireDirection);" },
 	};
 #endif
 	void Z_Construct_UClass_AEnemyCharacterNavMesh_Statics::NewProp_bIsClient_SetBit(void* Obj)
@@ -409,7 +431,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacterNavMesh() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacterNavMesh, 3807032352);
+	IMPLEMENT_CLASS(AEnemyCharacterNavMesh, 1031050043);
 	template<> ADVGAMESPROGRAMMING_API UClass* StaticClass<AEnemyCharacterNavMesh>()
 	{
 		return AEnemyCharacterNavMesh::StaticClass();

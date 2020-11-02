@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "EnemyCharacterNavMesh.h"
 #include "HealthComponent.h"
 
 // Sets default values for this component's properties
@@ -45,7 +45,13 @@ void UHealthComponent::OnTakeDamage(float Damage)
 
 void UHealthComponent::OnDeath()
 {
-
+	AActor* Parent = GetOwner();
+	AEnemyCharacterNavMesh* SpecificParent = Cast<AEnemyCharacterNavMesh>(GetOwner());
+	if (Parent) {
+		if (SpecificParent) {
+			SpecificParent->Die();
+		}
+	}
 }
 
 float UHealthComponent::HealthPercentageRemaining()

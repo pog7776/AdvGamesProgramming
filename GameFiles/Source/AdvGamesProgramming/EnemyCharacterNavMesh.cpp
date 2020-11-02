@@ -118,7 +118,8 @@ void AEnemyCharacterNavMesh::SensePlayer(AActor* ActorSensed, FAIStimulus Stimul
 }
 
 void AEnemyCharacterNavMesh::Trigger() {
-	Fire(DetectedActor->GetActorLocation() - GetActorLocation());
+	//Fire(DetectedActor->GetActorLocation() - GetActorLocation());
+	Attack();
 }
 
 float AEnemyCharacterNavMesh::CalcKillApprox()
