@@ -3,6 +3,7 @@
 #include "ProcedurallyGeneratedBuilding.h"
 #include "Algo/Reverse.h"
 #include "Net/UnrealNetwork.h"
+#include "SpawnerManager.h"
 #include "WeaponPickupSpawnerComponent.h"
 
 static const float BASE_SIZE = 4.0f;
@@ -200,7 +201,7 @@ void AProcedurallyGeneratedBuilding::GenerateTowards(FVector from, FVector to)
 	pos = from + (dir / 2);		//spawn weapon spawner in a half-way distance from 'from' by 'dir'
 
 	//spawn weapon spawner
-	PickupManager->CreateSpawner(WeaponSpawner, pos);
+	SpawnerManager->CreateSpawner(WeaponSpawner, pos);
 	/*
 	AActor* NewSpawner = World->SpawnActor<AActor>(WeaponSpawner, pos, FRotator::ZeroRotator);
 	WeaponSpawners.Add(NewSpawner);

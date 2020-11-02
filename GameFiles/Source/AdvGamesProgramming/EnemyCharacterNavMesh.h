@@ -66,7 +66,10 @@ public:
 	float CalcKillApprox();
 
 	UFUNCTION(BlueprintImplementableEvent)
-	void Fire(FVector FireDirection);
+	void Attack();
+	UFUNCTION(BlueprintImplementableEvent)
+	void Die();
+	//void Fire(FVector FireDirection);
 
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	bool bIsClient;

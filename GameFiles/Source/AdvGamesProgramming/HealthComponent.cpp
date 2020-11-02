@@ -2,11 +2,13 @@
 
 
 #include "HealthComponent.h"
-#include "PlayerHud.h"
+#include "Engine/GameEngine.h"
+#include "Net/UnrealNetwork.h"
 #include "Kismet/GameplayStatics.h"
+#include "PlayerHUD.h"
+#include "PlayerCharacter.h"
 #include "EnemyCharacterNavMesh.h"
 #include "AIManagerNM.h"
-#include "PlayerCharacter.h"
 
 // Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
@@ -52,7 +54,21 @@ void UHealthComponent::OnTakeDamage(float Damage)
 
 void UHealthComponent::OnDeath()
 {
-	
+	AActor* Parent = GetOwner();
+	AEnemyCharacterNavMesh* SpecificParent = Cast<AEnemyCharacterNavMesh>(GetOwner());
+	if (Parent) {
+		if (SpecificParent) {
+
+			TArray<AActor*> AIManagers;
+			UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAIManagerNM::StaticClass(), AIManagers);
+			if (AIManagers.Num() > 0) {
+				AAIManagerNM* AAIManager = Cast<AAIManagerNM>(AIManagers[0]);
+				AAIManager->RemoveAgent(SpecificParent);
+			}
+
+			SpecificParent->Die();
+		}
+	}
 }
 
 float UHealthComponent::HealthPercentageRemaining()

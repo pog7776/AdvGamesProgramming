@@ -6,7 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "PickupManager.h"
 #include "AIManagerNM.h"
+#include "SpawnerManager.h"
 #include "ProcedurallyGeneratedBuilding.generated.h"
+
 
 UCLASS()
 class ADVGAMESPROGRAMMING_API AProcedurallyGeneratedBuilding : public AActor {
@@ -72,7 +74,7 @@ public:
 
 
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
-	APickupManager* PickupManager;							//PickupManager (has to be given from detail panel)
+	ASpawnerManager* SpawnerManager;							//SpawnerManager (has to be given from detail panel)
 	UPROPERTY(EditAnywhere, Category = WeaponSpawner, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> WeaponSpawner;				//weapon spanwer (has to be given from detail panel)
 
