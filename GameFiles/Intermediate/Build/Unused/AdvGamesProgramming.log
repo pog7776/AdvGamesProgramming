@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
     [1/4] SpawnerComponent.cpp
-    [2/4] UE4Editor-AdvGamesProgramming-0044.lib
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0044.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0044.exp
-    [3/4] UE4Editor-AdvGamesProgramming-0044.dll
-       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0044.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0044.suppressed.exp
+    [2/4] UE4Editor-AdvGamesProgramming-0006.lib
+       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0006.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0006.exp
+    [3/4] UE4Editor-AdvGamesProgramming-0006.dll
+       Creating library C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0006.suppressed.lib and object C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\UE4Editor-AdvGamesProgramming-0006.suppressed.exp
     [4/4] AdvGamesProgrammingEditor.target
-  Total time in Parallel executor: 5.21 seconds
-  Total execution time: 6.84 seconds
+  Total time in Parallel executor: 25.23 seconds
+  Total execution time: 26.50 seconds

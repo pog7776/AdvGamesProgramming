@@ -146,7 +146,7 @@ void AEnemyCharacter::SensePlayer(AActor* ActorSensed, FAIStimulus Stimulus)
 		UTeamComponent* SensedTeamComponent = ActorSensed->FindComponentByClass<UTeamComponent>();
 		if (SensedTeamComponent != nullptr)
 		{
-			if (SensedTeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
+			if (TeamComponent->CheckUnfriendly(SensedTeamComponent->OwnedFactions))
 			{
 				bSensed = true;
 				EnemyBlackboard->SetValueAsBool(FName("bSensed"), bSensed);

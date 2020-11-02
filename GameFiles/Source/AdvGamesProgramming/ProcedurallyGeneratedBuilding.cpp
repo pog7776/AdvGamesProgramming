@@ -75,7 +75,7 @@ void AProcedurallyGeneratedBuilding::Tick(float DeltaTime)
 			GenerateWeaponSpawnPoints();		//generate weapon spawn points which is an actor created by Jack Cooper
 
 			AIManager->PopulateNodes();
-			//AIManager->CreateAgents();
+			AIManager->CreateAgents();
 		}
 	}
 }

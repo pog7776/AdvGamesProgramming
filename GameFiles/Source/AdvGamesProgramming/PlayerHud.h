@@ -22,12 +22,14 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void SetAmmoText(int32 RoundsRemaining, int32 MagazineSize);
+	void SetScoreText(int32 Score);
 
 private:
 	TSubclassOf<class UUserWidget> PlayerHudClass;
 	UUserWidget* CurrentPlayerHudWidget;
 	class UProgressBar* HealthProgressBar;
 	class UTextBlock* AmmoTextBlock;
+	class UTextBlock* ScoreTextBlock;
 	class UImage* CrosshairImageBlock;
 	class UButton* DebugButtonBlock;
 

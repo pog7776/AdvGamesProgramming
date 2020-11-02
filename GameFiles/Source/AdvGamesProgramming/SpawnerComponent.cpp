@@ -51,7 +51,7 @@ void USpawnerComponent::StartSpawn()
 	SpawnChance = 100;
 	CheckSurroundings();
 	SpawnPickup();
-	SpawnEnemy();
+	//SpawnEnemy();
 }
 
 void USpawnerComponent::CheckSurroundings()
@@ -112,7 +112,7 @@ void USpawnerComponent::SpawnPickup()
 {
 	// Roll and see if the pickup should spawn
 	float Roll = FMath::RandRange(0, 100);
-	if (Roll <= SpawnChance)
+	if (Roll <= SpawnChance && !CurrentPickup)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("PICKUP SPAWN: %s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
 		// Spawn the pickup
@@ -127,17 +127,20 @@ void USpawnerComponent::SpawnPickup()
 
 void USpawnerComponent::SpawnEnemy()
 {
-	// Roll and see if the Enemy should spawn
-	float Roll = FMath::RandRange(0, 100);
-	if (Roll <= SpawnChance && AIManager->AllAgents.Num() < AIManager->NumAI)
+	if (GetOwner()->GetLocalRole() == ROLE_Authority)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("ENEMY SPAWN: %s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
-			// Spawn the enemy
-			//CurrentPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
-			AIManager->CreateAgents(GetOwner()->GetActorLocation() + SpawnOffset);
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("ENEMY SPAWN: %s - Roll: %f | Chance: %f -- Fail"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+		// Roll and see if the Enemy should spawn
+		float Roll = FMath::RandRange(0, 100);
+		if (Roll <= SpawnChance && AIManager->AllAgents.Num() < AIManager->NumAI)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("ENEMY SPAWN: %s - Roll: %f | Chance: %f -- Success"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+				// Spawn the enemy
+				//CurrentPickup = GetWorld()->SpawnActor<APickup>(PickupClass, GetOwner()->GetActorLocation() + SpawnOffset, FRotator::ZeroRotator);
+				AIManager->CreateAgents(GetOwner()->GetActorLocation() + SpawnOffset);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("ENEMY SPAWN: %s - Roll: %f | Chance: %f -- Fail"), *(GetOwner()->GetFName().ToString()), Roll, SpawnChance)
+		}
 	}
 }
