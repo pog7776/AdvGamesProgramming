@@ -1,10 +1,10 @@
-C:\Users\wlsgn\Documents\Unreal Projects\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
-c:\users\wlsgn\documents\unreal projects\advgamesprogramming\gamefiles\source\advgamesprogramming\EnemyCharacterNavMesh.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Development\AdvGamesProgramming\Definitions.AdvGamesProgramming.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\EnemyCharacterNavMesh.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-c:\users\wlsgn\documents\unreal projects\advgamesprogramming\gamefiles\source\advgamesprogramming\MyAIControllerNM.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\MyAIControllerNM.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AIController.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
@@ -12,7 +12,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navi
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\aimodule\classes\AITypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AITypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
@@ -23,12 +23,12 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTask.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\aimodule\classes\Navigation/PathFollowingComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\aimodule\classes\AIResourceInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
@@ -37,14 +37,14 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\PathFollowingComponent.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\aimodule\classes\Perception/AIPerceptionListenerInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionListenerInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionListenerInterface.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\aimodule\classes\GenericTeamAgentInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
-C:\Users\wlsgn\Documents\Unreal Projects\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\MyAIControllerNM.generated.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\MyAIControllerNM.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionTypes.generated.h
@@ -52,17 +52,17 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perce
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISense.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionSystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AISubsystem.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\aimodule\classes\AISystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AISystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/AISystemBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AISystemBase.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionSystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionComponent.generated.h
-c:\users\wlsgn\documents\unreal projects\advgamesprogramming\gamefiles\source\advgamesprogramming\HealthComponent.h
-C:\Users\wlsgn\Documents\Unreal Projects\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\HealthComponent.generated.h
-c:\users\wlsgn\documents\unreal projects\advgamesprogramming\gamefiles\source\advgamesprogramming\TeamComponent.h
-C:\Users\wlsgn\Documents\Unreal Projects\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\TeamComponent.generated.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\HealthComponent.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\HealthComponent.generated.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Source\AdvGamesProgramming\TeamComponent.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\TeamComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeTypes.generated.h
@@ -71,14 +71,14 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
-C:\Users\wlsgn\Documents\Unreal Projects\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\EnemyCharacterNavMesh.generated.h
+C:\Users\Pog\Documents\School\Year 4\Sem 2\AdvancedGames\Assignment 2\Git\AdvGamesProgramming\GameFiles\Intermediate\Build\Win64\UE4Editor\Inc\AdvGamesProgramming\EnemyCharacterNavMesh.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystem.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationOctree.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationOctreeController.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationDirtyAreasController.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctree.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctreeController.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationDirtyAreasController.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\UnrealEdMisc.h
-c:\program files\epic games\ue_4.24\engine\source\editor\unrealed\public\Editor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Editor.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Editor/EditorEngine.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Editor/Transactor.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Serialization/ArchiveSerializedPropertyChain.h
@@ -88,11 +88,11 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Settin
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\IPropertyTypeCustomization.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\EditorStyle\Public\EditorStyleSet.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\PropertyHandle.h
-c:\program files\epic games\ue_4.24\engine\source\editor\propertyeditor\public\PropertyEditorModule.h
-c:\program files\epic games\ue_4.24\engine\source\editor\unrealed\public\Toolkits/IToolkitHost.h
-c:\program files\epic games\ue_4.24\engine\source\editor\unrealed\public\Toolkits/IToolkit.h
-c:\program files\epic games\ue_4.24\engine\source\editor\propertyeditor\public\IDetailsView.h
-c:\program files\epic games\ue_4.24\engine\source\editor\propertyeditor\public\PropertyEditorDelegates.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkitHost.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkit.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\IDetailsView.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorDelegates.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateUser.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\SlateScope.h
@@ -100,7 +100,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/I
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlayNetworkEmulationSettings.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlaySettings.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorViewportSettings.h
-c:\program files\epic games\ue_4.24\engine\source\editor\unrealed\public\Viewports.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Viewports.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorViewportSettings.generated.h
@@ -111,7 +111,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\TargetPlatform\Publi
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\EditorSubsystem\Public\EditorSubsystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem\EditorSubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\EditorEngine.generated.h
-c:\program files\epic games\ue_4.24\engine\source\editor\unrealed\public\Subsystems/ImportSubsystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Subsystems/ImportSubsystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationSystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardComponent.h

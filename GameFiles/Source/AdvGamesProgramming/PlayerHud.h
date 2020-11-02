@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
+#include "Blueprint/UserWidget.h"
 #include "PlayerHud.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class ADVGAMESPROGRAMMING_API APlayerHud : public AHUD
@@ -39,5 +40,5 @@ private:
 
 	UFUNCTION()
 	void DebugButton();
-	
+
 };

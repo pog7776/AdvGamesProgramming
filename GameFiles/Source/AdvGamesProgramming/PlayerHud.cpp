@@ -2,7 +2,16 @@
 
 
 #include "PlayerHud.h"
+#include "Blueprint/UserWidget.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Components/ProgressBar.h"
+#include "Components/TextBlock.h"
+#include "Components/Image.h"
+#include "Components/Button.h"
 
+APlayerHud::APlayerHud()
+{
+	static ConstructorHelpers::FClassFinder<UUserWidget> PlayerHUDObject(TEXT("/Game/UI/PlayerHud"));
 
 	PlayerHudClass = PlayerHUDObject.Class;
 
@@ -28,6 +37,7 @@
 			// Hide Big Score
 			//BigScore->SetVisibility(ESlateVisibility::Hidden);
 			GameOver->SetVisibility(ESlateVisibility::Hidden);
+			TimerTextBlock->SetVisibility(ESlateVisibility::Hidden);
 
 			// Debug thing
 			DebugButtonBlock->SetVisibility(ESlateVisibility::Hidden);
@@ -40,18 +50,18 @@ void APlayerHud::SetPlayerHealthBarPercent(float Percent)
 {
 	if (HealthProgressBar) {
 		UE_LOG(LogTemp, Warning, TEXT("HealthBar set to: %f"), Percent)
-		HealthProgressBar->SetPercent(Percent);
+			HealthProgressBar->SetPercent(Percent);
 	}
 }
 
 void APlayerHud::SetAmmoText(int32 RoundsRemaining, int32 MagazineSize)
 {
-	
+
 	if (AmmoTextBlock)
 	{
 		AmmoTextBlock->SetText(FText::FromString(FString::Printf(TEXT("%i/%i"), RoundsRemaining, MagazineSize)));
 	}
-	
+
 }
 
 void APlayerHud::SetScoreText(float Score)
