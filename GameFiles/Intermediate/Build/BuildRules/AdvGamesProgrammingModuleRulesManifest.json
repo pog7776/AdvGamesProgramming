@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Assignment 2\\Git\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgramming\\AdvGamesProgramming.Build.cs",
-		"C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Assignment 2\\Git\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgramming.Target.cs",
-		"C:\\Users\\Pog\\Documents\\School\\Year 4\\Sem 2\\AdvancedGames\\Assignment 2\\Git\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgrammingEditor.Target.cs"
+		"C:\\Users\\wlsgn\\Documents\\Unreal Projects\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgramming\\AdvGamesProgramming.Build.cs",
+		"C:\\Users\\wlsgn\\Documents\\Unreal Projects\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgramming.Target.cs",
+		"C:\\Users\\wlsgn\\Documents\\Unreal Projects\\AdvGamesProgramming\\GameFiles\\Source\\AdvGamesProgrammingEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }

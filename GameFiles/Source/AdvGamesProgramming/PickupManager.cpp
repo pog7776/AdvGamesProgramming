@@ -2,7 +2,6 @@
 
 
 #include "PickupManager.h"
-#include "SpawnerComponent.h"
 
 // Sets default values
 APickupManager::APickupManager()
@@ -29,7 +28,7 @@ void APickupManager::Tick(float DeltaTime)
 void APickupManager::CreateSpawner(TSubclassOf<class AActor> SpawnerClass, FVector Location)
 {
 	AActor* NewSpawner = GetWorld()->SpawnActor<AActor>(SpawnerClass, Location, FRotator::ZeroRotator);
-	USpawnerComponent* Spawner = NewSpawner->FindComponentByClass<USpawnerComponent>();//->StartSpawn();
+	UWeaponPickupSpawnerComponent* Spawner = NewSpawner->FindComponentByClass<UWeaponPickupSpawnerComponent>();//->StartSpawn();
 	AllSpawners.Add(Spawner);
 
 	//UE_LOG(LogTemp, Warning, TEXT("%s"), *NewSpawner->GetFName().ToString())

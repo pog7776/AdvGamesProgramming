@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Pickup.h"
-#include "SpawnerComponent.h"
+#include "WeaponPickupSpawnerComponent.h"
 #include "GameFramework/Actor.h"
 #include "PickupManager.generated.h"
 
@@ -21,7 +21,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	TArray<USpawnerComponent*> AllSpawners;
+	TArray<UWeaponPickupSpawnerComponent*> AllSpawners;
 
 public:	
 	// Called every frame

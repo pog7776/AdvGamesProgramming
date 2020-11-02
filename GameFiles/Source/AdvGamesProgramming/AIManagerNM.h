@@ -40,5 +40,4 @@ public:
 
 	void PopulateNodes();
 	void CreateAgents();
-	void CreateAgents(FVector spawnPos);
 };
