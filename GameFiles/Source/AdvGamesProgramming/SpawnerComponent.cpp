@@ -5,6 +5,7 @@
 #include "Pickup.h"
 #include "WeaponPickup.h"
 #include "TeamComponent.h"
+#include "AmmoPickup.h"
 
 // Sets default values for this component's properties
 USpawnerComponent::USpawnerComponent()
@@ -83,9 +84,9 @@ void USpawnerComponent::CheckSurroundings()
 void USpawnerComponent::CalculateSpawnChance(AActor* Actor)
 {
 	// If the Actor is a WeaponPickup
-	if (Actor->IsA(AWeaponPickup::StaticClass()))
+	if (Actor->IsA(AAmmoPickup::StaticClass()))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s - Near Weapon | Chance = %f/2"), *(GetOwner()->GetFName().ToString()), SpawnChance)
+		UE_LOG(LogTemp, Warning, TEXT("%s - Near Ammo | Chance = %f/2"), *(GetOwner()->GetFName().ToString()), SpawnChance)
 		SpawnChance /= 2;
 	}
 
